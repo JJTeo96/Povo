@@ -38,3 +38,22 @@
     background: transparent linear-gradient(36deg, #F2F2F200 0%, #F2ECEC00 30%, #F0899221 46%, #EE4B5A8F 69%, #ED1B2F 100%) 0% 0% no-repeat padding-box;
     opacity: 0.9;
 }
+
+.success_circle {
+    width: 101px;
+    height: 101px;
+}
+
+.back_button{
+    background-color: #ED1B2F;
+    color:white;
+    border-radius: 35px
+    
+}
+.btn-lg{
+    font-size: 16px !important;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 44.5px;
+    padding-left: 44.5px;
+}

@@ -14,6 +14,7 @@
     {{-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> --}}
     <link href="{{ asset('css/sb-admin-2.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/owl.carousel.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
 
 
@@ -69,8 +70,10 @@
         </div>
         
         <div class="col-12">
-            <img class="w-100" src="{{asset('img/banner5.png')}}">
-            <div class="centered font-weight-bold" style="color:white; font-size: 35px; position: absolute; top: 50%; left: 38%; transform: translate(-70%, -50%);">
+            <div class="about-gradient">
+                <img class=" w-100" src="{{asset('img/banner5.png')}}">
+            </div>
+            <div class="about-text-shadow centered font-weight-bold" style="color:white; font-size: 35px; position: absolute; top: 50%; left: 38%; transform: translate(-70%, -50%);">
                 <p>We are here to</p>
                 <p>enrich your life, </p>
                 <p>energise your play & </p>

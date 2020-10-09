@@ -73,14 +73,7 @@
             <h1 class="text-center font-weight-bold">MOBILE <span style="color: red; ">PLAN</span></h1>
             <h6 class="text-center font-weight-bold">PAVOCOMMS your mobile experiences. Save more as you add more lines <p>for your family, tablets and wearables.</p></h6>
         </div>
-        <div class="card bg-dark text-white">
-            <img class="card-img" src="{{asset("img/mainpage/2.png")}}" alt="Card image">
-            <div class="card-img-overlay d-flex-column justify-content-center" style="{{ padding: '0px'}}">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text">Last updated 3 mins ago</p>
-            </div>
-          </div>
+
         <div class="col-12">
             <div class="row no-gutters">
                 <div class="col-4 d-flex justify-content-end">
@@ -93,7 +86,6 @@
                             <a class="font-weight-bold" href="#" >View Plan Details</a>
                         </div>
                     </div>
-                    
                 </div>
                 <div class="col-4 d-flex justify-content-center">
                     <div class="card" style="width: 18rem;">

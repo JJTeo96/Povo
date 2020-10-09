@@ -78,7 +78,13 @@
             <div class="row no-gutters">
                 <div class="col-4 d-flex justify-content-end">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="{{asset("img/mainpage/2.png")}}" alt="Card image cap">
+                        <div class="card img-fluid">
+                            <img class="card-img-top" src="{{asset("img/mainpage/2.png")}}" alt="Card image cap">
+                            <div class="card-img-overlay  d-flex flex-column justify-content-end">
+                              <h4 class="card-title" style="color:white;"><b>One Family Plan <br/>for Sharing</b></h4>
+                              <p class="card-text" style="color:white">FROM RM90.00/month</p>
+                            </div>
+                        </div>
                         <div class="card-body">
                             <h3 class="card-title font-weight-bold">Unlimited Share Plan</h3>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>

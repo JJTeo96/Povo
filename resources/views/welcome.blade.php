@@ -13,7 +13,6 @@
     <!-- Styles -->
     {{-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> --}}
     <link href="{{ asset('css/sb-admin-2.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/owl.carousel.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
 
@@ -32,6 +31,9 @@
 
         .sidebar .nav-item .collapse .collapse-inner .collapse-item, .sidebar .nav-item .collapsing .collapse-inner .collapse-item{
             white-space: initial;
+        }
+        .footer{
+            margin-bottom: 2%;
         }
     </style>
 
@@ -147,22 +149,25 @@
             </div>
 
         </div>
-        <div class="col-12 p-5 text-center" style="background-color: #041A39">
+        {{-- Footer --}}
+        <div class="col-12 p-5 text-center" style="background: linear-gradient(rgb(4, 26, 57, 0.95), rgb(4, 26, 57, 0.95)), url({{ asset('img/dxiMe7.png')}});">
             <div class="row no-gutters d-flex justify-content-center">
-                <div class="col-2 text-left text-black p-2">
-                    <img src="{{asset("img/pavo_logo2.png")}}" width="100px"/>
-                    <br/>
+                <div class="col-3 text-left text-black p-3" style="margin-right:3%">
+                    <img src="{{asset("img/pavo_logo2.png")}}" height="20px" />
+                    <br/><br/>
                     Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
                 </div>
-                <div class="col-2 text-left text-white p-2">
+
+                <div class="col-2 text-left text-white p-3 footer">
                     <h5>
                         SIDE MAP
                     </h5>
-                    Home<br />
-                    Plans<br />
-                    About<br />
+                    <a href="#">Home</a><br/>
+                    <a href="#">Plans</a><br/>
+                    <a href="#">About</a><br/>
+                  
                 </div>
-                <div class="col-2 text-left text-white p-2">
+                <div class="col-2 text-left text-white p-3">
                     <h5>
                         SUPPORT
                     </h5>
@@ -170,7 +175,7 @@
                     Terms & Conditions<br />
                     About<br />
                 </div>
-                <div class="col-2 text-left text-white p-2">
+                <div class="col-2 text-left text-white p-3">
                     <h5>
                         FOLLOW US
                     </h5>
@@ -182,6 +187,7 @@
             <hr class="bg-white" />
             <span class="text-white">Copyright © 2020 Pavo Communications Sdn. Bhd.(861312-T) All Rights Reserved.</span>
         </div>
+        {{-- End Footer --}}
     </div>
 </div>
 </body>

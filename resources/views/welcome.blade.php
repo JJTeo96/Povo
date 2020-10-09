@@ -67,7 +67,7 @@
         </div>
         
         <div class="col-12">
-            <img class="w-100" src="{{asset("img/banner3.png")}}">
+            <img class="w-100" src="{{asset('img/banner3.png')}}">
         </div>
         <div class="col-12 p-5">
             <h1 class="text-center font-weight-bold">MOBILE <span style="color: red; ">PLAN</span></h1>
@@ -78,7 +78,7 @@
             <div class="row no-gutters">
                 <div class="col-4 d-flex justify-content-end">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="{{asset("img/mainpage/2.png")}}" alt="Card image cap">
+                        <img class="card-img-top" src="{{asset('img/mainpage/2.png')}}" alt="Card image cap">
                         <div class="card-body">
                             <h3 class="card-title font-weight-bold">Unlimited Share Plan</h3>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
@@ -89,7 +89,7 @@
                 </div>
                 <div class="col-4 d-flex justify-content-center">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="{{asset("img/mainpage/3.png")}}" alt="Card image cap">
+                        <img class="card-img-top" src="{{asset('img/mainpage/3.png')}}" alt="Card image cap">
                         <div class="card-body">
                             <h3 class="card-title font-weight-bold">PAVO Lite Plan</h3>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
@@ -100,7 +100,7 @@
                 </div>
                 <div class="col-4 d-flex justify-content-start">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="{{asset("img/mainpage/4.png")}}" alt="Card image cap">
+                        <img class="card-img-top" src="{{asset('img/mainpage/4.png')}}" alt="Card image cap">
                         <div class="card-body">
                             <h3 class="card-title font-weight-bold">PAVO Plus Plan</h3>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
@@ -113,12 +113,12 @@
         </div>
 
         <div class="col-12 mt-5">
-            <img src="{{asset("img/mainpage/banner4.png")}}" class="w-100" />
+            <img src="{{asset('img/mainpage/banner4.png')}}" class="w-100" />
         </div>
         <div class="col-12 p-5 text-center" style="background-color: #041A39">
             <div class="row no-gutters d-flex justify-content-center">
                 <div class="col-2 text-left text-white p-2">
-                    <img src="{{asset("img/pavo_logo2.png")}}" width="100px"/>
+                    <img src="{{asset('img/pavo_logo2.png')}}" width="100px"/>
                     <br/>
                     Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
                 </div>

@@ -12,9 +12,9 @@
                 {{-- @auth --}}
                 {{-- <a href="{{ url('/home') }}">Home</a> --}}
                 {{-- @else --}}
-                <a class="font-weight-bolder ml-5 text-dark header_link" href="#">HOME</a>
+                <a class="font-weight-bolder ml-5 text-dark header_link" href="{{ url('/') }}">HOME</a>
                 <a class="font-weight-bolder ml-5 text-dark header_link" href="#">PLANS</a>
-                <a class="font-weight-bolder ml-5 text-dark header_link" href="#">ABOUT</a>
+                <a class="font-weight-bolder ml-5 text-dark header_link" href="{{ url('/about') }}">ABOUT</a>
                 <a class="font-weight-bolder ml-5 text-dark header_link" href="#">FAQS</a>
                     {{-- <a class="font-weight-bolder ml-5 text-gray-900" href="{{ route('adminLogin') }}">Admin Login</a> --}}
 

@@ -82,6 +82,6 @@
     </div>
 
 </div>
-@include('layout.footer')
 
+@include('layout.footer')
 @endsection

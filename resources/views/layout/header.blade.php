@@ -1,3 +1,8 @@
+<style>
+    a.header_link{
+        text-decoration: none;
+    }
+</style>
 <div class="col-12">
     <div class="float-left p-4 d-inline">
         <img height="25px" src="{{asset("img/pavo_logo.png")}}" />
@@ -7,10 +12,10 @@
                 {{-- @auth --}}
                 {{-- <a href="{{ url('/home') }}">Home</a> --}}
                 {{-- @else --}}
-                <a class="font-weight-bolder ml-5 text-dark text" href="#">HOME</a>
-                <a class="font-weight-bolder ml-5 text-dark" href="#">PLANS</a>
-                <a class="font-weight-bolder ml-5 text-dark" href="#">ABOUT</a>
-                <a class="font-weight-bolder ml-5 text-dark" href="#">FAQS</a>
+                <a class="font-weight-bolder ml-5 text-dark header_link" href="#">HOME</a>
+                <a class="font-weight-bolder ml-5 text-dark header_link" href="#">PLANS</a>
+                <a class="font-weight-bolder ml-5 text-dark header_link" href="#">ABOUT</a>
+                <a class="font-weight-bolder ml-5 text-dark header_link" href="#">FAQS</a>
                     {{-- <a class="font-weight-bolder ml-5 text-gray-900" href="{{ route('adminLogin') }}">Admin Login</a> --}}
 
                     <a href="#"><div class="btn btn-danger ml-5">Login / Register</div></a>

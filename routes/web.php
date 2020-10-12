@@ -17,5 +17,17 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+<<<<<<< HEAD
+Route::get('/thankyou', function () {
+    return view('thankyou');
+});
+
+Route::get('/pc', function () {
+    return view('purchase_confirmation');
+});
+
+
+=======
 Route::view('/about', 'about');
 Route::view('/login', 'login');
+>>>>>>> 1a84f4b158f84e94c046f8331e1d7dcb08b358c0

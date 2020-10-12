@@ -25,6 +25,9 @@ Route::get('/pc', function () {
     return view('purchase_confirmation');
 });
 
+Route::get('/reload', function () {
+    return view('reload');
+});
 
 Route::view('/about', 'about');
 Route::view('/login', 'login');

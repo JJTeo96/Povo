@@ -21,4 +21,8 @@ Route::get('/thankyou', function () {
     return view('thankyou');
 });
 
+Route::get('/pc', function () {
+    return view('purchase_confirmation');
+});
+
 

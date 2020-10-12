@@ -12,7 +12,7 @@
 <div class="col-12 p-5 text-center" style="background: linear-gradient(rgb(4, 26, 57, 0.95), rgb(4, 26, 57, 0.95)), url({{ asset('img/dxiMe7.png')}});">
     <div class="row no-gutters d-flex justify-content-center">
         <div class="col-3 text-left text-black p-3" style="margin-right:3%">
-            <img src="{{asset("img/pavo_logo2.png")}}" height="20px" />
+            <img src="{{asset('img/pavo_logo2.png')}}" height="20px" />
             <br/>
             <br/>
             <p class>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>

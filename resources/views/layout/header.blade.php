@@ -5,7 +5,7 @@
 </style>
 <div class="col-12">
     <div class="float-left p-4 d-inline">
-        <img height="25px" src="{{asset("img/pavo_logo.png")}}" />
+        <img height="25px" src="{{asset('img/pavo_logo.png')}}" />
     </div>
     <div class="float-right p-4  d-inline">
         {{-- @if (Route::has('login')) --}}

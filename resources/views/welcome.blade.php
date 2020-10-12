@@ -5,12 +5,14 @@
 <div class="col-12">
     <img class="w-100" src="{{asset('img/mainpage/banner3.png')}}">
 </div>
-<div class="col-12 p-5">
-    <h1 class="text-center font-weight-bold">MOBILE <span style="color: red; ">PLAN</span></h1>
-    <h6 class="text-center font-weight-bold" style="font-size:18px">PAVOCOMMS your mobile experiences. Save more as you add more lines <p>for your family, tablets and wearables.</p></h6>
+<div class="col-12">
+    <div class="auto-container p-5">
+        <h1 class="text-center font-weight-bold">MOBILE <span style="color: red; ">PLAN</span></h1>
+        <h6 class="text-center font-weight-bold" style="font-size:18px">PAVOCOMMS your mobile experiences. Save more as you add more lines <p>for your family, tablets and wearables.</p></h6>
+    </div>
 </div>
 
-<div class="col-12">
+<div class="auto-container">
     <div class="row no-gutters" style="max-width: 1000px;margin:0 auto" >
         <div class="col-4 d-flex justify-content-end">
             <div class="card shadow" style="width: 18rem;">

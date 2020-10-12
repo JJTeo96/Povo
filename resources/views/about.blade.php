@@ -4,7 +4,7 @@
 @include('layout.header')
 
         <div class="col-12">
-            <div class="about-gradient">
+            <div class="#">
                 <img class=" w-100" src="{{asset('img/Group-250.jpg')}}">
             </div>
             <div class="about-text-shadow centered font-weight-bold" style="color:white; font-size: 35px; position: absolute; top: 50%; left: 38%; transform: translate(-70%, -50%);">

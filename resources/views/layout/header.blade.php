@@ -15,7 +15,7 @@
                 <a class="font-weight-bolder ml-5 text-dark header_link" href="{{ url('/') }}">HOME</a>
                 <a class="font-weight-bolder ml-5 text-dark header_link" href="#">PLANS</a>
                 <a class="font-weight-bolder ml-5 text-dark header_link" href="{{ url('/about') }}">ABOUT</a>
-                <a class="font-weight-bolder ml-5 text-dark header_link" href="#">FAQS</a>
+                <a class="font-weight-bolder ml-5 text-dark header_link" href="{{ url('/faq') }}">FAQS</a>
                     {{-- <a class="font-weight-bolder ml-5 text-gray-900" href="{{ route('adminLogin') }}">Admin Login</a> --}}
 
                     <a href="#"><div class="btn btn-danger ml-5">Login / Register</div></a>

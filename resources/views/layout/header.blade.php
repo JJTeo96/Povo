@@ -40,7 +40,7 @@
                 <a class="font-weight-bolder header_link" style="margin-right: 88px;" href="{{ url('/') }}">HOME</a>
                 <a class="font-weight-bolder header_link" style="margin-right: 86px;" href="#">PLANS</a>
                 <a class="font-weight-bolder header_link" style="margin-right: 85px;" href="{{ url('/about') }}">ABOUT</a>
-                <a class="font-weight-bolder header_link" style="margin-right: 86px;" href="#">FAQS</a>
+                <a class="font-weight-bolder header_link" style="margin-right: 86px;" href="{{ url('/faq') }}">FAQS</a>
                     {{-- <a class="font-weight-bolder ml-5 text-gray-900" href="{{ route('adminLogin') }}">Admin Login</a> --}}
 
                     <a href="#">

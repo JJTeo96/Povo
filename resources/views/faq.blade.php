@@ -141,7 +141,7 @@
                     <input type="text" id="your_message" class="form-control faq-form font-weight-bold" placeholder="Your Message">
                 </div>
             </div>
-            <button class="btn mt-5" style="background-color:red; color:white; font-size: 12px; width: 12%;" type="submit">SEND MESSAGE</button>
+            <button class="btn mt-5" style="background-color:red; color:white; font-size: 12px; width: 15%; padding:15px;" type="submit">SEND MESSAGE</button>
         </form>
     </div>
 

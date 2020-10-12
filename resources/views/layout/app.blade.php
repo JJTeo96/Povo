@@ -28,6 +28,7 @@
 
         .sidebar .nav-item .collapse .collapse-inner .collapse-item, .sidebar .nav-item .collapsing .collapse-inner .collapse-item{
             white-space: initial;
+            min-height: 880px;
         }
     </style>
 

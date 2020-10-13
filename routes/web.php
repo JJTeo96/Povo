@@ -31,7 +31,11 @@ Route::get('/reload', function () {
 
 Route::view('/member', 'my_membership');
 
+Route::view('/dashboard', 'dashboard');
 Route::view('/about', 'about');
-Route::view('/login', 'login');
 Route::view('/faq', 'faq');
+
+Route::view('/login', 'login');
+
+
 

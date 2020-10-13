@@ -43,7 +43,7 @@
                 <a class="font-weight-bolder header_link" style="margin-right: 86px;" href="{{ url('/faq') }}">FAQS</a>
                     {{-- <a class="font-weight-bolder ml-5 text-gray-900" href="{{ route('adminLogin') }}">Admin Login</a> --}}
 
-                    <a href="#">
+                    <a href="{{ url('/login') }}">
                         <div class="btn btn-danger btn_login">
                             <div style="margin-top:6px">LOG IN / REGISTER</div>
                         </div>

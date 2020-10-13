@@ -57,7 +57,7 @@
                         <div class="form-group">
                             {{-- <button type="submit" class="btn btn-primary btn-block"> Login  </button>
                             <button class="btn btn-primary btn-block"> Login  </button> --}}
-                            <div class="row">
+                            <div class="row" style="letter-spacing: 0px;">
                                 <div class="col">
                                     <a href="#" class="btn_font"><div class="btn btn-danger  btn-block">Proceed </div></a>
                                 </div>

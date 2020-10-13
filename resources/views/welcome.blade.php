@@ -82,7 +82,7 @@
     </div>
 
     <div class="centered" style="color:white">
-        <h1 class="text-right" style="font-size:50px"><b>Pavocomms is not<br/> just about data, we're<br/> a new lease on life.</b></h1>
+        <h1 class="text-right" style="font-size:50px"><b>Pavocomms is not just about data, we're a new lease on life.</b></h1>
     </div>
 
 </div>

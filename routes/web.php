@@ -37,6 +37,7 @@ Route::view('/faq', 'faq');
 
 Route::view('/login', 'login');
 Route::view('/trc', 'trc');
+Route::view('/register', 'register');
 
 
 

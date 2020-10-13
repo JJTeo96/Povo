@@ -27,8 +27,8 @@
     }
     .register_btn {
         background-color: white;
-        color: red;
-        border: 2px solid red; 
+        color: black;
+        border: 0px solid red; 
     }
     a.btn_font{
         text-decoration: none;
@@ -43,32 +43,21 @@
         <div class="col-6">
             <div class="card shadow welcome">
                 <article class="card-body" style="margin-left: 20px;margin-right:21px">
-                <h4 class="card-title" style="margin-bottom:35px;margin-top:50px;font-size:32px"><b>Welcome</b></h4>
+                <h4 class="card-title" style="margin-bottom:35px;margin-top:50px;font-size:32px"><b>Register</b></h4>
                     <form>
                         <div class="form-group">
-                            <input name="" class="form-control" placeholder="Email or Mobile number" type="text">
-                        </div>
-
-                        <div class="form-group">
-                            <input class="form-control" placeholder="Password" type="password">
-                        </div> 
-
-                        <div class="form-group"> 
-                            <div class="checkbox">
-                            <label> <input type="checkbox"> Remember me </label>
-                            <a class="float-right" href="#">Forgot Password?</a>
-                            </div> <!-- checkbox .// -->
+                            <input name="" class="form-control" placeholder="Mobile number" type="text">
                         </div>
 
                         <div class="form-group">
                             {{-- <button type="submit" class="btn btn-primary btn-block"> Login  </button>
                             <button class="btn btn-primary btn-block"> Login  </button> --}}
-                            <div class="row">
+                            <div class="row" style="letter-spacing: 0px;font-size:14px;margin-top:34px">
                                 <div class="col">
-                                    <a href="{{ url('/trc') }}" class="btn_font"><div class="btn btn-danger  btn-block">Login </div></a>
+                                    <a href="#" class="btn_font"><div class="btn btn-danger  btn-block">Request TAC </div></a>
                                 </div>
                                 <div class="col">
-                                    <a href="{{ url('/register') }}" class="btn_font"><div class="btn register_btn  btn-block">Register</div></a> 
+                                    <a href="{{ url('/login') }}" class="btn_font"><div class="btn register_btn btn-block">Back to Sign In &nbsp;<i class="fas fa-long-arrow-alt-right"></i></div></a> 
                                 </div>
                             </div>
                         </div> <!-- form-group// -->                                                           

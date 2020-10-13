@@ -1,5 +1,5 @@
 @extends('layout.app')
-@section('title', ' Login')
+@section('title', ' Register')
 
 @section('content')
 @include('layout.header')

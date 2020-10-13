@@ -23,9 +23,16 @@
         background-position:top center;
         background-repeat: no-repeat;
         background-size:cover;
-        background-image: url({{asset('img/login/13105.png')}});
+        background-image: url({{asset('img/login/Mask-Group-17.jpg')}});
     }
-    
+    .register_btn {
+        background-color: white;
+        color: red;
+        border: 2px solid red; 
+    }
+    a.btn_font{
+        text-decoration: none;
+    }
 </style>
 <div class="col-12">
     <div class="row justify-content-end row-bg">
@@ -58,10 +65,10 @@
                             <button class="btn btn-primary btn-block"> Login  </button> --}}
                             <div class="row">
                                 <div class="col">
-                                    <a href="#"><div class="btn btn-danger  btn-block">Login </div></a>
+                                    <a href="#" class="btn_font"><div class="btn btn-danger  btn-block">Login </div></a>
                                 </div>
                                 <div class="col">
-                                    <a href="#"><div class="btn btn-danger  btn-block">Register</div></a> 
+                                    <a href="#" class="btn_font"><div class="btn register_btn  btn-block">Register</div></a> 
                                 </div>
                             </div>
                         </div> <!-- form-group// -->                                                           

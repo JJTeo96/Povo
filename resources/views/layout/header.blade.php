@@ -9,6 +9,7 @@
         /* float: left; */
         /* width: 150px;  */
         height: 83px;
+        box-shadow: 0px 2px 10px #00000029;
     }
 
     .logo{
@@ -32,7 +33,7 @@
         <img src="{{asset('img/PAVO-01.png')}}" class="logo"/>
     </div>
 
-    <div class="float-right d-inline" style="margin-top: 16px;margin-right:78px">
+    <div class="float-right d-inline" style="margin-top: 16px;margin-right:78px;">
         {{-- @if (Route::has('login')) --}}
                 {{-- @auth --}}
                 {{-- <a href="{{ url('/home') }}">Home</a> --}}

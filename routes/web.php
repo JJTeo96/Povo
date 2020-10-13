@@ -33,9 +33,5 @@ Route::view('/member', 'my_membership');
 
 Route::view('/about', 'about');
 Route::view('/login', 'login');
-
-Route::view('/about', 'about');
-
 Route::view('/faq', 'faq');
 
-Route::view('/login', 'login');

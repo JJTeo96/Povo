@@ -3,6 +3,9 @@
 @section('content')
 @include('layout.header')
 
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<link href="{{ asset('css/profile.css') }}" rel="stylesheet">
 <style>
 .card-hint{
     border-top:1px solid #EDEDED;
@@ -22,7 +25,15 @@ opacity: 1;
 .btn-radius{
     background: var(--unnamed-color-ed1b2f) 0% 0% no-repeat padding-box;
     border: 1px solid var(--unnamed-color-ed1b2f);
-    background: #ED1B2F 0% 0% no-repeat padding-box;
+    background: #0F2A51 0% 0% no-repeat padding-box;
+    border: 1px solid #0F2A51;
+    border-radius: 18px;
+    opacity: 1;
+}
+.btn-radius2{
+    background: var(--unnamed-color-ed1b2f) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-ed1b2f);
+    background:#ED1B2F 0% 0% no-repeat padding-box;
     border: 1px solid #ED1B2F;
     border-radius: 18px;
     opacity: 1;
@@ -34,11 +45,72 @@ opacity: 1;
             <div class="row justify-content-center">
                 @include('layout.sidebar')
                 <div class="col-8">
+
+                    <div class="tab" role="tabpanel">
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#Section1" aria-controls="home" role="tab" data-toggle="tab">Personal Info</a></li>
+                            <li role="presentation"><a href="#Section2" aria-controls="profile" role="tab" data-toggle="tab">Password</a></li>
+                            <li role="presentation"><a href="#Section3" aria-controls="messages" role="tab" data-toggle="tab">Payment Method</a></li>
+                        </ul>
+                        <!-- Tab panes -->
+                        <div class="tab-content tabs">
+                            <div role="tabpanel" class="tab-pane fade in active" id="Section1">
+                                <div class="card shadow" style="width: 799px; margin-top: 20px;">
+                                    <form action="#">
+                                        <div class="row d-flex justify-content-left" >
+                                            <div class="col-4" style="margin-left:20px; margin-right: 110px;">
+                                                <div style="margin-top: 20px;">
+                                                    Full Name
+                                                    <input type="text" id="fullname" class="form-control faq-form" value="Tiana Rosser" style="width: 365.17px;" disabled>
+                                                </div>
+                                                <div style="margin-top: 20px;">
+                                                    ID Type
+                                                    <input type="text" id="id_type" class="form-control faq-form" value="My Kad" style="width: 365.17px;" disabled>
+                                                </div>
+                                                <div style="margin-top: 20px;">
+                                                    ID Number
+                                                    <input type="text" id="id_number" class="form-control faq-form" value="9201030181" style="width: 365.17px;" disabled>
+                                                </div>
+                                                <br/>
+                                            </div>
+                                            <div class="col-4" style="margin-left:10px; margin-right: 80px;">
+                                                <div style="margin-top: 20px;">
+                                                    Email
+                                                    <input type="text" id="fullname" class="form-control faq-form" value="tianarosser@gmail.com" style="width: 365.17px;" disabled>
+                                                </div>
+                                                <div style="margin-top: 20px;">
+                                                    Date Of Birth
+                                                    <input type="text" id="id_type" class="form-control faq-form" value="03 Jan 1992" style="width: 365.17px;" disabled>
+                                                </div>
+                                                <div style="margin-top: 20px;">
+                                                    Gender
+                                                    <input type="text" id="id_number" class="form-control faq-form" value="Placeholders" style="width: 365.17px;" disabled>
+                                                </div>
+                                                <br/>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            <button class="btn btn-radius mt-4 editBtn" style="background-color:#0F2A51; color:white; font-size: 12px; width: 136px; padding: 8px; margin-top: -30px;" type="button">Edit Details</button>
+                            <button class="btn btn-radius2 mt-4 cancelBtn" style="background-color:red; color:white; font-size: 12px; width: 136px; padding: 8px; margin-top: -30px; display:none;" type="button">Cancel</button>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="Section2">
+                                <h3>Section 2</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec urna aliquam, ornare eros vel, malesuada lorem. Nullam faucibus lorem at eros consectetur lobortis. Maecenas nec nibh congue, placerat sem id, rutrum velit. Phasellus porta enim at facilisis condimentum. Maecenas pharetra dolor vel elit tempor pellentesque sed sed eros. Aenean vitae mauris tincidunt, imperdiet orci semper, rhoncus ligula. Vivamus scelerisque.</p>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="Section3">
+                                <h3>Section 3</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec urna aliquam, ornare eros vel, malesuada lorem. Nullam faucibus lorem at eros consectetur lobortis. Maecenas nec nibh congue, placerat sem id, rutrum velit. Phasellus porta enim at facilisis condimentum. Maecenas pharetra dolor vel elit tempor pellentesque sed sed eros. Aenean vitae mauris tincidunt, imperdiet orci semper, rhoncus ligula. Vivamus scelerisque.</p>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="justify-content-left" style="color:#0F2A51;font-size:30px;font-weight:700; margin-top: -8px;">
                         My
                         <span style="color: #ED1B2F;">Profile</span>
                     </div>
-                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist" style="margin-top: 35px;">
                         <li class="nav-item">
                           <a class="nav-link active" id="info-tab" data-toggle="tab" href="#info" role="tab" aria-controls="info" aria-selected="true">Personal Info</a>
                         </li>
@@ -51,36 +123,44 @@ opacity: 1;
                       </ul>
                       <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="info" role="tabpanel" aria-labelledby="info-tab">
-                                    <div class="card">
+                                    {{-- <div class="card shadow" style="width: 799px; margin-top: 20px;">
                                         <form action="#">
                                             <div class="row d-flex justify-content-left" >
-                                                <div class="col-4" style="margin-left:10px; margin-right: 80px; width: 50%;">
-                                                    Full Name
-                                                    <input type="text" id="fullname" class="form-control faq-form font-weight-bold" value="Tiana Rosser" disabled>
-                                                    <br>
-                                                    ID Type
-                                                    <input type="text" id="id_type" class="form-control faq-form font-weight-bold" value="My Kad" disabled>
-                                                    <br>
-                                                    ID Number
-                                                    <input type="text" id="id_number" class="form-control faq-form font-weight-bold" value="9201030181" disabled>
-                                                    <br>
+                                                <div class="col-4" style="margin-left:20px; margin-right: 110px;">
+                                                    <div style="margin-top: 20px;">
+                                                        Full Name
+                                                        <input type="text" id="fullname" class="form-control faq-form" value="Tiana Rosser" style="width: 365.17px;" disabled>
+                                                    </div>
+                                                    <div style="margin-top: 20px;">
+                                                        ID Type
+                                                        <input type="text" id="id_type" class="form-control faq-form" value="My Kad" style="width: 365.17px;" disabled>
+                                                    </div>
+                                                    <div style="margin-top: 20px;">
+                                                        ID Number
+                                                        <input type="text" id="id_number" class="form-control faq-form" value="9201030181" style="width: 365.17px;" disabled>
+                                                    </div>
+                                                    <br/>
                                                 </div>
                                                 <div class="col-4" style="margin-left:10px; margin-right: 80px;">
-                                                    Email
-                                                    <input type="text" id="fullname" class="form-control faq-form font-weight-bold" value="tianarosser@gmail.com" disabled>
-                                                    <br>
-                                                    Date Of Birth
-                                                    <input type="text" id="id_type" class="form-control faq-form font-weight-bold" value="03 Jan 1992" disabled>
-                                                    <br>
-                                                    Gender
-                                                    <input type="text" id="id_number" class="form-control faq-form font-weight-bold" value="Placeholders" disabled>
-                                                    <br>
+                                                    <div style="margin-top: 20px;">
+                                                        Email
+                                                        <input type="text" id="fullname" class="form-control faq-form" value="tianarosser@gmail.com" style="width: 365.17px;" disabled>
+                                                    </div>
+                                                    <div style="margin-top: 20px;">
+                                                        Date Of Birth
+                                                        <input type="text" id="id_type" class="form-control faq-form" value="03 Jan 1992" style="width: 365.17px;" disabled>
+                                                    </div>
+                                                    <div style="margin-top: 20px;">
+                                                        Gender
+                                                        <input type="text" id="id_number" class="form-control faq-form" value="Placeholders" style="width: 365.17px;" disabled>
+                                                    </div>
+                                                    <br/>
                                                 </div>
                                             </div>
                                         </form>
                                     </div>
-                                <button class="btn mt-5 editBtn" style="background-color:#0F2A51; color:white; font-size: 12px; width: 15%; padding:15px;" type="button">EDIT</button>
-                                <button class="btn mt-5 cancelBtn" style="background-color:red; color:white; font-size: 12px; width: 15%; padding:15px;display:none;" type="button">Cancel</button>
+                                <button class="btn btn-radius mt-4 editBtn" style="background-color:#0F2A51; color:white; font-size: 12px; width: 136px; padding: 8px; margin-top: -30px;" type="button">Edit Details</button>
+                                <button class="btn btn-radius2 mt-4 cancelBtn" style="background-color:red; color:white; font-size: 12px; width: 136px; padding: 8px; margin-top: -30px; display:none;" type="button">Cancel</button> --}}
                         </div>
                         <div class="tab-pane fade" id="password" role="tabpanel" aria-labelledby="password-tab">...</div>
                         <div class="tab-pane fade" id="payment" role="tabpanel" aria-labelledby="payment-tab">...</div>
@@ -88,7 +168,7 @@ opacity: 1;
             </div>
         </div>
 </div>
-        
+</div>   
         @include('layout.footer')
         @endsection
         

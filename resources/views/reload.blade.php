@@ -38,7 +38,7 @@
                     </div>
                     <div class="row mb-4">
                         <div class="col-sm-4">
-                          <div class="card">
+                          <div class="card shadow-sm">
                             <div class="card-body">
                               <span class="card-title"><b>RM10.00</b></span>
                                 <span class="float-right">
@@ -53,7 +53,7 @@
                           </div>
                         </div>
                         <div class="col-sm-4">
-                            <div class="card card-selected">
+                            <div class="card card-selected shadow-sm">
                               <div class="card-body">
                                 <span class="card-title"><b>RM10.00</b></span>
                                 <p class="card-text mb-3">Validity for 10 days.</p>
@@ -62,7 +62,7 @@
                             </div>
                           </div>
                           <div class="col-sm-4">
-                            <div class="card">
+                            <div class="card shadow-sm">
                               <div class="card-body">
                                 <span class="card-title"><b>RM10.00</b></span>
                                 <p class="card-text mb-3">Validity for 10 days.</p>
@@ -73,7 +73,7 @@
                       </div>
                       <div class="row">
                         <div class="col-sm-4">
-                            <div class="card">
+                            <div class="card shadow-sm">
                               <div class="card-body">
                                 <span class="card-title"><b>RM10.00</b></span>
                                 <p class="card-text mb-3">Validity for 10 days.</p>
@@ -82,7 +82,7 @@
                             </div>
                           </div>
                           <div class="col-sm-4">
-                            <div class="card">
+                            <div class="card shadow-sm">
                               <div class="card-body">
                                 <span class="card-title"><b>RM10.00</b></span>
                                 <p class="card-text mb-3">Validity for 10 days.</p>

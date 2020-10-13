@@ -1,4 +1,4 @@
-<div class="col-3">
+<div class="col-3" style="color:#000000">
     <div class="card" style="width: 240px;border-width:2px;">
         <ul class="list-group list-group-flush">
           <li class="list-group-item "><svg width="16px" height="16px" viewBox="0 2 16 16" class="bi bi-house-door" fill="currentColor" xmlns="http://www.w3.org/2000/svg">

@@ -28,73 +28,37 @@
       border-color: #ED1B2F;
       background-color: white;
     }
+    .card1{
+        padding:12px 24px 23px 21px !important;
+    }
+
 </style>
         <div class="container">
             <div class="row justify-content-center">
               @include('layout.sidebar')
                 <div class="col-7">
-                    <div class="justify-content-left" style="color:#ED1B2F;font-size:30px;">
-                        Reload
+                    <div class="justify-content-left mb-4" style="color:#ED1B2F;font-size:33px;">
+                        <b>My Membership</b>
                     </div>
-                    <div class="row mb-4">
-                        <div class="col-sm-4">
-                          <div class="card">
-                            <div class="card-body">
-                              <span class="card-title"><b>RM10.00</b></span>
-                                <span class="float-right">
-                                    <div class="custom-control custom-radio">
-                                        <input type="radio" class="custom-control-input" id="customRadio">
-                                        <label class="custom-control-label" for="customRadio"></label>
+                    <div class="row">
+                        
+                            <div class="col-7 mb-6">
+                                <div class="container shadow-sm mb-4 bg-white rounded " style="font:normal normal normal 16px/21px Segoe UI;">
+                                    <div class="row"> 
+                                        <div class="card1">
+                                        <span>
+                                            <img width="34px" height="33px" src="{{asset('img/34899 [Converted]-02.png')}}" alt="Tick">
+                                        </span>
+                                        <span style="margin-left:20px;font-weight: 600;font-size:14px;color:#25283A;">
+                                            You're a <span style="color:#ED1B2F">Bronze</span> memeber.
+                                        </span>
                                     </div>
-                                </span>
-                              <p class="card-text mb-3">Validity for 10 days.</p>
-                              <div class="card-hint">free 1 days</div>                           
+                                    </div>  
+                                </div>
                             </div>
-                          </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="card card-selected">
-                              <div class="card-body">
-                                <span class="card-title"><b>RM10.00</b></span>
-                                <p class="card-text mb-3">Validity for 10 days.</p>
-                                <div class="card-hint">free 1 days</div>                           
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-sm-4">
-                            <div class="card">
-                              <div class="card-body">
-                                <span class="card-title"><b>RM10.00</b></span>
-                                <p class="card-text mb-3">Validity for 10 days.</p>
-                                <div class="card-hint">free 1 days</div>                           
-                              </div>
-                            </div>
-                          </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-sm-4">
-                            <div class="card">
-                              <div class="card-body">
-                                <span class="card-title"><b>RM10.00</b></span>
-                                <p class="card-text mb-3">Validity for 10 days.</p>
-                                <div class="card-hint">free 1 days</div>                           
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-sm-4">
-                            <div class="card">
-                              <div class="card-body">
-                                <span class="card-title"><b>RM10.00</b></span>
-                                <p class="card-text mb-3">Validity for 10 days.</p>
-                                <div class="card-hint">free 1 days</div>                           
-                              </div>
-                            </div>
-                          </div>
-                      </div>
-                      <hr>
-                      <div class="justify-content-left">
-                        <button type="button" class="btn back_button btn-lg btn-light">Buy now</button>
-                    </div> 
+                        
+                    </div>  
+                    <hr>
                 </div>
             </div>
         </div>

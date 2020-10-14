@@ -1,12 +1,9 @@
-
-<div class="col-md-3 col-sm-12" style="color:#000000">
-
 <style>
 .icon-word{
   color: #000000;
 }
 </style>
-<div class="col-3">
+<div class="col-md-3 col-sm-12" style="color:#000000">
     <div class="card" style="width: 240px;border-width:2px;">
         <ul class="list-group list-group-flush">
           <li class="list-group-item ">

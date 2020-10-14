@@ -1,6 +1,3 @@
-
-<div class="col-md-3 col-sm-12" style="color:#000000">
-
 <style>
 .icon-word{
   color: #000000;

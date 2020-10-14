@@ -34,7 +34,7 @@ opacity: 1;
             <div class="row justify-content-center">
                 @include('layout.sidebar')
                 <div class="col-8">
-                    <div class="justify-content-left" style="color:#ED1B2F;font-size:30px;font-weight:700; margin-top: -8px;">
+                    <div class="justify-content-left font-weight-bolder" style="color:#ED1B2F;font-size:30px; margin-top: -8px;">
                         Hello,
                         <span style="color: #0F2A51;">Tiana Rosser</span>
                     </div>
@@ -65,9 +65,11 @@ opacity: 1;
                                   <span style="font-size: 14px;">Current Balance</span>
                                   <p class="font-weight-bold text-danger" style="font-size: 25px">MYR 51.57
                                     <span class="float-right">
+                                      <a class="#" href="{{ url('/reload') }}">
                                         <button class="btn btn-radius" style="background-color:red; color:white; font-size: 12px; width: 136px; padding: 8px; margin-top: -30px;" type="submit">Reload</button>
+                                      </a>
                                     </span>
-                                    </p>
+                                  </p>
                                   
                                       <div class="#" style="font-size: 14px; margin-top: 41px;">Dude Date:
                                       <span class="font-weight-bold" style="color: #0F2A51;"> 04/09/2020</span>
@@ -86,7 +88,9 @@ opacity: 1;
                                 <span style="font-size: 14px;">My Plan:</span>
                                   <p class="font-weight-bold" style="font-size: 16px">Best Prepaid v1
                                     <span class="float-right">
+                                      <a class="#" href="{{ url('/upgrade_plan') }}">
                                         <button class="btn btn-radius btn-outline" style="background-color:white; color:Red; font-size: 12px; width: 136px; padding: 8px; margin-top: -30px;" type="submit">Upgrade plan</button>
+                                      </a>
                                     </span>
                                     </p>
                                 <div class="card-hint">
@@ -117,4 +121,3 @@ opacity: 1;
         
         @include('layout.footer')
         @endsection
-        

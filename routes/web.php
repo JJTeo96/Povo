@@ -35,6 +35,7 @@ Route::view('/dashboard', 'dashboard');
 Route::view('/about', 'about');
 Route::view('/faq', 'faq');
 Route::view('/profile', 'profile');
+Route::view('/addon', 'add_on');
 
 Route::view('/login', 'login');
 Route::view('/trc', 'trc');

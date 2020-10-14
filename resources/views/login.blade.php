@@ -33,6 +33,14 @@
     a.btn_font{
         text-decoration: none;
     }
+    input{
+        background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 5px #0000000D;
+        border: 1px solid #E2E8F0;
+        border-radius: 6px;
+        opacity: 1;
+    }
 </style>
 <div class="col-12">
     <div class="row justify-content-end row-bg">

@@ -3,6 +3,7 @@
 @section('content')
 @include('layout.header')
 
+
         <div class="col-12" style="position: relative;">
             {{-- <div class="#" >
                 <img class=" w-100" src="{{asset('img/Group-250.jpg')}}">
@@ -23,7 +24,7 @@
             </div>
         </div>
         <div class="col-12 p-5">
-            <h1 class="text-center font-weight-bold">
+            <h1 class="text-center font-weight-bolder">
                 <span style="color: #0F2A51;">Our</span>
                 <span style="color: red; ">Values</span>
             </h1>

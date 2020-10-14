@@ -36,7 +36,7 @@
         {{-- Content --}}
         <div class="col-sm-9">
             <div class="col-sm">
-                <a href="#" style="text-decoration: none;font-size:20px;color:#25283A"><i class="fas fa-angle-left"></i> &nbsp; Back</a>
+                <a href="{{ url('/upgrade_plan') }}" style="text-decoration: none;font-size:20px;color:#25283A"><i class="fas fa-angle-left"></i> &nbsp; Back</a>
             </div>
             <div class="col-sm mt-3">
                 <span style="font-size:26px;color:#0F2A51;font-weight:bold">Unlimited Internet and Calls</span>

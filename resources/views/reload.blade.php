@@ -33,7 +33,7 @@
             <div class="row justify-content-center">
               @include('layout.sidebar')
                 <div class="col-7">
-                    <div class="justify-content-left" style="color:#ED1B2F;font-size:30px;">
+                    <div class="justify-content-left mb-3" style="color:#ED1B2F;font-size:30px;">
                         Reload
                     </div>
                     <div class="row mb-4">
@@ -71,7 +71,7 @@
                             </div>
                           </div>
                       </div>
-                      <div class="row">
+                      <div class="row mb-4">
                         <div class="col-sm-4">
                             <div class="card shadow-sm">
                               <div class="card-body">
@@ -92,7 +92,7 @@
                           </div>
                       </div>
                       <hr>
-                      <div class="justify-content-left">
+                      <div class="row mt-4">
                         <button type="button" class="btn back_button btn-lg btn-light">Buy now</button>
                     </div> 
                 </div>

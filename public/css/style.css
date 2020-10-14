@@ -56,6 +56,13 @@
     border-radius: 35px
     
 }
+.pay_button{
+    background-color: #ED1B2F;
+    color:white;
+    border-radius: 35px;
+    width:203px;
+    padding:88 10 88 10;
+}
 .btn-lg{
     font-size: 16px !important;
     padding-top: 12px;
@@ -74,4 +81,27 @@ hr.color {
 }
 
 A {text-decoration: none;}
+
+.semi-title{
+    font-weight: 600;
+    font-size:14px;
+    color:#25283A;
+}
+.third-title{
+    font-weight: 600;
+    font-size:16px;
+    color:#25283A;
+}
+.semi-content{
+    font-size:14px;
+    color:#25283A;
+}
+.normal-content{
+    font-size:12px;
+}
+.forth-title{
+    
+    font-size:20px !important;
+    color:#25283A !important;
+}
 

@@ -31,6 +31,8 @@ Route::get('/reload', function () {
 
 Route::view('/member', 'my_membership');
 
+Route::view('/payment', 'payment_detail');
+
 Route::view('/dashboard', 'dashboard');
 Route::view('/about', 'about');
 Route::view('/faq', 'faq');

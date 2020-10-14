@@ -27,12 +27,6 @@ opacity: 1;
     border-radius: 18px;
     opacity: 1;
 }
-/* .progress-barbar{
-    padding: 1px;
-    height: 1rem;
-    border-radius: 10px;
-    opacity: 1;
-} */
 </style>
 
 <div class="col-12 p-5" style="max-width: 1920px; margin: 0 auto; color: #0F2A51;">
@@ -46,7 +40,7 @@ opacity: 1;
                     </div>
                     <div class="row mb-4" style="margin-top: 35px;">
                         <div class="col-sm-4" style="margin-right: -15px">
-                          <div class="card" style="width: 212px; height: 155px;">
+                          <div class="card shadow" style="width: 212px; height: 155px;">
                             <div class="card-body">
                                 <span style="font-size: 14px;">Account number:</span>
                                 <p class="font-weight-bold" style="font-size: 25px">A1.12550012</p>
@@ -58,7 +52,7 @@ opacity: 1;
                           </div>
                         </div>
                         <div class="col-sm-4" style="margin-right: -15px">
-                            <div class="card" style="width: 212px; height: 155px;">
+                            <div class="card shadow" style="width: 212px; height: 155px;">
                               <div class="card-body">
                                   <span style="font-size: 14px;">Mobile number:</span>
                                   <p class="font-weight-bold" style="font-size: 25px">0123456789</p>                       
@@ -66,7 +60,7 @@ opacity: 1;
                             </div>
                         </div>
                         <div class="col-sm-4">
-                            <div class="card" style="width: 369px;  height: 155px;">
+                            <div class="card shadow" style="width: 369px;  height: 155px;">
                               <div class="card-body">
                                   <span style="font-size: 14px;">Current Balance</span>
                                   <p class="font-weight-bold text-danger" style="font-size: 25px">MYR 51.57
@@ -87,7 +81,7 @@ opacity: 1;
                       </div>
                       <div class="row">
                         <div class="col-sm-4">
-                            <div class="card" style="width: 449px; height:310px">
+                            <div class="card shadow" style="width: 449px; height:310px">
                               <div class="card-body">
                                 <span style="font-size: 14px;">My Plan:</span>
                                   <p class="font-weight-bold" style="font-size: 16px">Best Prepaid v1

@@ -82,7 +82,9 @@
                                                     <span class="font-weight-bold" style="color: #ED1B2F;">RM28.00</span>
                                                     <span class="font-weight-bold" style="color: #0F2A51;"> / 30 Days</span>
                                                 </p>
-                                                <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -20px;" type="submit">Buy Now</button>
+                                                <a class="#" href="{{ url('/payment') }}">
+                                                    <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -20px;" type="submit">Buy Now</button>
+                                                </a>
                                             </div>
                                       </div>
                                     </div>
@@ -96,7 +98,9 @@
                                                     <span class="font-weight-bold" style="color: #ED1B2F;">RM30.00</span>
                                                     <span class="font-weight-bold" style="color: #0F2A51;"> / 30 Days</span>
                                                 </p>
-                                                <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -20px;" type="submit">Buy Now</button>
+                                                <a class="#" href="{{ url('/payment') }}">
+                                                    <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -20px;" type="submit">Buy Now</button>
+                                                </a>
                                             </div>
                                       </div>
                                     </div>
@@ -110,7 +114,9 @@
                                                     <span class="font-weight-bold" style="color: #ED1B2F;">RM35.00</span>
                                                     <span class="font-weight-bold" style="color: #0F2A51;"> / 30 Days</span>
                                                 </p>
-                                                <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -20px;" type="submit">Buy Now</button>
+                                                <a class="#" href="{{ url('/payment') }}">
+                                                    <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -20px;" type="submit">Buy Now</button>
+                                                </a>
                                             </div>
                                       </div>
                                     </div>
@@ -126,7 +132,9 @@
                                                     <span class="font-weight-bold" style="color: #ED1B2F;">RM40.00</span>
                                                     <span class="font-weight-bold" style="color: #0F2A51;"> / 30 Days</span>
                                                 </p>
-                                                <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -20px;" type="submit">Buy Now</button>
+                                                <a class="#" href="{{ url('/payment') }}">
+                                                    <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -20px;" type="submit">Buy Now</button>
+                                                </a>
                                             </div>
                                       </div>
                                     </div>
@@ -140,7 +148,9 @@
                                                     <span class="font-weight-bold" style="color: #ED1B2F;">RM50.00</span>
                                                     <span class="font-weight-bold" style="color: #0F2A51;"> / 30 Days</span>
                                                 </p>
-                                                <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -20px;" type="submit">Buy Now</button>
+                                                <a class="#" href="{{ url('/payment') }}">
+                                                    <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -20px;" type="submit">Buy Now</button>
+                                                </a>
                                             </div>
                                       </div>
                                     </div>
@@ -154,7 +164,9 @@
                                                     <span class="font-weight-bold" style="color: #ED1B2F;">RM89 .00</span>
                                                     <span class="font-weight-bold" style="color: #0F2A51;"> / 30 Days</span>
                                                 </p>
-                                                <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -20px;" type="submit">Buy Now</button>
+                                                <a class="#" href="{{ url('/payment') }}">
+                                                    <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -20px;" type="submit">Buy Now</button>
+                                                </a>
                                             </div>
                                       </div>
                                     </div>
@@ -172,7 +184,9 @@
                                                     <span class="font-weight-bold" style="color: #ED1B2F;">RM3.00</span>
                                                     <span class="font-weight-bold" style="color: #0F2A51;"> / 1 Days</span>
                                                 </p>
-                                                <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -20px;" type="submit">Buy Now</button>
+                                                <a class="#" href="{{ url('/payment') }}">
+                                                    <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -20px;" type="submit">Buy Now</button>
+                                                </a>
                                             </div>
                                       </div>
                                     </div>
@@ -184,7 +198,9 @@
                                                     <span class="font-weight-bold" style="color: #ED1B2F;">RM8.00</span>
                                                     <span class="font-weight-bold" style="color: #0F2A51;"> / 7 Days</span>
                                                 </p>
-                                                <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -20px;" type="submit">Buy Now</button>
+                                                <a class="#" href="{{ url('/payment') }}">
+                                                    <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -20px;" type="submit">Buy Now</button>
+                                                </a>
                                             </div>
                                       </div>
                                     </div>
@@ -196,7 +212,9 @@
                                                     <span class="font-weight-bold" style="color: #ED1B2F;">RM10.00</span>
                                                     <span class="font-weight-bold" style="color: #0F2A51;"> / 7 Days</span>
                                                 </p>
-                                                <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -20px;" type="submit">Buy Now</button>
+                                                <a class="#" href="{{ url('/payment') }}">
+                                                    <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -20px;" type="submit">Buy Now</button>
+                                                </a>
                                             </div>
                                       </div>
                                     </div>
@@ -224,7 +242,9 @@
                                                     <span class="font-weight-bold" style="color: #ED1B2F;">RM10.00</span>
                                                     <span class="font-weight-bold" style="color: #0F2A51;"> / 1 Days</span>
                                                 </p>
-                                                <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -20px;" type="submit">Buy Now</button>
+                                                <a class="#" href="{{ url('/payment') }}">
+                                                    <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -20px;" type="submit">Buy Now</button>
+                                                </a>
                                             </div>
                                       </div>
                                     </div>
@@ -236,7 +256,9 @@
                                                     <span class="font-weight-bold" style="color: #ED1B2F;">RM25.00</span>
                                                     <span class="font-weight-bold" style="color: #0F2A51;"> / 3 Days</span>
                                                 </p>
-                                                <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -20px;" type="submit">Buy Now</button>
+                                                <a class="#" href="{{ url('/payment') }}">
+                                                    <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -20px;" type="submit">Buy Now</button>
+                                                </a>
                                             </div>
                                       </div>
                                     </div>
@@ -254,7 +276,9 @@
                                                     <span class="font-weight-bold" style="color: #ED1B2F;">RM5.00</span>
                                                     <span class="font-weight-bold" style="color: #0F2A51;"> / 7 Days</span>
                                                 </p>
-                                                <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -20px;" type="submit">Buy Now</button>
+                                                <a class="#" href="{{ url('/payment') }}">
+                                                    <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -20px;" type="submit">Buy Now</button>
+                                                </a>
                                             </div>
                                       </div>
                                     </div>

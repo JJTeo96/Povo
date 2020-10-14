@@ -17,7 +17,9 @@
                 <p>Your request is being processed now. You will receive a confirmation SMS on your purchase is successful.</p>
             </div>
             <div class="container d-flex justify-content-center">
-                <button type="button" class="btn back_button btn-lg btn-light">Back to Dashboard</button>
+                <a class="#" href="{{ url('/dashboard') }}">
+                    <button type="button" class="btn back_button btn-lg btn-light">Back to Dashboard</button>
+                </a>
             </div>
         </div>
 @include('layout.footer')

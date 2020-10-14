@@ -110,7 +110,9 @@ section .section-title {
                                                     </div>
                                                     <hr>
                                                     <div class="form-group ">
-                                                        <button type="button" class="btn pay_button btn-light">Pay</button>
+                                                        <a class="#" href="{{ url('/pc') }}">
+                                                            <button type="button" class="btn pay_button btn-light">Pay</button>
+                                                        </a>
                                                     </div> 
                                                 </div>
                                             </div>

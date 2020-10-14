@@ -71,7 +71,7 @@
 
                                 <div class="col-md-3" style="margin: 0 auto">
                                     <div class="vl" style="margin-top: 21px;margin-right:9px"></div>
-                                    <a href="#" class="btn upgrade_btn " style="margin-top:42px;" >Upgrade</a>
+                                    <a href="{{ url('/payment') }}" class="btn upgrade_btn " style="margin-top:42px;" >Upgrade</a>
                                 </div>
                             </div>
                         </div>
@@ -95,7 +95,7 @@
 
                                 <div class="col-md-3" style="margin: 0 auto">
                                     <div class="vl" style="margin-top: 21px;margin-right:9px"></div>
-                                    <a href="#" class="btn upgrade_btn " style="margin-top:42px;" >Upgrade</a>
+                                    <a href="{{ url('/payment') }}" class="btn upgrade_btn " style="margin-top:42px;" >Upgrade</a>
                                 </div>
                             </div>
                         </div>
@@ -120,7 +120,7 @@
 
                                 <div class="col-md-3" style="margin: 0 auto">
                                     <div class="vl" style="margin-top: 21px;margin-right:9px"></div>
-                                    <a href="#" class="btn upgrade_btn " style="margin-top:42px;" >Upgrade</a>
+                                    <a href="{{ url('/payment') }}" class="btn upgrade_btn " style="margin-top:42px;" >Upgrade</a>
                                 </div>
                             </div>
                         </div>

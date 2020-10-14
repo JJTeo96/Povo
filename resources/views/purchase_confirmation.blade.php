@@ -51,7 +51,9 @@
                     Current Account Balance: <b>RM51.57</b>
                     <hr>               
                     <div class="justify-content-left">
-                        <button type="button" class="btn back_button btn-lg btn-light">Buy now for RM50.00</button>
+                        <a class="#" href="{{ url('/thankyou') }}">
+                            <button type="button" class="btn back_button btn-lg btn-light">Buy now for RM50.00</button>
+                        </a>
                     </div>
                 </div>
             </div>

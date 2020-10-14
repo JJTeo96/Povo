@@ -119,7 +119,9 @@
                       </div>
                       <hr>
                       <div class="row mt-4">
-                        <button type="button" class="btn back_button btn-lg btn-light">Buy now</button>
+                        <a href="{{ url('/payment') }}">
+                          <button type="button" class="btn back_button btn-lg btn-light">Buy now</button>
+                        </a>
                     </div> 
                 </div>
             </div>

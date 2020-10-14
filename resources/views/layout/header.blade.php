@@ -33,7 +33,7 @@
         <img src="{{asset('img/PAVO-01.png')}}" class="logo"/>
     </div>
 
-    <div class="float-right d-inline" style="margin-top: 16px;margin-right:78px;">
+    <div class="row float-right d-inline" style="margin-top: 16px;margin-right:78px;">
         {{-- @if (Route::has('login')) --}}
                 {{-- @auth --}}
                 {{-- <a href="{{ url('/home') }}">Home</a> --}}
@@ -42,6 +42,21 @@
                 <a class="font-weight-bolder header_link" style="margin-right: 86px;" href="#">PLANS</a>
                 <a class="font-weight-bolder header_link" style="margin-right: 85px;" href="{{ url('/about') }}">ABOUT</a>
                 <a class="font-weight-bolder header_link" style="margin-right: 86px;" href="{{ url('/faq') }}">FAQS</a>
+                
+                {{-- Logged in --}}
+                {{-- <a class="font-weight-bolder header_link" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="far fa-user" style="margin-right: 12px"></i> Tiana Rosser <i class="fas fa-angle-down" style="margin-left: 48px;margin-top:20px;margin-right:-78px"></i>
+                </a>
+                
+                  
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div> --}}
+                {{-- End Logged in --}}
+                 
+                {{-- <i class="far fa-user" style="margin-right: 12px"></i><a class="font-weight-bolder header_link" style="margin-right: 86px;" href="#">Tiana Rosser</a> --}}
                     {{-- <a class="font-weight-bolder ml-5 text-gray-900" href="{{ route('adminLogin') }}">Admin Login</a> --}}
 
                     <a href="{{ url('/login') }}">

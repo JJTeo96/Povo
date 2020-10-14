@@ -39,6 +39,7 @@ Route::view('/login', 'login');
 Route::view('/trc', 'trc');
 Route::view('/register', 'register');
 Route::view('/upgrade_plan', 'upgrade_plan');
+Route::view('/plan_detail', 'plan_detail');
 
 
 

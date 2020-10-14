@@ -15,7 +15,7 @@
             </div>
           
             <div class="row auto-container" style="min-height: 600px;">
-            <a href="#">
+            <a href="{{ url('/plan_detail') }}" style="text-decoration: none">
                 <div class="card mr-5" style="width: 325px;border:none">
                     <img class="card-img-top" src="{{asset('img/upgrade_plan/hotlink-prepaid.png')}}" alt="Card image cap">
   
@@ -28,7 +28,7 @@
             </a>
                     
 
-            <a href="#">
+            <a href="#" style="text-decoration: none">
                 <div class="card" style="width: 325px;border:none">
                     <img class="card-img-top" src="{{asset('img/upgrade_plan/switch-to-hotlink-rebrand-herobanner-desktop.png')}}" alt="Card image cap">
   

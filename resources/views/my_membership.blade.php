@@ -1,5 +1,5 @@
 @extends('layout.app')
-@section('title', ' Reload')
+@section('title', ' My Membership')
 @section('content')
 @include('layout.header')
 <style>
@@ -39,6 +39,7 @@
     .divider {
         flex-grow: 1;
         border-bottom: 1px solid #EDEDED;
+        width: 230.82px;
     }
 </style>
         <div class="container">
@@ -90,16 +91,64 @@
                     </div>
                     <div class="row mb-1">
                         <div class="col-4">
-                            <div class="third-title">Bronze</div>
-                            <span class="semi-content" style="width:228px">- Access to great shopping deals and discounts.</span>
+                            <div class="third-title font-weight-bolder">Bronze</div>
+                                <ul>
+                                    <span class="semi-content" style="width:228px">
+                                        <li>
+                                            Access to great shopping deals and discounts.
+                                        </li>
+                                        <li>
+                                            Birthday month specials.
+                                        </li>
+                                    </span>
+                                </ul>
                         </div>
                         <div class="col-4">
-                            <div class="third-title">Silver</div>
-                            <span class="semi-content" style="width:228px">- Access to great shopping deals and discounts.</span>
+                            <div class="third-title font-weight-bolder">Silver</div>
+                            <ul>
+                                <span class="semi-content" style="width:228px">
+                                    <li>
+                                        Exclusive Sliver member rewards.
+                                    </li>
+                                    <li>
+                                        Early bird access to latest rewards.
+                                    </li>
+                                    <li>
+                                        Access to great shopping deals and discounts.
+                                    </li>
+                                    <li>
+                                        Birthday month specials.
+                                    </li>
+                                </span>
+                            </ul>
                         </div>
-                        <div class="col-3">
-                            <div class="third-title">Gold</div>
-                            <span class="semi-content" style="width:228px">- Access to great shopping deals and discounts.</span>
+                        <div class="col-4">
+                            <div class="third-title font-weight-bolder">Gold</div>
+                            <ul>
+                                <span class="semi-content" style="width:228px">
+                                    <li>
+                                        Exclusive Gold member rewards. 
+                                    </li>
+                                    <li>
+                                        Exclusive Big Deals.
+                                    </li>
+                                    <li>
+                                        Priority queue on Helpline.
+                                    </li>
+                                    <li>
+                                        Exclusive event invites.
+                                    </li>
+                                    <li>
+                                        Early bird access to latest rewards.
+                                    </li>
+                                    <li>
+                                        Access to great shopping deals and discounts.
+                                    </li>
+                                    <li>
+                                        Birthday month specials.
+                                    </li>
+                                </span>
+                            </ul>
                         </div>  
                     </div>             
                 </div>

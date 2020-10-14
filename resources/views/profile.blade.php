@@ -45,17 +45,20 @@ opacity: 1;
             <div class="row justify-content-center">
                 @include('layout.sidebar')
                 <div class="col-8">
-
+        <div class="justify-content-left" style="color:#0F2A51;font-size:30px;font-weight:700; margin-top: -8px;">
+                        My
+                        <span style="color: #ED1B2F;">Profile</span>
+                    </div>
                     <div class="tab" role="tabpanel">
                         <!-- Nav tabs -->
                         <ul class="nav nav-tabs" role="tablist">
-                            <li role="presentation" class="active"><a href="#Section1" aria-controls="home" role="tab" data-toggle="tab">Personal Info</a></li>
-                            <li role="presentation"><a href="#Section2" aria-controls="profile" role="tab" data-toggle="tab">Password</a></li>
-                            <li role="presentation"><a href="#Section3" aria-controls="messages" role="tab" data-toggle="tab">Payment Method</a></li>
+                            <li role="presentation" class="active"><a href="#personal_info" aria-controls="home" role="tab" data-toggle="tab">Personal Info</a></li>
+                            <li role="presentation"><a href="#password" aria-controls="profile" role="tab" data-toggle="tab">Password</a></li>
+                            <li role="presentation"><a href="#payment_method" aria-controls="messages" role="tab" data-toggle="tab">Payment Method</a></li>
                         </ul>
                         <!-- Tab panes -->
                         <div class="tab-content tabs">
-                            <div role="tabpanel" class="tab-pane fade in active" id="Section1">
+                            <div role="tabpanel" class="tab-pane fade show active" id="personal_info">
                                 <div class="card shadow" style="width: 799px; margin-top: 20px;">
                                     <form action="#">
                                         <div class="row d-flex justify-content-left" >
@@ -95,76 +98,48 @@ opacity: 1;
                             <button class="btn btn-radius mt-4 editBtn" style="background-color:#0F2A51; color:white; font-size: 12px; width: 136px; padding: 8px; margin-top: -30px;" type="button">Edit Details</button>
                             <button class="btn btn-radius2 mt-4 cancelBtn" style="background-color:red; color:white; font-size: 12px; width: 136px; padding: 8px; margin-top: -30px; display:none;" type="button">Cancel</button>
                             </div>
-                            <div role="tabpanel" class="tab-pane fade" id="Section2">
-                                <h3>Section 2</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec urna aliquam, ornare eros vel, malesuada lorem. Nullam faucibus lorem at eros consectetur lobortis. Maecenas nec nibh congue, placerat sem id, rutrum velit. Phasellus porta enim at facilisis condimentum. Maecenas pharetra dolor vel elit tempor pellentesque sed sed eros. Aenean vitae mauris tincidunt, imperdiet orci semper, rhoncus ligula. Vivamus scelerisque.</p>
-                            </div>
-                            <div role="tabpanel" class="tab-pane fade" id="Section3">
-                                <h3>Section 3</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec urna aliquam, ornare eros vel, malesuada lorem. Nullam faucibus lorem at eros consectetur lobortis. Maecenas nec nibh congue, placerat sem id, rutrum velit. Phasellus porta enim at facilisis condimentum. Maecenas pharetra dolor vel elit tempor pellentesque sed sed eros. Aenean vitae mauris tincidunt, imperdiet orci semper, rhoncus ligula. Vivamus scelerisque.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="justify-content-left" style="color:#0F2A51;font-size:30px;font-weight:700; margin-top: -8px;">
-                        My
-                        <span style="color: #ED1B2F;">Profile</span>
-                    </div>
-                    <ul class="nav nav-tabs" id="myTab" role="tablist" style="margin-top: 35px;">
-                        <li class="nav-item">
-                          <a class="nav-link active" id="info-tab" data-toggle="tab" href="#info" role="tab" aria-controls="info" aria-selected="true">Personal Info</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" id="password-tab" data-toggle="tab" href="#password" role="tab" aria-controls="password" aria-selected="false">Password</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" id="payment-tab" data-toggle="tab" href="#payment" role="tab" aria-controls="payment" aria-selected="false">Payment Method</a>
-                        </li>
-                      </ul>
-                      <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane fade show active" id="info" role="tabpanel" aria-labelledby="info-tab">
-                                    {{-- <div class="card shadow" style="width: 799px; margin-top: 20px;">
-                                        <form action="#">
-                                            <div class="row d-flex justify-content-left" >
-                                                <div class="col-4" style="margin-left:20px; margin-right: 110px;">
-                                                    <div style="margin-top: 20px;">
-                                                        Full Name
-                                                        <input type="text" id="fullname" class="form-control faq-form" value="Tiana Rosser" style="width: 365.17px;" disabled>
-                                                    </div>
-                                                    <div style="margin-top: 20px;">
-                                                        ID Type
-                                                        <input type="text" id="id_type" class="form-control faq-form" value="My Kad" style="width: 365.17px;" disabled>
-                                                    </div>
-                                                    <div style="margin-top: 20px;">
-                                                        ID Number
-                                                        <input type="text" id="id_number" class="form-control faq-form" value="9201030181" style="width: 365.17px;" disabled>
-                                                    </div>
-                                                    <br/>
+                            <div role="tabpanel" class="tab-pane fade" id="password">
+                                <div class="card shadow" style="width: 407px; margin-top: 20px;">
+                                    <form action="#">
+                                        <div class="row d-flex justify-content-left" >
+                                            <div class="col-4" style="margin-left: 21.21px;">
+                                                <div style="margin-top: 20px;">
+                                                    Old Password *
+                                                    <input type="text" id="old_password" class="form-control faq-form"  style="width: 365.17px;">
                                                 </div>
-                                                <div class="col-4" style="margin-left:10px; margin-right: 80px;">
-                                                    <div style="margin-top: 20px;">
-                                                        Email
-                                                        <input type="text" id="fullname" class="form-control faq-form" value="tianarosser@gmail.com" style="width: 365.17px;" disabled>
-                                                    </div>
-                                                    <div style="margin-top: 20px;">
-                                                        Date Of Birth
-                                                        <input type="text" id="id_type" class="form-control faq-form" value="03 Jan 1992" style="width: 365.17px;" disabled>
-                                                    </div>
-                                                    <div style="margin-top: 20px;">
-                                                        Gender
-                                                        <input type="text" id="id_number" class="form-control faq-form" value="Placeholders" style="width: 365.17px;" disabled>
-                                                    </div>
-                                                    <br/>
+                                                <div style="margin-top: 20px;">
+                                                    New Password *
+                                                    <input type="text" id="new_password" class="form-control faq-form"  style="width: 365.17px;">
                                                 </div>
+                                                <div style="margin-top: 20px;">
+                                                    <div style="width: 200px">
+                                                        New Password Again *
+                                                    </div>
+                                                    <input type="text" id="password_again" class="form-control faq-form" style="width: 365.17px;">
+                                                </div>
+                                                <br/>
                                             </div>
-                                        </form>
-                                    </div>
-                                <button class="btn btn-radius mt-4 editBtn" style="background-color:#0F2A51; color:white; font-size: 12px; width: 136px; padding: 8px; margin-top: -30px;" type="button">Edit Details</button>
-                                <button class="btn btn-radius2 mt-4 cancelBtn" style="background-color:red; color:white; font-size: 12px; width: 136px; padding: 8px; margin-top: -30px; display:none;" type="button">Cancel</button> --}}
+                                        </div>
+                                    </form>
+                                </div>
+                                <button class="btn btn-radius mt-4 changeBtn" style="background-color:#0F2A51; color:white; font-size: 12px; width: 167px; padding: 8px; margin-top: -30px;" type="button">Changes Password</button>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="payment_method">
+                                <div  style="margin-top: 20px;">
+                                    <form action="#">
+                                        <div class="row d-flex justify-content-left" >
+                                            <div class="col-12" style="#">
+                                                <div>
+                                                    Add your credit / debit card details and save your payment information to your account for future purchases. You can also select a card as a preferred payment or replace your existing card.
+                                                </div>
+                                                <button class="btn btn-radius mt-4 new_cardBtn" style="background-color:#0F2A51; color:white; font-size: 12px; width: 167px; padding: 8px; margin-top: -35px; margin-bottom: 236px;" type="button">Add new card</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
                         </div>
-                        <div class="tab-pane fade" id="password" role="tabpanel" aria-labelledby="password-tab">...</div>
-                        <div class="tab-pane fade" id="payment" role="tabpanel" aria-labelledby="payment-tab">...</div>
-                      </div>
+                    </div>                      
             </div>
         </div>
 </div>

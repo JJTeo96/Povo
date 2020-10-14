@@ -77,7 +77,7 @@
 </div>
 
 <div class="col-12 mt-5">
-    <div class="mainpage_img-gradient">
+    <div class="">
         <img src="{{asset('img/mainpage/Group-249.jpg')}}" class="w-100" />
     </div>
 

@@ -1,11 +1,11 @@
 @extends('layout.app')
-@section('title', ' Login')
+@section('title', ' TRC')
 
 @section('content')
 @include('layout.header')
 
 <style>
-    .welcome{
+    .trc{
         width:421px;
         height:538px;
         margin-top:39px;
@@ -33,14 +33,6 @@
     a.btn_font{
         text-decoration: none;
     }
-    input{
-        background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-        background: #FFFFFF 0% 0% no-repeat padding-box;
-        box-shadow: 0px 3px 5px #0000000D;
-        border: 1px solid #E2E8F0;
-        border-radius: 6px;
-        opacity: 1;
-    }
 </style>
 <div class="col-12">
     <div class="row justify-content-end row-bg">
@@ -49,23 +41,17 @@
         </div>
 
         <div class="col-6">
-            <div class="card shadow welcome">
+            <div class="card shadow trc">
                 <article class="card-body" style="margin-left: 20px;margin-right:21px">
-                <h4 class="card-title" style="margin-bottom:35px;margin-top:50px;font-size:32px"><b>Welcome</b></h4>
+                <h4 class="card-title" style="margin-bottom:35px;margin-top:50px;font-size:32px"><b>Login to account</b></h4>
                     <form>
                         <div class="form-group">
+                            <p style="letter-spacing: 0px;font-size:14px">Enter the TAC just sent to the number <b>60123456789</b></p>
                             <input name="" class="form-control" placeholder="Email or Mobile number" type="text">
                         </div>
 
-                        <div class="form-group">
-                            <input class="form-control" placeholder="Password" type="password">
-                        </div> 
-
                         <div class="form-group"> 
-                            <div class="checkbox">
-                            <label> <input type="checkbox"> Remember me </label>
-                            <a class="float-right" href="#">Forgot Password?</a>
-                            </div> <!-- checkbox .// -->
+                            <p style="letter-spacing: 0px;font-size:14px">Resend TAC In 4:50</p>
                         </div>
 
                         <div class="form-group">
@@ -73,10 +59,10 @@
                             <button class="btn btn-primary btn-block"> Login  </button> --}}
                             <div class="row" style="letter-spacing: 0px;">
                                 <div class="col">
-                                    <a href="{{ url('/trc') }}" class="btn_font"><div class="btn btn-danger  btn-block">Login </div></a>
+                                    <a href="#" class="btn_font"><div class="btn btn-danger  btn-block">Proceed </div></a>
                                 </div>
                                 <div class="col">
-                                    <a href="{{ url('/register') }}" class="btn_font"><div class="btn register_btn  btn-block">Register</div></a> 
+                                    
                                 </div>
                             </div>
                         </div> <!-- form-group// -->                                                           

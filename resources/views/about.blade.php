@@ -3,15 +3,23 @@
 @section('content')
 @include('layout.header')
 
-        <div class="col-12">
-            <div class="#">
+        <div class="col-12" style="position: relative;">
+            {{-- <div class="#" >
                 <img class=" w-100" src="{{asset('img/Group-250.jpg')}}">
             </div>
-            <div class="about-text-shadow centered font-weight-bold" style="color:white; font-size: 35px; position: absolute; top: 50%; left: 38%; transform: translate(-70%, -50%);">
-                <p>We are here to</p>
-                <p>enrich your life, </p>
-                <p>energise your play & </p>
-                empower your work.
+            <div class="about-text-shadow centered font-weight-bold" style="color:white; font-size: 35px; position: absolute; top: 50%; left: 0; transform: translate(-70%, -50%);">
+                <div class="col-12 col-sm-9 col-md-6">We are here to enrich your life, energise your play & empower your work.
+                </div>
+            </div> --}}
+            <div class="w-100" style="display: flex;align-items:center;min-height:500px;background-position:left;background-attachment:scroll;background-size:cover;background-repeat:no-repeat;background-image: url({{ asset('img/Group-250.jpg')}});">
+                <div class="auto-container">
+                    <div class="row">
+                        <div class="d-sm-block d-md-none col-sm-2 col-2"></div>
+                        <div class="col-6 about-text-shadow" style="color:white; font-size: 35px;">
+                            We are here to enrich your life, energise your play & empower your work.
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="col-12 p-5">

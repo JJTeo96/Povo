@@ -118,36 +118,40 @@
 
 
     <div class="col-12 p-5 text-center row-bg" style="background-image: linear-gradient(rgb(4, 26, 57, 0.95), rgb(4, 26, 57, 0.95)), url({{ asset('img/faq/contact-bg.png')}})">
+      <div class="container">  
         <div class="d-flex justify-content-center mt-4">
-            <h1 style="color: white;">Have a Question?</h1>
-        </div>
-        <p class="d-flex justify-content-center mt-4">
-        Ask here if need any special Queries, Custom Plans
-        </p>
-        
-        <form action="#">
-            <div class="row d-flex justify-content-center" >
-                <div class="md-form col-md-3 mt-4" style="margin-right: 80px;">
-                    <input type="text" id="name" class="form-control faq-form font-weight-bold" placeholder="Name">
-                    <br>
-                    <input type="text" id="email" class="form-control faq-form font-weight-bold" placeholder="Email">
-                    <br>
-                    <input type="text" id="phone" class="form-control faq-form font-weight-bold" placeholder="Phone">
-                    <br>
-                </div>
-                <div class="col-md-3 mt-4">
-                    <input type="text" id="title" class="form-control faq-form font-weight-bold" placeholder="Title">
-                    <br>
-                    <input type="text" id="your_message" class="form-control faq-form font-weight-bold" placeholder="Your Message">
-                </div>
-            </div>
-            <button class="btn mt-5" style="background-color:red; color:white; font-size: 12px; width: 15%; padding:15px;" type="submit">SEND MESSAGE</button>
-        </form>
+              <h1 style="color: white;">Have a Question?</h1>
+          </div>
+          <p class="d-flex justify-content-center mt-4">
+          Ask here if need any special Queries, Custom Plans
+          </p>
+          
+          <form action="#">
+              <div class="row d-flex justify-content-center" >
+                  <div class="md-form col-sm-4 mt-4">
+                    <div class="mr-0 mr-sm-4 mr-md-2">
+                      <input type="text" id="name" class="form-control faq-form font-weight-bold" placeholder="Name">
+                      <br>
+                      <input type="text" id="email" class="form-control faq-form font-weight-bold" placeholder="Email">
+                      <br>
+                      <input type="text" id="phone" class="form-control faq-form font-weight-bold" placeholder="Phone">
+                      <br>
+                    </div>
+                  </div>
+                  <div class=" col-sm-4 mt-4">
+                      <input type="text" id="title" class="form-control faq-form font-weight-bold" placeholder="Title">
+                      <br>
+                      <input type="text" id="your_message" class="form-control faq-form font-weight-bold" placeholder="Your Message">
+                  </div>
+              </div>
+              <button class="btn col-sm-4 mt-5" style="background-color:red; color:white; font-size: 12px; max-width: 150px; padding:15px;" type="submit">SEND MESSAGE</button>
+          </form>
     </div>
-
+  </div>
+    <div class="container">
         <div class="col-12" style="margin-top: 50px; color: #0F2A51;">
             <div class="row no-gutters" style="max-width: 1100px; margin: 0 auto;">
-                <div class="col-4 d-flex justify-content-end" style="margin-bottom: 50px;">
+                <div class="col-sm-4 d-flex justify-content-end" style="margin-bottom: 50px;">
                     <div class="text-center font-weight-bold m-4 px-4">
                         <img src="img/faq/Mask Group 3.svg">
                         <p style="font-size: 20px; margin-top:20px;">
@@ -158,7 +162,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-4 d-flex justify-content-end" style="margin-bottom: 50px">
+                <div class="col-sm-4 d-flex justify-content-end" style="margin-bottom: 50px">
                     <div class="text-center font-weight-bold m-4 px-4">
                         <img src="img/faq/Mask Group 2.svg">
                         <p style="font-size: 20px; margin-top:20px;">
@@ -169,7 +173,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-4 d-flex justify-content-end" style="margin-bottom: 50px">
+                <div class="col-sm-4 d-flex justify-content-end" style="margin-bottom: 50px">
                     <div class="text-center font-weight-bold m-4 px-4">
                         <img src="img/faq/Mask Group 1.svg">
                         <p style="font-size: 20px; margin-top:20px;">
@@ -182,6 +186,7 @@
                 </div>
             </div>
         </div>
+    </div>
 
         @include('layout.footer')
         @endsection

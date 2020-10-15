@@ -1,7 +1,7 @@
 @extends('layout.app')
 @section('title', ' About')
 @section('content')
-@include('layout.header')
+{{-- @include('layout.header') --}}
 
 
         <div class="col-12" style="position: relative;">
@@ -72,5 +72,5 @@
             <h6 class="text-center font-weight-bold" style="margin-top: -40px;margin-bottom 30px; color: #0F2A51;">Our values guide us in all that we do, from the way we conduct ourselves to the way we engage with you.</p></h6>
         </div>
 
-        @include('layout.footer')
+        {{-- @include('layout.footer') --}}
         @endsection

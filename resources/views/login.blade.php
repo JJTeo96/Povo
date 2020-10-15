@@ -2,7 +2,7 @@
 @section('title', ' Login')
 
 @section('content')
-@include('layout.header')
+
 
 <style>
     .welcome{
@@ -87,5 +87,8 @@
     </div>
 </div>
 
-@include('layout.footer')
 @endsection
+
+@push('scripts')
+
+@endpush

@@ -33,17 +33,20 @@
             <div class="row justify-content-center">
                 @include('layout.sidebar')
                 <div class="col-8">
-        <div class="justify-content-left" style="color:#0F2A51;font-size:30px;font-weight:700; margin-top: -8px;">
+        <div class="justify-content-left" style="font-size:30px;font-weight:700; margin-top: -8px;">
                         My
                         <span style="color: #ED1B2F;">Profile</span>
                     </div>
                     <div class="tab" role="tabpanel">
-                        <!-- Nav tabs -->
-                        <ul class="nav nav-tabs" role="tablist">
-                            <li role="presentation" class="active"><a href="#personal_info" aria-controls="home" role="tab" data-toggle="tab">Personal Info</a></li>
-                            <li role="presentation"><a href="#password" aria-controls="profile" role="tab" data-toggle="tab">Password</a></li>
-                            <li role="presentation"><a href="#payment_method" aria-controls="messages" role="tab" data-toggle="tab">Payment Method</a></li>
-                        </ul>
+                        <section id="tabs">
+                        <nav>
+                            <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                                <a class="nav-item nav-link active" id="personal_info_tab" data-toggle="tab" href="#personal_info" role="tab" aria-controls="personal_info" aria-selected="true">Personal Info</a>
+                                <a class="nav-item nav-link" id="password_tab" data-toggle="tab" href="#password" role="tab" aria-controls="password" aria-selected="false">Password</a>
+                                <a class="nav-item nav-link" id="payment_method_tab" data-toggle="tab" href="#payment_method" role="tab" aria-controls="payment_method" aria-selected="false">Payment Method</a>
+                            </div>
+                        </nav>
+                    </section>
                         <!-- Tab panes -->
                         <div class="tab-content tabs">
                             <div role="tabpanel" class="tab-pane fade show active" id="personal_info">
@@ -96,7 +99,9 @@
                                                     <input type="text" id="old_password" class="form-control faq-form"  style="width: 365.17px;">
                                                 </div>
                                                 <div style="margin-top: 20px;">
-                                                    New Password *
+                                                    <div style="width: 200px">
+                                                        New Password *
+                                                    </div>
                                                     <input type="text" id="new_password" class="form-control faq-form"  style="width: 365.17px;">
                                                 </div>
                                                 <div style="margin-top: 20px;">

@@ -29,7 +29,7 @@
     text-align: center; 
     font-size: 12px; 
     height: 34px;
-    padding: 0px;
+    padding: 6px;
 }
 .header-card2{
     background-color: #ED1B2F;
@@ -37,6 +37,7 @@
     padding: 0px;
 }
 .body-card{
+    margin-top: 10px;
     text-align: center; 
     font-size:14px;
     padding: 10px;
@@ -60,17 +61,28 @@
                         <span style="color: #ED1B2F;">Add-Ons</span>
                     </div>
                     <div class="tab" role="tabpanel" style="margin-top: 15px;">
-                        <!-- Nav tabs -->
-                        <ul class="nav nav-tabs" role="tablist">
-                            <li role="presentation" class="active"><a href="#internet" aria-controls="home" role="tab" data-toggle="tab"><img src="img/addon/Wifi.svg">&nbsp;&nbsp;Internet</a></li>
-                            <li role="presentation"><a href="#call_sms" aria-controls="profile" role="tab" data-toggle="tab" style="color: grey;"><img src="img/addon/Call.svg">&nbsp;&nbsp;Calls+SMS</a></li>
-                            <li role="presentation"><a href="#roaming" aria-controls="messages" role="tab" data-toggle="tab" style="color: grey;"><img src="img/addon/Send.svg">&nbsp;&nbsp;Roaming</a></li>
-                            <li role="presentation"><a href="#idd" aria-controls="messages" role="tab" data-toggle="tab" style="color: grey;"><img src="img/addon/IDD-01.svg">&nbsp;&nbsp;IDD</a></li>
-                        </ul>
+                        <section id="tabs">
+                            <nav>
+                                <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                                    <a class="nav-item nav-link active" id="internet_tab" data-toggle="tab" href="#internet" role="tab" aria-controls="internet" aria-selected="true">
+                                        <img class="" src="img/addon/Wifi.svg">&nbsp;&nbsp;Internet
+                                    </a>
+                                    <a class="nav-item nav-link" id="call_sms_tab" data-toggle="tab" href="#call_sms" role="tab" aria-controls="call_sms" aria-selected="false">
+                                        <img src="img/addon/Call.svg">&nbsp;&nbsp;Calls+SMS
+                                    </a>
+                                    <a class="nav-item nav-link" id="roaming_tab" data-toggle="tab" href="#roaming" role="tab" aria-controls="roaming" aria-selected="false">
+                                        <img src="img/addon/Send.svg">&nbsp;&nbsp;Roaming
+                                    </a>
+                                    <a class="nav-item nav-link" id="idd_tab" data-toggle="tab" href="#idd" role="tab" aria-controls="idd" aria-selected="false">
+                                        <img src="img/addon/IDD-01.svg">&nbsp;&nbsp;IDD
+                                    </a>
+                                </div>
+                            </nav>
+                        </section>
                         <!-- Tab panes -->
                         <div class="tab-content tabs">
                             <div role="tabpanel" class="tab-pane fade show active" id="internet">
-                                <div  style="color:#0F2A51; font-size: 16px;">Choose Your Internet Plan</div>
+                                <div  style="color:#0F2A51; font-size: 16px; margin-top: 35px;">Choose Your Internet Plan</div>
                                 <div class="row mb-4" style="margin-top: 19px;">
                                     <div class="col-sm-4" style="margin-right: -15px">
                                       <div class="card border-light shadow" style="width: 212px; height: 186px;">
@@ -78,12 +90,13 @@
                                             BigBonus - AutoRenew
                                         </div>
                                             <div class="card-body body-card">
-                                                4GB + FREE 30GB + Unlimited Calls<br/>
+                                                4GB + FREE 30GB + Unlimited Calls<br/><br/>
+                                                <p>
                                                     <span class="font-weight-bold" style="color: #ED1B2F;">RM28.00</span>
                                                     <span class="font-weight-bold" style="color: #0F2A51;"> / 30 Days</span>
                                                 </p>
                                                 <a class="#" href="{{ url('/payment') }}">
-                                                    <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -20px;" type="submit">Buy Now</button>
+                                                    <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -10px;" type="submit">Buy Now</button>
                                                 </a>
                                             </div>
                                       </div>
@@ -94,12 +107,13 @@
                                             BigBonus - AutoRenew
                                         </div>
                                             <div class="card-body body-card">
-                                                7GB + FREE 30GB<br/><br/>
+                                                7GB + FREE 30GB<br/><br/><br/>
+                                                <p>
                                                     <span class="font-weight-bold" style="color: #ED1B2F;">RM30.00</span>
                                                     <span class="font-weight-bold" style="color: #0F2A51;"> / 30 Days</span>
                                                 </p>
                                                 <a class="#" href="{{ url('/payment') }}">
-                                                    <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -20px;" type="submit">Buy Now</button>
+                                                    <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -10px;" type="submit">Buy Now</button>
                                                 </a>
                                             </div>
                                       </div>
@@ -110,12 +124,12 @@
                                             BigBonus - AutoRenew
                                         </div>
                                             <div class="card-body body-card">
-                                                8GB + FREE 30GB<br/><br/>
+                                                8GB + FREE 30GB<br/><br/><br/>
                                                     <span class="font-weight-bold" style="color: #ED1B2F;">RM35.00</span>
                                                     <span class="font-weight-bold" style="color: #0F2A51;"> / 30 Days</span>
                                                 </p>
                                                 <a class="#" href="{{ url('/payment') }}">
-                                                    <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -20px;" type="submit">Buy Now</button>
+                                                    <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -10px;" type="submit">Buy Now</button>
                                                 </a>
                                             </div>
                                       </div>
@@ -128,12 +142,12 @@
                                             BigBonus - AutoRenew
                                         </div>
                                             <div class="card-body body-card">
-                                                9GB + FREE 30GB + Unlimited Calls<br/>
+                                                9GB + FREE 30GB + Unlimited Calls<br/><br/>
                                                     <span class="font-weight-bold" style="color: #ED1B2F;">RM40.00</span>
                                                     <span class="font-weight-bold" style="color: #0F2A51;"> / 30 Days</span>
                                                 </p>
                                                 <a class="#" href="{{ url('/payment') }}">
-                                                    <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -20px;" type="submit">Buy Now</button>
+                                                    <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -10px;" type="submit">Buy Now</button>
                                                 </a>
                                             </div>
                                       </div>
@@ -144,12 +158,12 @@
                                             BigBonus - AutoRenew
                                         </div>
                                             <div class="card-body body-card">
-                                                12GB + FREE 30GB + Unlimited Calls<br/>
+                                                12GB + FREE 30GB + Unlimited Calls<br/><br/>
                                                     <span class="font-weight-bold" style="color: #ED1B2F;">RM50.00</span>
                                                     <span class="font-weight-bold" style="color: #0F2A51;"> / 30 Days</span>
                                                 </p>
                                                 <a class="#" href="{{ url('/payment') }}">
-                                                    <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -20px;" type="submit">Buy Now</button>
+                                                    <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -10px;" type="submit">Buy Now</button>
                                                 </a>
                                             </div>
                                       </div>
@@ -160,12 +174,12 @@
                                             BigBonus - AutoRenew
                                         </div>
                                             <div class="card-body body-card">
-                                                30GB + FREE 30GB<br/><br/>
+                                                30GB + FREE 30GB<br/><br/><br/>
                                                     <span class="font-weight-bold" style="color: #ED1B2F;">RM89 .00</span>
                                                     <span class="font-weight-bold" style="color: #0F2A51;"> / 30 Days</span>
                                                 </p>
                                                 <a class="#" href="{{ url('/payment') }}">
-                                                    <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -20px;" type="submit">Buy Now</button>
+                                                    <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -10px;" type="submit">Buy Now</button>
                                                 </a>
                                             </div>
                                       </div>
@@ -174,18 +188,18 @@
                             </div>
 
                             <div role="tabpanel" class="tab-pane fade" id="call_sms" style="margin-bottom: 199px;">
-                                <div  style="color:#0F2A51; font-size: 16px;">Choose Your Calls & SMS Plan</div>
+                                <div  style="color:#0F2A51; font-size: 16px; margin-top: 35px;">Choose Your Calls & SMS Plan</div>
                                 <div class="row mb-4" style="margin-top: 19px;">
                                     <div class="col-sm-4" style="margin-right: -15px">
                                       <div class="card border-light shadow" style="width: 212px; height: 158px;">
                                         <div class="card-header header-card2"></div>
                                             <div class="card-body body-card">
-                                                1000min Calls<br/><br/>
+                                                1000min Calls<br/><br/><br/>
                                                     <span class="font-weight-bold" style="color: #ED1B2F;">RM3.00</span>
                                                     <span class="font-weight-bold" style="color: #0F2A51;"> / 1 Days</span>
                                                 </p>
                                                 <a class="#" href="{{ url('/payment') }}">
-                                                    <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -20px;" type="submit">Buy Now</button>
+                                                    <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -10px;" type="submit">Buy Now</button>
                                                 </a>
                                             </div>
                                       </div>
@@ -194,12 +208,12 @@
                                     <div class="card border-light shadow" style="width: 212px; height: 158px;">
                                         <div class="card-header header-card2"></div>
                                             <div class="card-body body-card">
-                                               500min Calls<br/> (All Network)<br/>
+                                               500min Calls<br/> (All Network)<br/><br/>
                                                     <span class="font-weight-bold" style="color: #ED1B2F;">RM8.00</span>
                                                     <span class="font-weight-bold" style="color: #0F2A51;"> / 7 Days</span>
                                                 </p>
                                                 <a class="#" href="{{ url('/payment') }}">
-                                                    <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -20px;" type="submit">Buy Now</button>
+                                                    <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -10px;" type="submit">Buy Now</button>
                                                 </a>
                                             </div>
                                       </div>
@@ -208,20 +222,20 @@
                                       <div class="card border-light shadow" style="width: 212px; height: 158px;">
                                         <div class="card-header header-card2"></div>
                                             <div class="card-body body-card">
-                                                1000min Calls <br/> (All Network+100SMS)<br/>
+                                                1000min Calls <br/> (All Network+100SMS)<br/><br/>
                                                     <span class="font-weight-bold" style="color: #ED1B2F;">RM10.00</span>
                                                     <span class="font-weight-bold" style="color: #0F2A51;"> / 7 Days</span>
                                                 </p>
                                                 <a class="#" href="{{ url('/payment') }}">
-                                                    <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -20px;" type="submit">Buy Now</button>
+                                                    <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -10px;" type="submit">Buy Now</button>
                                                 </a>
                                             </div>
                                       </div>
                                     </div>
                                   </div>
                             </div>
-                            <div role="tabpanel" class="tab-pane fade" id="roaming" style="margin-bottom: 137px;">
-                                <div  style="color:#0F2A51; font-size: 16px;">Choose Your Roaming</div>
+                            <div role="tabpanel" class="tab-pane fade" id="roaming" style="margin-bottom: 139px;">
+                                <div  style="color:#0F2A51; font-size: 16px; margin-top: 35px;">Choose Your Roaming</div>
                                     <div class="dropdown" style="margin-top: 30px; width: 300px;">
                                         Country: &nbsp;
                                         <button class="btn btn-sm dropdown-toggle dropdown-list" type="button" id="dropdown_country" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -238,12 +252,12 @@
                                       <div class="card border-light shadow" style="width: 212px; height: 158px;">
                                         <div class="card-header header-card2"></div>
                                             <div class="card-body body-card">
-                                                Unlimited Social Messaging<br/><br/>
+                                                Unlimited Social Messaging<br/><br/><br/>
                                                     <span class="font-weight-bold" style="color: #ED1B2F;">RM10.00</span>
                                                     <span class="font-weight-bold" style="color: #0F2A51;"> / 1 Days</span>
                                                 </p>
                                                 <a class="#" href="{{ url('/payment') }}">
-                                                    <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -20px;" type="submit">Buy Now</button>
+                                                    <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -10px;" type="submit">Buy Now</button>
                                                 </a>
                                             </div>
                                       </div>
@@ -252,32 +266,32 @@
                                     <div class="card border-light shadow" style="width: 212px; height: 158px;">
                                         <div class="card-header header-card2"></div>
                                             <div class="card-body body-card">
-                                                2GB Internet +30 min calls<br/><br/>
+                                                2GB Internet +30 min calls<br/><br/><br/>
                                                     <span class="font-weight-bold" style="color: #ED1B2F;">RM25.00</span>
                                                     <span class="font-weight-bold" style="color: #0F2A51;"> / 3 Days</span>
                                                 </p>
                                                 <a class="#" href="{{ url('/payment') }}">
-                                                    <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -20px;" type="submit">Buy Now</button>
+                                                    <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -10px;" type="submit">Buy Now</button>
                                                 </a>
                                             </div>
                                       </div>
                                     </div>
                                   </div>
                             </div>
-                            <div role="tabpanel" class="tab-pane fade" id="idd" style="margin-bottom: 129px;">
-                                <div  style="color:#0F2A51; font-size: 16px;">Choose Your IDD Plan</div>
+                            <div role="tabpanel" class="tab-pane fade" id="idd" style="margin-bottom: 127px;">
+                                <div  style="color:#0F2A51; font-size: 16px; margin-top: 35px;">Choose Your IDD Plan</div>
                                 <div class="row mb-4" style="margin-top: 19px;">
                                     <div class="col-sm-4" style="margin-right: -15px">
                                       <div class="card border-light shadow" style="width: 274px; height: 228px;">
                                         <div class="card-header header-card2"></div>
                                             <div class="card-body body-card">
                                                 <b>60 IDD Mins</b><br/>
-                                                IDD Mins: To China, Hong Kong, Indonesia, India, Thailand, Australia, Japan, South Korea, Brunei only<br/>
+                                                IDD Mins: To China, Hong Kong, Indonesia, India, Thailand, Australia, Japan, South Korea, Brunei only<br/><br/><br/>
                                                     <span class="font-weight-bold" style="color: #ED1B2F;">RM5.00</span>
                                                     <span class="font-weight-bold" style="color: #0F2A51;"> / 7 Days</span>
                                                 </p>
                                                 <a class="#" href="{{ url('/payment') }}">
-                                                    <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -20px;" type="submit">Buy Now</button>
+                                                    <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -10px;" type="submit">Buy Now</button>
                                                 </a>
                                             </div>
                                       </div>

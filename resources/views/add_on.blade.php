@@ -55,8 +55,8 @@
         <div class="container">
             <div class="row justify-content-center">
                 @include('layout.sidebar')
-                <div class="col-8">
-        <div class="justify-content-left" style="color:#0F2A51;font-size:30px;font-weight:700; margin-top: -8px;">
+                <div class="col-9">
+                    <div class="justify-content-left" style="color:#0F2A51;font-size:30px;font-weight:700; margin-top: -8px;">
                         Buy
                         <span style="color: #ED1B2F;">Add-Ons</span>
                     </div>

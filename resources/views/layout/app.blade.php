@@ -35,12 +35,15 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
+    @stack('styles')
 </head>
 
 <body>
 <div class="container-fluid p-0" style="padding: 0">
     <div class="row no-gutters">
+        @include('layout.header')
         @yield('content')
+        @include('layout.footer')
     </div>
 </div>
 @stack('scripts')

@@ -1,7 +1,7 @@
 @extends('layout.app')
 @section('title', ' My Membership')
 @section('content')
-@include('layout.header')
+
 <style>
     .card-title{
         font-size:22px;
@@ -41,18 +41,31 @@
         border-bottom: 1px solid #EDEDED;
         width: 230.82px;
     }
+    dl, ol, ul{
+        padding-left: 16px !important;
+    }
+    .vl1 {
+        border-left: 1px solid #EDEDED;
+        height: 60px;
+        margin-left: 40%;
+    }
+    .vl2 {
+        border-left: 1px solid #EDEDED;
+        height: 99px;
+        margin-left: 40%;
+    }
 </style>
         <div class="container">
             <div class="row justify-content-center">
               @include('layout.sidebar')
-                <div class="col-md-9 col-sm-10">
+                <div class="col-md-9 col-sm-12">
                     <div class="row">
                         <div class="mb-4" style="color:#0F2A51;font-size:33px;">
                             <b>My <span style="color:#ED1B2F;">Membership</span></b>
                         </div>
                     </div>
                     <div class="row">              
-                        <div class="col-6 shadow-sm mb-4 bg-white rounded" style="font:normal normal normal 16px/21px Segoe UI;max-width:329px;">
+                        <div class="col-md-6 col-sm-12 shadow-sm mb-4 bg-white rounded" style="font:normal normal normal 16px/21px Segoe UI;max-width:329px;">
                             <div class="row mt-2">
                                 <div class="col-2"> 
                                     <img width="34px" height="33px" src="{{asset('img/34899 [Converted]-02.png')}}" alt="Tick">
@@ -81,7 +94,8 @@
                     </div>
                     <div class="row mb-4">
                         <span class="semi-title">Member Benefits</span>
-                    </div>  
+                    </div>
+                    <div class="d-none d-md-block">  
                     <div class="row mb-2 divided">
                             <div class="col-md-1 col-sm-10" ><img src="{{asset('img/34899 [Converted]-02@2x.png')}}" weight="49px" height="48px"></div>
                             <div class="col-md-3 divider"></div>
@@ -90,9 +104,9 @@
                             <div class="col-md-3 col-sm-10"><img src="{{asset('img/34899 [Converted]-04@2x.png')}}" weight="49px" height="48px"></div>
                     </div>
                     <div class="row mb-1">
-                        <div class="col-4">
+                        <div class="col-12 col-md-4">
                             <div class="third-title font-weight-bolder">Bronze</div>
-                                <ul>
+                                <ul >
                                     <span class="semi-content" style="width:228px">
                                         <li>
                                             Access to great shopping deals and discounts.
@@ -103,7 +117,7 @@
                                     </span>
                                 </ul>
                         </div>
-                        <div class="col-4">
+                        <div class="col-12 col-md-4">
                             <div class="third-title font-weight-bolder">Silver</div>
                             <ul>
                                 <span class="semi-content" style="width:228px">
@@ -122,7 +136,7 @@
                                 </span>
                             </ul>
                         </div>
-                        <div class="col-4">
+                        <div class="col-12 col-md-4">
                             <div class="third-title font-weight-bolder">Gold</div>
                             <ul>
                                 <span class="semi-content" style="width:228px">
@@ -150,7 +164,100 @@
                                 </span>
                             </ul>
                         </div>  
-                    </div>             
+                    </div>
+                    </div>
+                    <div class="d-block d-md-none">  
+                        {{-- <div class="row mb-2 divided">
+                                <div class="col-md-1 col-sm-10" ><img src="{{asset('img/34899 [Converted]-02@2x.png')}}" weight="49px" height="48px"></div>
+                                <div class="col-md-3 divider"></div>
+                                <div class="col-md-1 col-sm-10"><img src="{{asset('img/34899 [Converted]-03@2x.png')}}" weight="49px" height="48px"></div>
+                                <div class="col-md-3 divider"></div>
+                                <div class="col-md-3 col-sm-10"><img src="{{asset('img/34899 [Converted]-04@2x.png')}}" weight="49px" height="48px"></div>
+                        </div> --}}
+                        <div class="row">
+                            <div class="col-2">
+                                <div class="row mb-2">
+                                    <img src="{{asset('img/34899 [Converted]-02@2x.png')}}" weight="49px" height="48px">
+                                </div>
+                                <div class="row">
+                                    <div class="vl1"></div>
+                                </div>
+                            </div>
+                            <div class="col-8 ml-2">
+                                <div class="third-title font-weight-bolder mb-2">Bronze</div>
+                                <ul >
+                                    <span class="semi-content" style="width:228px">
+                                        <li>
+                                            Access to great shopping deals and discounts.
+                                        </li>
+                                        <li>
+                                            Birthday month specials.
+                                        </li>
+                                    </span>
+                                </ul>
+                            </div>
+                            <div class="col-2">
+                                <div class="row mt-2">
+                                    <img src="{{asset('img/34899 [Converted]-03@2x.png')}}" weight="49px" height="48px">
+                                </div>
+                                <div class="row mt-2">
+                                    <div class="vl2"></div>
+                                </div>
+                            </div>
+                            <div class="col-8 ml-2">
+                                <div class="third-title font-weight-bolder mb-2">Silver</div>
+                                <ul >
+                                    <span class="semi-content" style="width:228px">
+                                        <li>
+                                            Exclusive Sliver member rewards.
+                                        </li>
+                                        <li>
+                                            Early bird access to latest rewards.
+                                        </li>
+                                        <li>
+                                            Access to great shopping deals and discounts.
+                                        </li>
+                                        <li>
+                                            Birthday month specials.
+                                        </li>
+                                    </span>
+                                </ul>
+                            </div>
+                            <div class="col-2">
+                                <div class="row mt-2">
+                                    <img src="{{asset('img/34899 [Converted]-04@2x.png')}}" weight="49px" height="48px">
+                                </div>
+                            </div>
+                            <div class="col-8 ml-2">
+                                <div class="third-title font-weight-bolder mb-2">Gold</div>
+                                <ul >
+                                    <span class="semi-content" style="width:228px">
+                                        <li>
+                                            Exclusive Gold member rewards. 
+                                        </li>
+                                        <li>
+                                            Exclusive Big Deals.
+                                        </li>
+                                        <li>
+                                            Priority queue on Helpline.
+                                        </li>
+                                        <li>
+                                            Exclusive event invites.
+                                        </li>
+                                        <li>
+                                            Early bird access to latest rewards.
+                                        </li>
+                                        <li>
+                                            Access to great shopping deals and discounts.
+                                        </li>
+                                        <li>
+                                            Birthday month specials.
+                                        </li>
+                                    </span>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>       
                 </div>
             </div>
         </div>

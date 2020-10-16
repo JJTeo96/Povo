@@ -80,7 +80,10 @@ hr.color {
     text-shadow: 0px 3px 20px #00000094;
 }
 
-A {text-decoration: none;}
+a:visited {
+    text-decoration: none !important;
+    color: #ED1B2F;
+}
 
 .semi-title{
     font-weight: 600;

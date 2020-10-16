@@ -1,7 +1,6 @@
 @extends('layout.app')
 @section('title', ' Reload')
 @section('content')
-@include('layout.header')
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-4 col-sm-10">

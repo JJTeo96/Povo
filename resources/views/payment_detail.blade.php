@@ -1,7 +1,6 @@
 @extends('layout.app')
 @section('title', ' Reload')
 @section('content')
-@include('layout.header')
 <style>
  
 section .section-title {
@@ -42,6 +41,70 @@ section .section-title {
     flex-grow: 1;
     border-bottom: 1px solid #EDEDED;
 }
+.container_a {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container_a input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark_a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  border-radius: 50%;
+  border:2px solid #ED1B2F;
+}
+
+/* On mouse-over, add a grey background color */
+.container_a:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+    /* When the radio button is checked, add a blue background */
+.container_a input:checked ~ .checkmark_a {
+  background-color: #ffffff !important;
+  border:2px solid #ED1B2F;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark_a:after {
+  content: "" !important;
+  position: absolute !important;
+  display: none !important;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container_a input:checked ~ .checkmark_a:after {
+  display: block !important;
+}
+
+/* Style the indicator (dot/circle) */
+.container_a .checkmark_a:after {
+  top: 15%;
+    left: 15%;
+    width: 15px;
+    height: 15px;
+	border-radius: 50% !important;
+	background: #ED1B2F !important;
+}
+
 </style>
         <div class="container">
             <div class="justify-content-md-center">
@@ -53,7 +116,7 @@ section .section-title {
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4 col-sm-10">
+                    <div class="col-md-5 col-sm-10">
                         <section id="tabs">
                             <div class="container">
                                 <div class="row">
@@ -102,11 +165,18 @@ section .section-title {
                                                         <label for="">Cordholder Name</label>
                                                         <input type="text" class="form-control" placeholder="Please enter name">  
                                                     </div>
-                                                    <div class="form-check">
-                                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                                                        <label class="form-check-label" for="exampleRadios1">
-                                                        Save Card <br> Save your card details for faster payment
-                                                        </label>
+                                                    <div class="form-group">
+                                                        <div class="row">
+                                                            <div class="col-1">
+                                                            <label class="container_a">
+                                                                <input type="checkbox" name="radio" id="radio4">
+                                                                <span class="checkmark_a"></span>
+                                                            </label>
+                                                            </div>
+                                                            <div class="col-11">
+                                                            Save Card <br> Save your card details for faster payment
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                     <hr>
                                                     <div class="form-group ">

@@ -47,5 +47,33 @@
     </div>
 </div>
 @stack('scripts')
+<script>
+    window.onscroll = function() {myFunction()};
+
+// Get the header
+var header = document.getElementById("navbar_web");
+var div = document.getElementById("nav_web");
+
+var header_m = document.getElementById("navbar_mobile");
+var div_m = document.getElementById("nav_mobile");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("fixed-top");
+    div.style.marginBottom = '70px';
+    header_m.classList.add("fixed-top");
+    div_m.style.marginBottom = '70px';
+  } else {
+    header.classList.remove("fixed-top");
+    div.style.marginBottom = '0px';
+    header_m.classList.remove("fixed-top");
+    div_m.style.marginBottom = '0px';
+  }
+}
+</script>
 </body>
 </html>

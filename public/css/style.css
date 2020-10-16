@@ -99,9 +99,16 @@ A {text-decoration: none;}
 .normal-content{
     font-size:12px;
 }
+
 .forth-title{
-    
     font-size:20px !important;
     color:#25283A !important;
 }
 
+.navbar {
+    /* transition: all 0.35s ease !important; */
+}
+.fixed-top{
+    margin-bottom: 70px;
+    /* transition: all 0.35s ease; */
+}

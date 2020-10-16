@@ -1,7 +1,6 @@
 @extends('layout.app')
 @section('title', ' FAQ')
 @section('content')
-@include('layout.header')
 
 <style>
 .faq-form{
@@ -37,10 +36,11 @@
 
 <div class="col-12 p-5" id="accordion" style="margin-top: -70px; max-width: 1000px; margin: 0 auto; color: #0F2A51;">
     <div class="card shadow" style="margin-bottom: 5px;">
-      <div class="card-header " id="headingOne">
+      <div class="card-header" id="headingOne">
         <h5 class="mb-0">
-          <button class="btn btn-link collapsed font-weight-bold text-danger" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            <img src="https://img.icons8.com/small/25/000000/circled-chevron-up.png"/>&nbsp;
+          <button class="btn btn-link collapsed font-weight-bold text-danger firstBtn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <img class="redBtn" src="https://img.icons8.com/small/25/000000/ED1B2F/circled-chevron-up.png"/>&nbsp;
+            {{-- <img class="blueBtn" src="https://img.icons8.com/small/25/000000/circled-chevron-down.png"/>&nbsp; --}}
             How do I see my Pavocomms billing history, weekly or monthly invoice?
           </button>
         </h5>
@@ -130,18 +130,18 @@
               <div class="row d-flex justify-content-center" >
                   <div class="md-form col-sm-4 mt-4">
                     <div class="mr-0 mr-sm-4 mr-md-2">
-                      <input type="text" id="name" class="form-control faq-form font-weight-bold" placeholder="Name">
+                      <input style="background-color: transparent;" type="text" id="name" class="form-control faq-form font-weight-bold" placeholder="Name">
                       <br>
-                      <input type="text" id="email" class="form-control faq-form font-weight-bold" placeholder="Email">
+                      <input style="background-color: transparent;" type="text" id="email" class="form-control faq-form font-weight-bold" placeholder="Email">
                       <br>
-                      <input type="text" id="phone" class="form-control faq-form font-weight-bold" placeholder="Phone">
+                      <input style="background-color: transparent;" type="text" id="phone" class="form-control faq-form font-weight-bold" placeholder="Phone">
                       <br>
                     </div>
                   </div>
-                  <div class=" col-sm-4 mt-4">
-                      <input type="text" id="title" class="form-control faq-form font-weight-bold" placeholder="Title">
+                  <div class="col-sm-4 mt-4">
+                      <input style="background-color: transparent;" type="text" id="title" class="form-control faq-form font-weight-bold" placeholder="Title">
                       <br>
-                      <input type="text" id="your_message" class="form-control faq-form font-weight-bold" placeholder="Your Message">
+                      <input style="background-color: transparent;" type="text" id="your_message" class="form-control faq-form font-weight-bold" placeholder="Your Message">
                   </div>
               </div>
               <button class="btn col-sm-4 mt-5" style="background-color:red; color:white; font-size: 12px; max-width: 150px; padding:15px;" type="submit">SEND MESSAGE</button>
@@ -188,5 +188,18 @@
         </div>
     </div>
 
-        @include('layout.footer')
         @endsection
+
+{{-- @push('scripts')
+    <script>
+       $( ".firstBtn" ).on( "click", function() {
+            $(".redBtn").hide('<img src="https://img.icons8.com/small/25/000000/ED1B2F/circled-chevron-up.png"/>&nbsp;');
+            $(".blueBtn").show('<img src="https://img.icons8.com/small/25/000000/circled-chevron-down.png"/>&nbsp;');
+        });
+       $( ".firstBtn" ).on( "click", function() {
+            $(".blueBtn").hide('<img src="https://img.icons8.com/small/25/000000/circled-chevron-down.png"/>&nbsp;');
+            $(".redBtn").show('<img src="https://img.icons8.com/small/25/000000/ED1B2F/circled-chevron-up.png"/>&nbsp;');
+
+        });
+    </script>
+@endpush --}}

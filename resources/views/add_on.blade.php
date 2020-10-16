@@ -1,55 +1,10 @@
 @extends('layout.app')
 @section('title', 'Buy Add-Ons')
 @section('content')
-@include('layout.header')
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-<link href="{{ asset('css/profile.css') }}" rel="stylesheet">
-<style>
-.btn-radius{
-    background: var(--unnamed-color-ed1b2f) 0% 0% no-repeat padding-box;
-    border: 1px solid var(--unnamed-color-ed1b2f);
-    background: #ED1B2F 0% 0% no-repeat padding-box;
-    border: 1px solid #ED1B2F;
-    border-radius: 18px;
-    opacity: 1;
-}
-.btn-radius2{
-    background: var(--unnamed-color-ed1b2f) 0% 0% no-repeat padding-box;
-    border: 1px solid var(--unnamed-color-ed1b2f);
-    background:#ED1B2F 0% 0% no-repeat padding-box;
-    border: 1px solid #ED1B2F;
-    border-radius: 18px;
-    opacity: 1;
-}
-.header-card{
-    background-color: #ED1B2F;
-    color: white;
-    text-align: center; 
-    font-size: 12px; 
-    height: 34px;
-    padding: 6px;
-}
-.header-card2{
-    background-color: #ED1B2F;
-    height: 7px;
-    padding: 0px;
-}
-.body-card{
-    margin-top: 10px;
-    text-align: center; 
-    font-size:14px;
-    padding: 10px;
-    color: #222222;
-}
-.dropdown-list{
-    background-color: white;
-    border-color: grey;
-    color: black;
-    width: 162.5px;
-}
-</style>
+<link href="{{ asset('css/addon.css') }}" rel="stylesheet">
 
 <div class="col-12 p-5" style="max-width: 1920px; margin: 0 auto; color: #0F2A51;">
         <div class="container">
@@ -71,7 +26,7 @@
                                         <img src="img/addon/Call.svg">&nbsp;&nbsp;Calls+SMS
                                     </a>
                                     <a class="nav-item nav-link" id="roaming_tab" data-toggle="tab" href="#roaming" role="tab" aria-controls="roaming" aria-selected="false">
-                                        <img src="img/addon/Send.svg">&nbsp;&nbsp;Roaming
+                                        <img src="img/addon/Group-146.svg">&nbsp;&nbsp;Roaming
                                     </a>
                                     <a class="nav-item nav-link" id="idd_tab" data-toggle="tab" href="#idd" role="tab" aria-controls="idd" aria-selected="false">
                                         <img src="img/addon/IDD-01.svg">&nbsp;&nbsp;IDD
@@ -175,7 +130,7 @@
                                         </div>
                                             <div class="card-body body-card">
                                                 30GB + FREE 30GB<br/><br/><br/>
-                                                    <span class="font-weight-bold" style="color: #ED1B2F;">RM89 .00</span>
+                                                    <span class="font-weight-bold" style="color: #ED1B2F;">RM89.00</span>
                                                     <span class="font-weight-bold" style="color: #0F2A51;"> / 30 Days</span>
                                                 </p>
                                                 <a class="#" href="{{ url('/payment') }}">
@@ -304,5 +259,4 @@
         </div>
 </div>
 </div>   
-        @include('layout.footer')
         @endsection

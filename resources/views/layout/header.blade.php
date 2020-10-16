@@ -22,8 +22,8 @@
     }
 </style>
 
-<div class="col-12 d-sm-none d-none d-md-block" style="margin-bottom: 70px">
-    <nav class="navbar navbar-expand-md navbar-dark bg-white fixed-top" style="box-shadow: 0px 2px 10px #00000029;">
+<div class="col-12 d-sm-none d-none d-md-block" id="nav_web" style="">
+    <nav class="navbar navbar-expand-md navbar-dark bg-white" id="navbar_web" style="box-shadow: 0px 2px 10px #00000029;">
         <a class="navbar-brand p-2" href="#"><img src="{{asset('img/PAVO-01.png')}}" class="logo"/></a>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbars" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
             <span style="color:#EA1C2D"><i class="fas fa-bars fa-lg"></i></span>
@@ -37,7 +37,7 @@
                     </div>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link font-weight-bolder" style="margin-right: 86px;color:black" href="{{ url('/dashboard') }}">PLANS</a>
+                    <a class="nav-link font-weight-bolder" style="margin-right: 86px;color:black" href="{{ url('/') }}">PLANS</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link font-weight-bolder" style="margin-right: 85px;color:black" href="{{ url('/about') }}">ABOUT</a>
@@ -68,8 +68,8 @@
 </div> 
 
 {{-- Responsive --}}
-<div class="col-12 d-block d-sm-block d-md-none" style="margin-bottom: 70px">
-    <nav class="navbar navbar-expand-md navbar-dark bg-white fixed-top" style="box-shadow: 0px 2px 10px #00000029;">
+<div class="col-12 d-block d-sm-block d-md-none" id="nav_mobile" style="">
+    <nav class="navbar navbar-expand-md navbar-dark bg-white" id="navbar_mobile"  style="box-shadow: 0px 2px 10px #00000029;">
         <a class="navbar-brand p-2" href="#"><img src="{{asset('img/PAVO-01.png')}}" class="logo_rps"/></a>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbars" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
             <span style="color:#EA1C2D"><i class="fas fa-bars fa-lg"></i></span>
@@ -81,7 +81,7 @@
                     <a class="nav-link font-weight-bolder" style="color:black;" href="{{ url('/') }}">HOME</a>
                 </li>
                 <li class="nav-item border-bottom d-flex justify-content-center">
-                    <a class="nav-link font-weight-bolder" style="color:black;" href="{{ url('/dashboard') }}">PLANS</a>
+                    <a class="nav-link font-weight-bolder" style="color:black;" href="{{ url('/') }}">PLANS</a>
                 </li>
                 <li class="nav-item border-bottom d-flex justify-content-center">
                     <a class="nav-link font-weight-bolder" style="color:black;" href="{{ url('/about') }}">ABOUT</a>

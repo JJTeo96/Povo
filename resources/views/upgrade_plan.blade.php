@@ -1,7 +1,6 @@
 @extends('layout.app')
 @section('title', ' Upgrade Plan')
 @section('content')
-@include('layout.header')
 
 <div class="p-5 col-sm-12" >
     <div class="auto-container row">

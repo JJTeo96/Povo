@@ -2,7 +2,6 @@
 @section('title', ' TRC')
 
 @section('content')
-@include('layout.header')
 
 <style>
     .trc{

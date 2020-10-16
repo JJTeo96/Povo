@@ -38,12 +38,12 @@ opacity: 1;
                         <span style="color: #0F2A51;">Tiana Rosser</span>
                     </div>
                     <div class="row">
-                        <div class="col-md-3">
+                        <div class="col-sm-12 col-md-6 col-lg-3 ">
                           <div class="m-0 m-sm-4 m-md-2">
-                          <div class="card shadow" style="width: 212px; height: 155px;">
+                          <div class="card shadow h-100" style="">
                             <div class="card-body">
                                 <span style="font-size: 14px;">Account number:</span>
-                                <p class="font-weight-bold" style="font-size: 25px">A1.12550012</p>
+                                <p class="font-weight-bold" style="font-size: 23px">A1.12550012</p>
                                     <div class="#" style="font-size: 14px; margin-top: 41px;">Account Status:
                                     <span class="font-weight-bold" style="color: #0F2A51;">Active</span>
                                     <div class="icons8-checked"></div>
@@ -52,26 +52,26 @@ opacity: 1;
                           </div>
                         </div>
                         </div>
-                        <div class="col-md-3" >
+                        <div class="col-sm-12 col-md-6 col-lg-3" >
                           <div class="m-0 m-sm-4 m-md-2">
-                            <div class="card shadow" style="width: 212px; height: 155px;">
+                            <div class="card shadow h-100" style="">
                               <div class="card-body">
                                   <span style="font-size: 14px;">Mobile number:</span>
-                                  <p class="font-weight-bold" style="font-size: 25px">0123456789</p>                       
+                                  <p class="font-weight-bold" style="font-size: 23px">0123456789</p>                       
                               </div>
                             </div>
                           </div>
                         </div>
-                        <div class="col-md-12 col-lg-6">
+                        <div class="col-sm-12 col-md-6 col-lg-6">
                           <div class="h-100">
                             <div class="card shadow h-100" style="">
                               <div class="card-body">
                                 <div class="row">
-                                  <div class="col-12 col-md-6">
+                                  <div class="col-sm-12 col-md-6 col-lg-6">
                                     <div class="col-sm-12 col-md-12" style="font-size: 14px;">
                                       Current Balance
                                     </div>
-                                    <div class="col-sm-12 col-md-12 font-weight-bold text-danger" style="font-size: 20px;">
+                                    <div class="col-sm-12 col-md-12 font-weight-bold text-danger" style="font-size: 23px;">
                                       MYR 51.57
                                     </div>
                                     <div class="col-sm-12 col-md-12" style="font-size: 14px;">
@@ -80,7 +80,7 @@ opacity: 1;
                                     </div>
                                   </div>
 
-                                  <div class="col-12 col-md-6">
+                                  <div class="col-sm-12 col-md-6 col-lg-6">
                                     <div class="row h-100 d-flex align-items-center mt-2 mt-md-0">
                                       <div class="col-6 col-md-12 text-center">
                                         <a href="{{ url('/reload') }}">
@@ -99,20 +99,20 @@ opacity: 1;
                         </div>
                       </div>
                       <div class="row">
-                        <div class="col-sm-3">
+                        <div class="col-sm-12 col-md-6 col-lg-6">
                           <div class="m-0 m-sm-4 m-md-2">
-                            <div class="card shadow" style="width: 449px; height:310px">
+                            <div class="card shadow" style=" height:310px">
                               <div class="card-body">
                                 <span style="font-size: 14px;">My Plan:</span>
                                   <p class="font-weight-bold" style="font-size: 16px">Best Prepaid v1
-                                    <span class="float-right">
+                                    <span class="float-right ">
                                       <a class="#" href="{{ url('/upgrade_plan') }}">
                                         <button class="btn btn-radius btn-outline" style="background-color:white; color:Red; font-size: 12px; width: 136px; padding: 8px; margin-top: -30px;" type="submit">Upgrade plan</button>
                                       </a>
                                     </span>
                                     </p>
                                 <div class="card-hint">
-                                    <div style="width: 65%">
+                                    <div  class="col-sm-12 col-md-12 col-lg-8" style="">
                                     <div style="margin-top: 20px;">Data Usage: 17.5GB/ 20GB</div>
                                     <div class="progress">
                                         <div class="progress-bar bg-danger" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>

@@ -37,7 +37,7 @@
                     </div>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link font-weight-bolder" style="margin-right: 86px;color:black" href="{{ url('/dashboard') }}">PLANS</a>
+                    <a class="nav-link font-weight-bolder" style="margin-right: 86px;color:black" href="{{ url('/') }}">PLANS</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link font-weight-bolder" style="margin-right: 85px;color:black" href="{{ url('/about') }}">ABOUT</a>
@@ -81,7 +81,7 @@
                     <a class="nav-link font-weight-bolder" style="color:black;" href="{{ url('/') }}">HOME</a>
                 </li>
                 <li class="nav-item border-bottom d-flex justify-content-center">
-                    <a class="nav-link font-weight-bolder" style="color:black;" href="{{ url('/dashboard') }}">PLANS</a>
+                    <a class="nav-link font-weight-bolder" style="color:black;" href="{{ url('/') }}">PLANS</a>
                 </li>
                 <li class="nav-item border-bottom d-flex justify-content-center">
                     <a class="nav-link font-weight-bolder" style="color:black;" href="{{ url('/about') }}">ABOUT</a>

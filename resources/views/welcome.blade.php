@@ -226,7 +226,7 @@
         <div class="w-100" style="display: flex; align-items: center; min-height: 597px; background-position: center; background-attachment: scroll; background-size: cover; background-repeat: no-repeat; background-image: url({{ asset('img/mainpage/Group-249.jpg')}});">
             <div class="col-12  d-flex">
                 <div class="col-12" style="text-align: center">
-                    <div class="col-sm-6 col-md-6 col-lg-12" style="color:white; font-size: 26px;text-shadow: 0px 3px 20px #00000094;text-aligin:right;font-weight:700">
+                    <div class="col-sm-6 col-md-6 col-lg-12" style="color:white; font-size: 26px;text-shadow: 0px 3px 20px #00000094;text-aligin:right;font-weight:700;margin-top:400px">
                         Pavo is not just about data, we're a new lease on life.
                     </div>
                 </div>

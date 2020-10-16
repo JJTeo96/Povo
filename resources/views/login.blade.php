@@ -2,8 +2,6 @@
 @section('title', ' Login')
 
 @section('content')
-
-
 <style>
     .welcome{
         width:421px;
@@ -15,8 +13,7 @@
         letter-spacing: -1.6px;
         color: #0F2A51;
         opacity: 1;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-    }
+ }
 
     .row-bg{
         background-attachment:initial;
@@ -42,16 +39,13 @@
         opacity: 1;
     }
 </style>
-<div class="col-12">
-    <div class="row justify-content-end row-bg">
-        <div class="col-6">
-            {{-- <img class="w-100" src="{{asset('img/login/13105.png')}}"> --}}
-        </div>
-
-        <div class="col-6">
+<div class="container-fluid p-0">
+<div class="col-12 col-sm-12 col-md-12 col-lg-12">
+    <div class="row row-bg d-flex justify-content-end" style="min-height: 700px">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-0  d-flex align-items-center">
             <div class="card shadow welcome">
                 <article class="card-body" style="margin-left: 20px;margin-right:21px">
-                <h4 class="card-title" style="margin-bottom:35px;margin-top:50px;font-size:32px"><b>Welcome</b></h4>
+                    <h4 class="card-title" style="margin-bottom:35px;margin-top:50px;font-size:32px"><b>Welcome</b></h4>
                     <form>
                         <div class="form-group">
                             <input name="" class="form-control" placeholder="Email or Mobile number" type="text">
@@ -64,7 +58,7 @@
                         <div class="form-group"> 
                             <div class="checkbox">
                             <label> <input type="checkbox"> Remember me </label>
-                            <a class="float-right" href="#">Forgot Password?</a>
+                            <a class="float-right" href="#" style="color: #4B5669">Forgot Password?</a>
                             </div> <!-- checkbox .// -->
                         </div>
 
@@ -72,10 +66,10 @@
                             {{-- <button type="submit" class="btn btn-primary btn-block"> Login  </button>
                             <button class="btn btn-primary btn-block"> Login  </button> --}}
                             <div class="row" style="letter-spacing: 0px;">
-                                <div class="col">
+                                <div class="col-lg-6 col-sm-12 col-md-6 pb-3">
                                     <a href="{{ url('/trc') }}" class="btn_font"><div class="btn btn-danger  btn-block">Login </div></a>
                                 </div>
-                                <div class="col">
+                                <div class="col-lg-6 col-sm-12 col-md-6">
                                     <a href="{{ url('/register') }}" class="btn_font"><div class="btn register_btn  btn-block">Register</div></a> 
                                 </div>
                             </div>
@@ -85,6 +79,7 @@
             </div> <!-- card.// -->
         </div>
     </div>
+</div>
 </div>
 
 @endsection

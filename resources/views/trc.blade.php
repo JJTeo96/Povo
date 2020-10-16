@@ -2,7 +2,6 @@
 @section('title', ' TRC')
 
 @section('content')
-
 <style>
     .trc{
         width:421px;
@@ -14,7 +13,6 @@
         letter-spacing: -1.6px;
         color: #0F2A51;
         opacity: 1;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
     }
 
     .row-bg{
@@ -24,29 +22,28 @@
         background-size:cover;
         background-image: url({{asset('img/login/Mask-Group-17.jpg')}});
     }
+
     .register_btn {
         background-color: white;
         color: red;
         border: 2px solid red; 
     }
+
     a.btn_font{
         text-decoration: none;
     }
 </style>
-<div class="col-12">
-    <div class="row justify-content-end row-bg">
-        <div class="col-6">
-            {{-- <img class="w-100" src="{{asset('img/login/13105.png')}}"> --}}
-        </div>
-
-        <div class="col-6">
+<div class="container-fluid p-0">
+<div class="col-12 col-sm-12 col-md-12 col-lg-12">
+    <div class="row row-bg d-flex justify-content-end" style="min-height: 700px">
+        <div class="col-sm-12 col-md-6 col-lg-6 p-0 d-flex align-items-center">
             <div class="card shadow trc">
                 <article class="card-body" style="margin-left: 20px;margin-right:21px">
-                <h4 class="card-title" style="margin-bottom:35px;margin-top:50px;font-size:32px"><b>Login to account</b></h4>
+                    <h4 class="card-title" style="margin-bottom:35px;margin-top:50px;font-size:32px"><b>Login to account</b></h4>
                     <form>
                         <div class="form-group">
                             <p style="letter-spacing: 0px;font-size:14px">Enter the TAC just sent to the number <b>60123456789</b></p>
-                            <input name="" class="form-control" placeholder="Email or Mobile number" type="text">
+                            <input name="" class="form-control" placeholder="Enter TAC" type="text">
                         </div>
 
                         <div class="form-group"> 
@@ -57,12 +54,10 @@
                             {{-- <button type="submit" class="btn btn-primary btn-block"> Login  </button>
                             <button class="btn btn-primary btn-block"> Login  </button> --}}
                             <div class="row" style="letter-spacing: 0px;">
-                                <div class="col">
+                                <div class="col-lg-6 col-sm-12 col-md-6 ">
                                     <a href="{{ url('/dashboard') }}" class="btn_font"><div class="btn btn-danger  btn-block">Proceed </div></a>
                                 </div>
-                                <div class="col">
-                                    
-                                </div>
+
                             </div>
                         </div> <!-- form-group// -->                                                           
                     </form>
@@ -71,6 +66,5 @@
         </div>
     </div>
 </div>
-
-@include('layout.footer')
+</div>
 @endsection

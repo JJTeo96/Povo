@@ -1,10 +1,8 @@
 @extends('layout.app')
 @section('title', ' About')
 @section('content')
-{{-- @include('layout.header') --}}
-
-
-        <div class="col-12" style="position: relative;">
+        {{-- Img Top Web --}}
+        <div class="col-12 d-sm-none d-none d-md-block" style="position: relative;">
             {{-- <div class="#" >
                 <img class=" w-100" src="{{asset('img/Group-250.jpg')}}">
             </div>
@@ -16,15 +14,40 @@
                 <div class="auto-container">
                     <div class="row">
                         {{-- <div class="d-sm-block d-md-none col-sm-2 col-2"></div> --}}
-                        <div class="col-sm-6 about-text-shadow" style="color:white; font-size: 35px;">
+                        <div class="col-sm-6" style="color:white; font-size: 50px;text-shadow: 0px 3px 20px #00000094;font-weight:700">
                             We are here to enrich your life, energise your play & empower your work.
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        {{-- End Img Top Web --}}
+
+        {{-- Img Top Mobile --}}
+        <div class="col-12 d-block d-sm-block d-md-none" style="position: relative;">
+            {{-- <div class="#" >
+                <img class=" w-100" src="{{asset('img/Group-250.jpg')}}">
+            </div>
+            <div class="about-text-shadow centered font-weight-bold" style="color:white; font-size: 35px; position: absolute; top: 50%; left: 0; transform: translate(-70%, -50%);">
+                <div class="col-12 col-sm-9 col-md-6">We are here to enrich your life, energise your play & empower your work.
+                </div>
+            </div> --}}
+            <div class="w-100 col-md-12" style="display: flex; align-items: center; min-height: 597px; background-position: center; background-attachment: scroll; background-size: cover; background-repeat: no-repeat; background-image: url({{ asset('img/Group-250.jpg')}});">
+                <div class="auto-container">
+                    <div class="row d-flex justify-content-center">
+                        {{-- <div class="d-sm-block d-md-none col-sm-2 col-2"></div> --}}
+                        <div class="col-10">
+                            <div class="col-sm-6" style="color:white; font-size: 26px;text-shadow: 0px 3px 20px #00000094;font-weight:700;margin-top:350px">
+                                We are here to enrich your life, energise your play & empower your work.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{-- End Img Top Mobile --}}
         <div class="col-12 p-5">
-            <h1 class="text-center font-weight-bolder">
+            <h1 class="text-center" style="font-weight: 700">
                 <span style="color: #0F2A51;">Our</span>
                 <span style="color: red; ">Values</span>
             </h1>

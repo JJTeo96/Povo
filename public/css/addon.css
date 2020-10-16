@@ -11,7 +11,7 @@
     background-color: transparent;
     border-color: transparent transparent #25283A;
     /* border-bottom: 4px solid !important; */
-    width: fit-content;
+    /* width: fit-content; */
     font-size: 16px;
     font-weight: bold;
 }
@@ -22,9 +22,9 @@
     color: #C4C4C4;
     font-size: 16px;
 }
-.tab .nav-tabs{ 
+/* .tab .nav-tabs{ 
     width: 600px;     
-}
+} */
 .nav-fill .nav-item {
     flex: 1 1 auto;
     text-align: left;

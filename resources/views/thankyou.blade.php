@@ -1,7 +1,7 @@
 @extends('layout.app_payment')
 @section('title', ' Success')
 @section('content')
-        <div class="container mt-5 pt-3" style="min-height: 700px">
+        <div class="container mt-5 pt-3" style="min-height: 900px">
             <div class="col-12 col-md-12 ">
             <div class="row justify-content-center">
               <div class="shadow success_circle rounded-circle d-flex align-items-center justify-content-center ">
@@ -11,7 +11,7 @@
               </div>
             </div>
             <div class="row justify-content-center">
-                <p style="font-size:30px;font-weight:700;color:#151522"><b>Thank you</b></p>
+                <p style="font-size:30px;font-weight:500;color:#151522"><b>Thank you</b></p>
             </div>
             <div class="row justify-content-center">
                 <div class="col-12 col-md-6">

@@ -36,17 +36,17 @@
                             </nav>
                         </section>
                         <!-- Tab panes -->
-                        <div class="tab-content tabs">
+                        <div class="tab-content tabs" style="max-width: 900px;">
                             <div role="tabpanel" class="tab-pane fade show active" id="internet">
                                     <div  style="color:#0F2A51; font-size: 16px; margin-top: 35px;">Choose Your Internet Plan</div>
-                                    <div class="row mb-4" style="margin-top: 19px;">
-                                        <div class="col-sm-6 col-md-6 col-lg-3" style="margin-right: -15px">
+                                    <div class="row mb-4" style="margin-top: 10px;">
+                                        <div class="col-sm-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
                                             <div class="card border-light shadow" style="height: 186px;">
                                                 <div class="card-header header-card">
                                                     BigBonus - AutoRenew
                                                 </div>
                                                     <div class="card-body body-card">
-                                                        4GB + FREE 30GB + Unlimited Calls<br/><br/>
+                                                        4GB + FREE 30GB + <br/>Unlimited Calls<br/><br/>
                                                         <p>
                                                             <span class="font-weight-bold" style="color: #ED1B2F;">RM28.00</span>
                                                             <span class="font-weight-bold" style="color: #0F2A51;"> / 30 Days</span>
@@ -57,7 +57,7 @@
                                                     </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6 col-md-6 col-lg-3" style="margin-right: -15px">
+                                        <div class="col-sm-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
                                             <div class="card border-light shadow" style="height: 186px;">
                                                 <div class="card-header header-card">
                                                     BigBonus - AutoRenew
@@ -74,13 +74,14 @@
                                                     </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6 col-md-6 col-lg-3" style="margin-right: -15px">
+                                        <div class="col-sm-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
                                             <div class="card border-light shadow" style="height: 186px;">
                                                 <div class="card-header header-card">
                                                     BigBonus - AutoRenew
                                                 </div>
                                                     <div class="card-body body-card">
                                                         8GB + FREE 30GB<br/><br/><br/>
+                                                        <p>
                                                             <span class="font-weight-bold" style="color: #ED1B2F;">RM35.00</span>
                                                             <span class="font-weight-bold" style="color: #0F2A51;"> / 30 Days</span>
                                                         </p>
@@ -91,14 +92,15 @@
                                             </div>
                                         </div>
                                     </div>
-                                        <div class="row mb-4" style="margin-top: 32px;">
-                                            <div class="col-sm-6 col-md-6 col-lg-3" style="margin-right: -15px">
+                                        <div class="row mb-4" style="margin-top: -25px;">
+                                            <div class="col-sm-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
                                                 <div class="card border-light shadow" style="height: 186px;">
                                                     <div class="card-header header-card">
                                                         BigBonus - AutoRenew
                                                     </div>
                                                         <div class="card-body body-card">
-                                                            9GB + FREE 30GB + Unlimited Calls<br/><br/>
+                                                            9GB + FREE 30GB + <br/>Unlimited Calls<br/><br/>
+                                                            <p>
                                                                 <span class="font-weight-bold" style="color: #ED1B2F;">RM40.00</span>
                                                                 <span class="font-weight-bold" style="color: #0F2A51;"> / 30 Days</span>
                                                             </p>
@@ -108,13 +110,14 @@
                                                         </div>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-6 col-md-6 col-lg-3" style="margin-right: -15px">
+                                            <div class="col-sm-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
                                                 <div class="card border-light shadow" style="height: 186px;">
                                                     <div class="card-header header-card">
                                                         BigBonus - AutoRenew
                                                     </div>
                                                         <div class="card-body body-card">
-                                                            12GB + FREE 30GB + Unlimited Calls<br/><br/>
+                                                            12GB + FREE 30GB +<br/>Unlimited Calls<br/><br/>
+                                                            <p>
                                                                 <span class="font-weight-bold" style="color: #ED1B2F;">RM50.00</span>
                                                                 <span class="font-weight-bold" style="color: #0F2A51;"> / 30 Days</span>
                                                             </p>
@@ -124,13 +127,14 @@
                                                         </div>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-6 col-md-6 col-lg-3" style="margin-right: -15px">
+                                            <div class="col-sm-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
                                                 <div class="card border-light shadow" style="height: 186px;">
                                                     <div class="card-header header-card">
                                                         BigBonus - AutoRenew
                                                     </div>
                                                         <div class="card-body body-card">
                                                             30GB + FREE 30GB<br/><br/><br/>
+                                                            <p>
                                                                 <span class="font-weight-bold" style="color: #ED1B2F;">RM89.00</span>
                                                                 <span class="font-weight-bold" style="color: #0F2A51;"> / 30 Days</span>
                                                             </p>
@@ -145,12 +149,13 @@
 
                             <div role="tabpanel" class="tab-pane fade" id="call_sms" style="margin-bottom: 199px;">
                                 <div  style="color:#0F2A51; font-size: 16px; margin-top: 35px;">Choose Your Calls & SMS Plan</div>
-                                <div class="row mb-4" style="margin-top: 19px;">
-                                    <div class="col-sm-4" style="margin-right: -15px">
-                                      <div class="card border-light shadow" style="width: 212px; height: 158px;">
+                                <div class="row mb-4" style="margin-top: 10px;">
+                                    <div class="col-sm-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
+                                      <div class="card border-light shadow" style=" height: 158px;">
                                         <div class="card-header header-card2"></div>
                                             <div class="card-body body-card">
                                                 1000min Calls<br/><br/><br/>
+                                                <p>
                                                     <span class="font-weight-bold" style="color: #ED1B2F;">RM3.00</span>
                                                     <span class="font-weight-bold" style="color: #0F2A51;"> / 1 Days</span>
                                                 </p>
@@ -160,11 +165,12 @@
                                             </div>
                                       </div>
                                     </div>
-                                    <div class="col-sm-4" style="margin-right: -15px">
-                                    <div class="card border-light shadow" style="width: 212px; height: 158px;">
+                                    <div class="col-sm-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
+                                    <div class="card border-light shadow" style=" height: 158px;">
                                         <div class="card-header header-card2"></div>
                                             <div class="card-body body-card">
                                                500min Calls<br/> (All Network)<br/><br/>
+                                               <p>
                                                     <span class="font-weight-bold" style="color: #ED1B2F;">RM8.00</span>
                                                     <span class="font-weight-bold" style="color: #0F2A51;"> / 7 Days</span>
                                                 </p>
@@ -174,11 +180,12 @@
                                             </div>
                                       </div>
                                     </div>
-                                    <div class="col-sm-4" style="margin-right: -15px">
-                                      <div class="card border-light shadow" style="width: 212px; height: 158px;">
+                                    <div class="col-sm-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
+                                      <div class="card border-light shadow" style=" height: 158px;">
                                         <div class="card-header header-card2"></div>
                                             <div class="card-body body-card">
                                                 1000min Calls <br/> (All Network+100SMS)<br/><br/>
+                                                <p>
                                                     <span class="font-weight-bold" style="color: #ED1B2F;">RM10.00</span>
                                                     <span class="font-weight-bold" style="color: #0F2A51;"> / 7 Days</span>
                                                 </p>
@@ -204,11 +211,12 @@
                                         </div>
                                     </div>
                                 <div class="row mb-4" style="margin-top: 19px;">
-                                    <div class="col-sm-4" style="margin-right: -15px">
-                                      <div class="card border-light shadow" style="width: 212px; height: 158px;">
+                                    <div class="col-sm-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
+                                      <div class="card border-light shadow" style=" height: 158px;">
                                         <div class="card-header header-card2"></div>
                                             <div class="card-body body-card">
                                                 Unlimited Social Messaging<br/><br/><br/>
+                                                <p>
                                                     <span class="font-weight-bold" style="color: #ED1B2F;">RM10.00</span>
                                                     <span class="font-weight-bold" style="color: #0F2A51;"> / 1 Days</span>
                                                 </p>
@@ -218,11 +226,12 @@
                                             </div>
                                       </div>
                                     </div>
-                                    <div class="col-sm-4" style="margin-right: -15px">
-                                    <div class="card border-light shadow" style="width: 212px; height: 158px;">
+                                    <div class="col-sm-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
+                                    <div class="card border-light shadow" style=" height: 158px;">
                                         <div class="card-header header-card2"></div>
                                             <div class="card-body body-card">
                                                 2GB Internet +30 min calls<br/><br/><br/>
+                                                <p>
                                                     <span class="font-weight-bold" style="color: #ED1B2F;">RM25.00</span>
                                                     <span class="font-weight-bold" style="color: #0F2A51;"> / 3 Days</span>
                                                 </p>
@@ -237,12 +246,13 @@
                             <div role="tabpanel" class="tab-pane fade" id="idd" style="margin-bottom: 127px;">
                                 <div  style="color:#0F2A51; font-size: 16px; margin-top: 35px;">Choose Your IDD Plan</div>
                                 <div class="row mb-4" style="margin-top: 19px;">
-                                    <div class="col-sm-4" style="margin-right: -15px">
-                                      <div class="card border-light shadow" style="width: 274px; height: 228px;">
-                                        <div class="card-header header-card2"></div>
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                      <div class="card border-light shadow" style=" height: 228px;">
+                                            <div class="card-header header-card2"></div>
                                             <div class="card-body body-card">
                                                 <b>60 IDD Mins</b><br/>
                                                 IDD Mins: To China, Hong Kong, Indonesia, India, Thailand, Australia, Japan, South Korea, Brunei only<br/><br/><br/>
+                                                <p style="margin-top: -10px;">
                                                     <span class="font-weight-bold" style="color: #ED1B2F;">RM5.00</span>
                                                     <span class="font-weight-bold" style="color: #0F2A51;"> / 7 Days</span>
                                                 </p>
@@ -252,7 +262,7 @@
                                             </div>
                                       </div>
                                     </div>
-                                  </div>
+                                </div>
                             </div>
                         </div>
                     </div>                      

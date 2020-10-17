@@ -107,7 +107,7 @@ section .section-title {
 
 </style>
         <div class="container mt-5" style="padding:0px;">
-            <div class="justify-content-md-center">
+            <div class="justify-content-center">
                 <div class="row">
                     <div class="col-12 mb-3 forth-title" style="color:#25283A;margin-left:6px;">
                         <b><svg width="1em" height="1em" viewBox="0 2 16 16" class="bi bi-chevron-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">

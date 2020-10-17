@@ -94,12 +94,12 @@
         <div class="container mt-5">
             <div class="row justify-content-center">
               @include('layout.sidebar')
-                <div class="col-md-7 col-sm-12" style="color: #0F2A51;">
+                <div class="col-md-9 col-sm-12" style="color: #0F2A51;">
                     <div class="justify-content-left mb-3 font-weight-bolder" style="color:#ED1B2F;font-size:30px;">
                         Reload
                     </div>
                     <div class="row mb-4">
-                        <div class="col-md-4 col-sm-12">
+                        <div class="col-md-3 col-sm-12">
                           <div class="card shadow-sm choosed border-danger" id="redbox1" onclick="red(1)">
                             <div class="card-body">
                               <span class="card-title"><b>RM10.00</b></span>
@@ -112,7 +112,7 @@
                             </div>
                           </div>
                         </div>
-                        <div class="col-md-4 col-sm-12">
+                        <div class="col-md-3 col-sm-12">
                             <div class="card shadow-sm choosed" id="redbox2" onclick="red(2)">
                               <div class="card-body">
                                 <span class="card-title"><b>RM15.00</b></span>
@@ -125,7 +125,7 @@
                               </div>
                             </div>
                           </div>
-                          <div class="col-md-4 col-sm-12">
+                          <div class="col-md-3 col-sm-12">
                             <div class="card shadow-sm choosed" id="redbox3" onclick="red(3)">
                               <div class="card-body">
                                 <span class="card-title"><b>RM30.00</b></span>
@@ -140,7 +140,7 @@
                           </div>
                       </div>
                       <div class="row mb-4">
-                        <div class="col-md-4 col-sm-12">
+                        <div class="col-md-3 col-sm-12">
                             <div class="card shadow-sm choosed" id="redbox4" onclick="red(4)">
                               <div class="card-body">
                                 <span class="card-title"><b>RM50.00</b></span>
@@ -153,7 +153,7 @@
                               </div>
                             </div>
                           </div>
-                          <div class="col-md-4 col-sm-12">
+                          <div class="col-md-3 col-sm-12">
                             <div class="card shadow-sm choosed" id="redbox5" onclick="red(5)">
                               <div class="card-body">
                                 <span class="card-title"><b>RM100.00</b></span>

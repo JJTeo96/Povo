@@ -5,10 +5,9 @@
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 <link href="{{ asset('css/addon.css') }}" rel="stylesheet">
-
-    <div class="col-12 p-5" style="max-width: 1920px; margin: 0 auto; color: #0F2A51;">
-        <div class="auto-container">
-            <div class="row justify-content-center">
+<div class="container-fluid p-0">
+    <div class="pt-5 col-12" style="color: #0F2A51;" >
+        <div class="auto-container row" style="min-height: 700px">
                 @include('layout.sidebar')
                 <div class="col-9">
                     <div class="justify-content-left" style="color:#0F2A51;font-size:30px;font-weight:700; margin-top: -8px;">
@@ -252,7 +251,7 @@
                                             <div class="card-body body-card">
                                                 <b>60 IDD Mins</b><br/>
                                                 IDD Mins: To China, Hong Kong, Indonesia, India, Thailand, Australia, Japan, South Korea, Brunei only<br/><br/><br/>
-                                                <p style="margin-top: -10px;">
+                                                <p>
                                                     <span class="font-weight-bold" style="color: #ED1B2F;">RM5.00</span>
                                                     <span class="font-weight-bold" style="color: #0F2A51;"> / 7 Days</span>
                                                 </p>
@@ -269,5 +268,5 @@
                 </div>
             </div>
         </div>
-    </div>   
+    </div>  
         @endsection

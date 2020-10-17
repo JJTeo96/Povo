@@ -138,6 +138,6 @@ opacity: 1;
                 </div>
             </div>
         </div>
-</div>
+      </div>
         
         @endsection

@@ -2,23 +2,22 @@
 @section('title', ' Upgrade Plan')
 @section('content')
 
-{{-- <div class="container-fluid p-0"> --}}
-    <div class="pt-5 col-12">
-        <div class="auto-container">
-            <div class="row justify-content-center">
+<div class="container-fluid p-0">
+    <div class="pt-5 col-12" >
+        <div class="auto-container row">
             {{-- Col-3 --}}
             @include('layout.sidebar')
             {{-- End Col-3 --}}
 
-            <div class="col-9" style="min-height: 650px">
-                <div class="p-0 d-block d-sm-block d-md-none">
-                    <p style="color:#0F2A51;font-weight:700"><i class="fas fa-angle-left pr-1"></i>Back to Dashboard</p>
+            <div class="col-8" style="min-height: 650px">
+                <div class="col p-0 d-block d-sm-block d-md-none">
+                <a href="{{url('/dashboard')}}" style="text-decoration: none"><p style="color:#0F2A51;font-weight:700"><i class="fas fa-angle-left pr-1"></i>Back to Dashboard</p></a>
                 </div>
                 <div class="d-sm-none d-none d-md-block" style="color:#ED1B2F;font-size:33px;font-weight:700;margin-bottom: 31px">
                     Upgrade <span style="color:#0F2A51">Plan</span>
                 </div>
             
-                <div class="row">
+                <div class="row auto-container">
                     <div class="col-lg-5 col-md-12 col-12 p-0 mb-3">
                         <a href="{{ url('/plan_detail') }}" style="text-decoration: none">
                         <div class="card " style="width: 325px;border:none">
@@ -54,8 +53,7 @@
                 
             </div>
         </div>
-        </div>
     </div>
-{{-- </div> --}}
+</div>
 
 @endsection

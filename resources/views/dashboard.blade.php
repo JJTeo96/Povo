@@ -27,10 +27,9 @@ opacity: 1;
     opacity: 1;
 }
 </style>
-
-<div class="col-sm-12 p-5" style="max-width: 1920px; margin: 0 auto; color: #0F2A51;">
-        <div class="auto-container">
-            <div class="row justify-content-center">
+      <div class="container-fluid p-0">
+        <div class="pt-5 col-12" style="color: #0F2A51;" >
+            <div class="auto-container row" style="min-height: 700px">
                 @include('layout.sidebar')
                 <div class="col-md-9">
                     <div class="justify-content-left font-weight-bolder" style="color:#ED1B2F;font-size:30px; margin-top: -8px;">
@@ -39,7 +38,7 @@ opacity: 1;
                     </div>
                     <div class="row">
                         <div class="col-sm-12 col-md-6 col-lg-3 ">
-                          <div class="m-0 m-sm-4 m-md-2">
+                          <div class="m-0 m-sm-4 m-md-2 mb-4 mb-md-0">
                           <div class="card shadow h-100" style="">
                             <div class="card-body">
                                 <span style="font-size: 14px;">Account number:</span>
@@ -50,21 +49,25 @@ opacity: 1;
                                     </div>                           
                             </div>
                           </div>
-                        </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-3" >
-                          <div class="m-0 m-sm-4 m-md-2">
-                            <div class="card shadow h-100" style="">
-                              <div class="card-body">
-                                  <span style="font-size: 14px;">Mobile number:</span>
-                                  <p class="font-weight-bold" style="font-size: 23px">0123456789</p>                       
-                              </div>
-                            </div>
                           </div>
                         </div>
+
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                          <div class="m-0 m-sm-4 m-md-2 mb-4 mb-md-0">
+                          <div class="card shadow" style="height:162px">
+                            <div class="card-body">
+                                <span style="font-size: 14px;">Mobile number:</span>
+                                <p class="font-weight-bold" style="font-size: 23px">0123456789</p> 
+                                                              
+                            </div>
+                          </div>
+                          </div>
+                        </div>
+
+                        
                         <div class="col-sm-12 col-md-6 col-lg-6">
-                          <div class="h-100">
-                            <div class="card shadow h-100" style="">
+                          <div class="m-0 m-sm-4 m-md-2 mb-4 mb-md-0"">
+                            <div class="card shadow" style="height:162px">
                               <div class="card-body">
                                 <div class="row">
                                   <div class="col-sm-12 col-md-6 col-lg-6">
@@ -100,7 +103,7 @@ opacity: 1;
                       </div>
                       <div class="row">
                         <div class="col-sm-12 col-md-6 col-lg-6">
-                          <div class="m-0 m-sm-4 m-md-2">
+                          <div class="m-0 m-sm-4 m-md-2 mb-4 mb-md-0">
                             <div class="card shadow" style=" height:310px">
                               <div class="card-body">
                                 <span style="font-size: 14px;">My Plan:</span>

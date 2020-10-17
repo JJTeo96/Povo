@@ -163,7 +163,7 @@ section .section-title {
                                                     </div>
                                                     <div class="form-group mb-4">
                                                         <div class="row">
-                                                            <div class="col-1">
+                                                            <div class="col-1 pt-2">
                                                             <label class="container_a">
                                                                 <input type="checkbox" name="radio" id="radio4">
                                                                 <span class="checkmark_a"></span>

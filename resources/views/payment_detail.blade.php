@@ -66,8 +66,8 @@ section .section-title {
   position: absolute;
   top: 0;
   left: 0;
-  height: 25px;
-  width: 25px;
+  height: 24px;
+  width: 24px;
   background-color: white;
   border-radius: 50%;
   border:2px solid #ED1B2F;
@@ -97,26 +97,26 @@ section .section-title {
 
 /* Style the indicator (dot/circle) */
 .container_a .checkmark_a:after {
-  top: 15%;
+    top: 15%;
     left: 15%;
-    width: 15px;
-    height: 15px;
+    width: 14px;
+    height: 14px;
 	border-radius: 50% !important;
 	background: #ED1B2F !important;
 }
 
 </style>
-        <div class="container">
+        <div class="container mt-5" style="padding:0px;">
             <div class="justify-content-md-center">
                 <div class="row">
-                    <div class="col-12 mb-3 forth-title" style="color:#25283A;">
+                    <div class="col-12 mb-3 forth-title" style="color:#25283A;margin-left:6px;">
                         <b><svg width="1em" height="1em" viewBox="0 2 16 16" class="bi bi-chevron-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
                         </svg> Back</b>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-5 col-sm-10">
+                    <div class="col-md-4 col-sm-10">
                         <section id="tabs">
                             <div class="container">
                                 <div class="row">
@@ -128,7 +128,7 @@ section .section-title {
                                                 <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">E-Wallet</a>
                                             </div>
                                         </nav>
-                                        <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+                                        <div class="tab-content py-3" id="nav-tabContent">
                                             <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                                                 <div class="">
                                                     <div class="form-group third-title">
@@ -150,10 +150,10 @@ section .section-title {
                                                                 <input type="text" class="form-control" placeholder="MM">
                                                             </div>
                                                             <div class="col">
-                                                                <input type="text" class="form-control" placeholder="MM">
+                                                                <input type="text" class="form-control" placeholder="YYYY">
                                                             </div>
                                                             <div class="col">
-                                                                <input type="text" class="form-control" placeholder="MM">
+                                                                <input type="text" class="form-control" placeholder="CVV">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -161,11 +161,7 @@ section .section-title {
                                                         <label for="">Cordholder Name</label>
                                                         <input type="text" class="form-control" placeholder="Please enter name">  
                                                     </div>
-                                                    <div class="form-group semi-title">
-                                                        <label for="">Cordholder Name</label>
-                                                        <input type="text" class="form-control" placeholder="Please enter name">  
-                                                    </div>
-                                                    <div class="form-group">
+                                                    <div class="form-group mb-4">
                                                         <div class="row">
                                                             <div class="col-1">
                                                             <label class="container_a">
@@ -179,7 +175,7 @@ section .section-title {
                                                         </div>
                                                     </div>
                                                     <hr>
-                                                    <div class="form-group ">
+                                                    <div class="form-group mt-4">
                                                         <a class="#" href="{{ url('/pc') }}">
                                                             <button type="button" class="btn pay_button btn-light">Pay</button>
                                                         </a>
@@ -198,8 +194,8 @@ section .section-title {
                             </div>
                         </section>
                     </div>
-                    <div class="col-md-4 col-sm-10">
-                        <div class="d-flex justify-content-left mb-2 forth-title" style="font-family: normal normal 600 20px/17px SF UI Display;">
+                    <div class="col-md-4 col-sm-10 container">
+                        <div class="mb-2 forth-title" style="font-family: normal normal 600 20px/17px SF UI Display;">
                             <b>Purchase Confirmation</b>
                         </div>
                         <div class="shadow-sm p-3 mb-4 bg-white rounded" style="font:normal normal normal 16px/21px Segoe UI;"> 
@@ -242,5 +238,4 @@ section .section-title {
             </div>
         </div>
         
-        @include('layout.footer')
         @endsection

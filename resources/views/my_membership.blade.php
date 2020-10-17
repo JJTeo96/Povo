@@ -41,9 +41,6 @@
         border-bottom: 1px solid #EDEDED;
         width: 230.82px;
     }
-    dl, ol, ul{
-        padding-left: 16px !important;
-    }
     .vl1 {
         border-left: 1px solid #EDEDED;
         height: 60px;
@@ -54,8 +51,11 @@
         height: 99px;
         margin-left: 40%;
     }
+    dl, ol, ul{
+        padding-left: 16px !important;
+    }
 </style>
-        <div class="container">
+        <div class="container mt-5">
             <div class="row justify-content-center">
               @include('layout.sidebar')
                 <div class="col-md-9 col-sm-12">
@@ -262,7 +262,5 @@
             </div>
         </div>
         
-        
-        @include('layout.footer')
         @endsection
         

@@ -1,13 +1,13 @@
 @extends('layout.app')
 @section('title', ' Thank You')
 @section('content')
-        <div class="container">
+        <div class="container mt-5">
             <div class="col-12 col-md-12 ">
             <div class="row justify-content-center">
-              <div class="shadow success_circle rounded-circle text-align-center" style="padding: 20px;">
-                <span style="margin-left: 10px;">
-                    <img width="70%" src="{{asset('img/tick.svg')}}" alt="Tick">
-                </span>
+              <div class="shadow success_circle rounded-circle d-flex align-items-center justify-content-center ">
+                <div >
+                    <img width="41" height="35" src="{{asset('img/tick.svg')}}" alt="Tick">
+                </div>
               </div>
             </div>
             <div class="row justify-content-center">
@@ -25,5 +25,4 @@
             </div>
         </div>
         </div>
-@include('layout.footer')
 @endsection

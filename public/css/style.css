@@ -112,3 +112,6 @@ a:visited {
     margin-bottom: 70px;
     /* transition: all 0.35s ease; */
 }
+dl, ol, ul{
+    padding-left: 16px !important;
+}

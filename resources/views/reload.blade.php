@@ -91,7 +91,7 @@
 }
 
 </style>
-        <div class="container">
+        <div class="container mt-5">
             <div class="row justify-content-center">
               @include('layout.sidebar')
                 <div class="col-md-7 col-sm-12" style="color: #0F2A51;">
@@ -189,6 +189,5 @@
             
           // }
         </script>
-        @include('layout.footer')
         @endsection
         

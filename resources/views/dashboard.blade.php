@@ -66,7 +66,7 @@ opacity: 1;
 
                         
                         <div class="col-sm-12 col-md-6 col-lg-6">
-                          <div class="m-0 m-sm-4 m-md-2 mb-4 mb-md-0"">
+                          <div class="m-0 m-sm-4 m-md-2 mb-4 mb-md-0">
                             <div class="card shadow" style="height:162px">
                               <div class="card-body">
                                 <div class="row">

@@ -7,7 +7,7 @@
 <link href="{{ asset('css/addon.css') }}" rel="stylesheet">
 
     <div class="col-12 p-5" style="max-width: 1920px; margin: 0 auto; color: #0F2A51;">
-        <div class="container">
+        <div class="auto-container">
             <div class="row justify-content-center">
                 @include('layout.sidebar')
                 <div class="col-9">

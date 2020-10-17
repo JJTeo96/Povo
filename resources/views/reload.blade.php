@@ -91,7 +91,8 @@
 }
 
 </style>
-        <div class="container mt-5">
+<div class="col-12 p-5" style="max-width: 1920px; margin: 0 auto;">
+        <div class="auto-container">
             <div class="row justify-content-center">
               @include('layout.sidebar')
                 <div class="col-md-9 col-sm-12" style="color: #0F2A51;">
@@ -176,7 +177,7 @@
                 </div>
             </div>
         </div>
-        
+</div>
         <script>
           $(".choosed").on('click', function(e){
               $(".choosed").removeClass("border border-danger");

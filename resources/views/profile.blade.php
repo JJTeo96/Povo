@@ -5,10 +5,15 @@
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 <link href="{{ asset('css/profile.css') }}" rel="stylesheet">
-
-<div class="col-12 p-5" style="max-width: 1920px; margin: 0 auto; color: #0F2A51;">
-        <div class="auto-container">
-            <div class="row justify-content-center">
+<style>
+    .nav-link {
+    /* display: block; */
+    padding:10px 5px 5px 0px;
+    }
+</style>
+<div class="container-fluid p-0">
+    <div class="pt-5 col-12" style="color: #0F2A51;" >
+        <div class="auto-container row" style="min-height: 800px">
                 @include('layout.sidebar')
                 <div class="col-md-9">
                     <div class="justify-content-left" style="font-size:30px;font-weight:700; margin-top: -8px;">
@@ -18,10 +23,10 @@
                     <div class="tab" role="tabpanel">
                         <section id="tabs">
                         <nav class="#">
-                            <div class="nav nav-tabs nav-fill col-sm-12 col-md-9 col-lg-7" id="nav-tab" role="tablist">
-                                <a class="nav-item nav-link active" style="text-align:left" id="personal_info_tab" data-toggle="tab" href="#personal_info" role="tab" aria-controls="personal_info" aria-selected="true">Personal Info</a>
-                                <a class="nav-item nav-link" style="text-align:left" id="password_tab" data-toggle="tab" href="#password" role="tab" aria-controls="password" aria-selected="false">Password</a>
-                                <a class="nav-item nav-link" style="text-align:left" id="payment_method_tab" data-toggle="tab" href="#payment_method" role="tab" aria-controls="payment_method" aria-selected="false">Payment Method</a>
+                            <div class="nav nav-tabs nav-fill col-sm-12 col-md-9 col-lg-7 p-0" id="nav-tab" role="tablist">
+                                <a class="nav-item nav-link active" style="text-align:center" id="personal_info_tab" data-toggle="tab" href="#personal_info" role="tab" aria-controls="personal_info" aria-selected="true">Personal Info</a>
+                                <a class="nav-item nav-link" style="text-align:center" id="password_tab" data-toggle="tab" href="#password" role="tab" aria-controls="password" aria-selected="false">Password</a>
+                                <a class="nav-item nav-link" style="text-align:center" id="payment_method_tab" data-toggle="tab" href="#payment_method" role="tab" aria-controls="payment_method" aria-selected="false">Payment Method</a>
                             </div>
                         </nav>
                         </section>

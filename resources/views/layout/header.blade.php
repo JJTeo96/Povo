@@ -46,12 +46,13 @@
                     <a class="nav-link font-weight-bolder" style="margin-right: 86px;color:black" href="{{ url('/faq') }}">FAQS</a>
                 </li>
 
-                {{-- <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle font-weight-bolder" href="http://example.com" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:black">Tiana Rosser</a>
+                {{-- <li class="nav-item dropdown mr-5">
+                    <a class="nav-link dropdown-toggle font-weight-bolder" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:black">
+                        <i class="far fa-user mr-3"></i> &nbsp;<span style=" text-transform: uppercase">Tiana Rosser</span>
+                    </a>
                     <div class="dropdown-menu" aria-labelledby="dropdown04" style="width: 200px;font-size:16px">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="#">Profile</a>
+                        <a class="dropdown-item" href="#">Sign Out</a>
                     </div>
                 </li> --}}
             </ul>
@@ -89,23 +90,24 @@
                 <li class="nav-item border-bottom d-flex justify-content-center">
                     <a class="nav-link font-weight-bolder" style="color:black;" href="{{ url('/faq') }}">FAQS</a>
                 </li>
-
+                <li class="nav-item border-bottom d-flex justify-content-center">
+                    <a class="nav-link font-weight-bolder" style="color:black;" href="{{ url('/profile') }}"><i class="far fa-user mr-1"></i>TIANA ROSSER</a>
+                </li>
+                <li class="nav-item border-bottom d-flex justify-content-center">
+                    <a class="nav-link font-weight-bolder" style="color:black;" href="{{ url('/dashboard') }}">DASHBOARD</a>
+                </li>
                 <li class="nav-item d-flex justify-content-center">
+                    <a class="nav-link font-weight-bolder" style="color:black;" href="{{ url('/') }}">SIGN OUT</a>
+                </li>
+
+                {{-- <li class="nav-item d-flex justify-content-center">
                     <a href="{{ url('/login') }}" class="nav-link">
                         <div class="btn btn-danger btn_login" style="width:201px;text-align:center">
                             <div>LOG IN / REGISTER</div>
                         </div>
                     </a>    
-                </li>
-
-                {{-- <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle font-weight-bolder" href="http://example.com" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:black">Tiana Rosser</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdown04" style="width: 200px;font-size:16px">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
                 </li> --}}
+
             </ul>
         </div>
     </nav>

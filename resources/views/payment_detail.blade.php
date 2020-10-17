@@ -106,7 +106,7 @@ section .section-title {
 }
 
 </style>
-        <div class="container mt-5" style="padding:0px;">
+        <div class="auto-container mt-5" style="padding:0px;">
             <div class="justify-content-center">
                 <div class="row">
                     <div class="col-12 mb-3 forth-title" style="color:#25283A;margin-left:6px;">
@@ -116,7 +116,7 @@ section .section-title {
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4 col-sm-10">
+                    <div class="col-md-5 col-sm-10">
                         <section id="tabs">
                             <div class="container">
                                 <div class="row">
@@ -194,7 +194,7 @@ section .section-title {
                             </div>
                         </section>
                     </div>
-                    <div class="col-md-4 col-sm-10 container">
+                    <div class="col-md-5 col-sm-10 container">
                         <div class="mb-2 forth-title" style="font-family: normal normal 600 20px/17px SF UI Display;">
                             <b>Purchase Confirmation</b>
                         </div>

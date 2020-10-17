@@ -19,61 +19,48 @@
     <!-- Favicon -->
     {{-- <link href="{{ asset('img/favicon.png') }}" rel="icon" type="image/png"> --}}
 
-    <style>
-        .collapse-item{
-            /*overflow:hidden;
-            text-overflow: ellipsis;*/
-            /*word-wrap: break-word;
-            white-space: initial;*/
-        }
-
-        .sidebar .nav-item .collapse .collapse-inner .collapse-item, .sidebar .nav-item .collapsing .collapse-inner .collapse-item{
-            white-space: initial;
-            min-height: 880px;
-        }
-    </style>
-
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
     @stack('styles')
 </head>
 
 <body>
-<div class="container-fluid p-0" style="padding: 0">
-    <div class="row no-gutters">
-        @include('layout.header')
-        @yield('content')
-        @include('layout.footer')
+    <div class="container-fluid p-0" style="padding: 0">
+        <div class="row no-gutters">
+            @include('layout.header')
+                @yield('content')
+            @include('layout.footer')
+        </div>
     </div>
-</div>
-@stack('scripts')
-<script>
-    window.onscroll = function() {myFunction()};
+    @stack('scripts')
+    
+    <script>
+        window.onscroll = function() {myFunction()};
 
-// Get the header
-var header = document.getElementById("navbar_web");
-var div = document.getElementById("nav_web");
+        // Get the header
+        var header = document.getElementById("navbar_web");
+        var div = document.getElementById("nav_web");
 
-var header_m = document.getElementById("navbar_mobile");
-var div_m = document.getElementById("nav_mobile");
+        var header_m = document.getElementById("navbar_mobile");
+        var div_m = document.getElementById("nav_mobile");
 
-// Get the offset position of the navbar
-var sticky = header.offsetTop;
+        // Get the offset position of the navbar
+        var sticky = header.offsetTop;
 
-// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("fixed-top");
-    div.style.marginBottom = '70px';
-    header_m.classList.add("fixed-top");
-    div_m.style.marginBottom = '70px';
-  } else {
-    header.classList.remove("fixed-top");
-    div.style.marginBottom = '0px';
-    header_m.classList.remove("fixed-top");
-    div_m.style.marginBottom = '0px';
-  }
-}
-</script>
+        // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+        function myFunction() {
+        if (window.pageYOffset > sticky) {
+            header.classList.add("fixed-top");
+            div.style.marginBottom = '70px';
+            header_m.classList.add("fixed-top");
+            div_m.style.marginBottom = '70px';
+        } else {
+            header.classList.remove("fixed-top");
+            div.style.marginBottom = '0px';
+            header_m.classList.remove("fixed-top");
+            div_m.style.marginBottom = '0px';
+        }
+        }
+    </script>
 </body>
 </html>

@@ -189,7 +189,7 @@ section .section-title {
                                                         </div>
                                                     </div>
                                                     <hr>
-                                                    <div class="form-group mt-4">
+                                                    <div class="form-group mt-4 d-none d-md-block">
                                                         <a class="#" href="{{ url('/pc') }}">
                                                             <button type="button" class="btn pay_button btn-light">Pay</button>
                                                         </a>
@@ -248,6 +248,11 @@ section .section-title {
                             </div>    
                         </div>
                     </div>
+                </div>
+                <div class="form-group mt-2 d-block d-md-none d-flex align-items-center justify-content-center">
+                    <a class="#" href="{{ url('/pc') }}">
+                        <button type="button" class="btn pay_button btn-light" style="width:377px;">Pay</button>
+                    </a>
                 </div>
             </div>
         </div>

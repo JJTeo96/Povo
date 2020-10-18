@@ -91,16 +91,19 @@
 }
 
 </style>
-<div class="col-12 p-5" style="max-width: 1920px; margin: 0 auto;">
-        <div class="auto-container">
-            <div class="row justify-content-center">
+<div class="container-fluid p-0">
+  <div class="pt-5 col-12" style="color: #0F2A51;" >
+      <div class="auto-container row" style="min-height: 800px">
               @include('layout.sidebar')
                 <div class="col-md-9 col-sm-12" style="color: #0F2A51;">
+                    <div class="col d-block d-sm-block d-md-none p-0 mb-3">
+                      <a href="{{ url('/dashboard') }}" style="text-decoration: none;font-size:16px;color:#25283A;font-weight:600"><i class="fas fa-angle-left pr-1"></i> Back to Dashboard</a>
+                    </div>
                     <div class="justify-content-left mb-3 font-weight-bolder" style="color:#ED1B2F;font-size:30px;">
                         Reload
                     </div>
-                    <div class="row mb-4">
-                        <div class="col-md-3 col-sm-12">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-12 pb-4">
                           <div class="card shadow-sm choosed border-danger" id="redbox1" onclick="red(1)">
                             <div class="card-body">
                               <span class="card-title"><b>RM10.00</b></span>
@@ -113,7 +116,7 @@
                             </div>
                           </div>
                         </div>
-                        <div class="col-md-3 col-sm-12">
+                        <div class="col-md-3 col-sm-12 pb-4">
                             <div class="card shadow-sm choosed" id="redbox2" onclick="red(2)">
                               <div class="card-body">
                                 <span class="card-title"><b>RM15.00</b></span>
@@ -126,7 +129,7 @@
                               </div>
                             </div>
                           </div>
-                          <div class="col-md-3 col-sm-12">
+                          <div class="col-md-3 col-sm-12 pb-4">
                             <div class="card shadow-sm choosed" id="redbox3" onclick="red(3)">
                               <div class="card-body">
                                 <span class="card-title"><b>RM30.00</b></span>
@@ -141,7 +144,7 @@
                           </div>
                       </div>
                       <div class="row mb-4">
-                        <div class="col-md-3 col-sm-12">
+                        <div class="col-md-3 col-sm-12 pb-4">
                             <div class="card shadow-sm choosed" id="redbox4" onclick="red(4)">
                               <div class="card-body">
                                 <span class="card-title"><b>RM50.00</b></span>
@@ -154,7 +157,7 @@
                               </div>
                             </div>
                           </div>
-                          <div class="col-md-3 col-sm-12">
+                          <div class="col-md-3 col-sm-12 pb-4">
                             <div class="card shadow-sm choosed" id="redbox5" onclick="red(5)">
                               <div class="card-body">
                                 <span class="card-title"><b>RM100.00</b></span>
@@ -169,11 +172,17 @@
                           </div>
                       </div>
                       <hr>
-                      <div class="row mt-4">
+                      <div class="row mt-4 d-sm-none d-none d-md-block">
                         <a href="{{ url('/payment') }}">
                           <button type="button" class="btn back_button btn-lg btn-light">Buy now</button>
                         </a>
-                    </div> 
+                      </div>
+                      
+                      <div class="row mt-4 mb-4 d-block d-sm-block d-md-none">
+                        <a href="{{ url('/payment') }}">
+                          <button type="button" class="btn back_button btn-lg btn-light w-100">Buy now</button>
+                        </a>
+                      </div> 
                 </div>
             </div>
         </div>

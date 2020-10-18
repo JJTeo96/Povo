@@ -7,16 +7,16 @@
 <link href="{{ asset('css/addon.css') }}" rel="stylesheet">
 <div class="container-fluid p-0">
     <div class="pt-5 col-12" style="color: #0F2A51;" >
-        <div class="auto-container row" style="min-height: 700px">
+        <div class="auto-container row" style="min-height: 800px">
                 @include('layout.sidebar')
-                <div class="col-9">
+                <div class="col-lg-9 col-sm-12">
                     <div class="justify-content-left" style="color:#0F2A51;font-size:30px;font-weight:700; margin-top: -8px;">
                         Buy
                         <span style="color: #ED1B2F;">Add-Ons</span>
                     </div>
                     <div class="tab" role="tabpanel" style="margin-top: 15px;">
                         <section id="tabs">
-                            <nav>
+                            <nav class="d-sm-none d-none d-md-block">
                                 <div class="nav nav-tabs nav-fill col-sm-9 col-md-7 col-lg-9" id="nav-tab" role="tablist">
                                     <a class="nav-item nav-link active" id="internet_tab" data-toggle="tab" href="#internet" role="tab" aria-controls="internet" aria-selected="true">
                                         <img class="" src="img/addon/Wifi.svg">&nbsp;&nbsp;Internet
@@ -31,6 +31,25 @@
                                     <a class="nav-item nav-link" id="idd_tab" data-toggle="tab" href="#idd" role="tab" aria-controls="idd" aria-selected="false">
                                         <img src="img/addon/IDD-01.svg">&nbsp;&nbsp;IDD
                                     </a>
+                                </div>
+                            </nav>
+
+                            <nav class="d-block d-sm-block d-md-none">
+                                <div class="nav nav-tabs nav-fill col-sm-9 col-md-7 col-lg-9" id="nav-tab" role="tablist">
+                                    <a class="nav-item nav-link active" id="internet_tab" data-toggle="tab" href="#internet" role="tab" aria-controls="internet" aria-selected="true">
+                                        <img class="" src="img/addon/Wifi.svg">&nbsp;&nbsp;Internet&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    </a>
+                                    <a class="nav-item nav-link" id="call_sms_tab" data-toggle="tab" href="#call_sms" role="tab" aria-controls="call_sms" aria-selected="false">
+                                        <img src="img/addon/Call.svg">&nbsp;&nbsp;Calls+SMS
+                                    </a>
+
+                                    <a class="nav-item nav-link" style="width:107px;margin-top:5px" id="roaming_tab" data-toggle="tab" href="#roaming" role="tab" aria-controls="roaming" aria-selected="false">
+                                        <img src="img/addon/Group-146.svg">&nbsp;&nbsp;Roaming
+                                    </a>
+                                    <a class="nav-item nav-link" id="idd_tab" data-toggle="tab" href="#idd" role="tab" aria-controls="idd" aria-selected="false">
+                                        <img src="img/addon/IDD-01.svg">&nbsp;&nbsp;IDD
+                                    </a>
+                                    
                                 </div>
                             </nav>
                         </section>
@@ -248,7 +267,7 @@
                                     <div class="col-sm-4 col-md-4 col-lg-4">
                                       <div class="card border-light shadow" style=" height: 228px;">
                                             <div class="card-header header-card2"></div>
-                                            <div class="card-body body-card">
+                                            <div class="card-body body-card pl-4" style="text-align: left">
                                                 <b>60 IDD Mins</b><br/>
                                                 IDD Mins: To China, Hong Kong, Indonesia, India, Thailand, Australia, Japan, South Korea, Brunei only<br/><br/><br/>
                                                 <p>

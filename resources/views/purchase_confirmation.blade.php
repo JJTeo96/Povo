@@ -1,7 +1,7 @@
 @extends('layout.app_payment')
 @section('title', ' Reload')
 @section('content')
-        <div class="container">
+        <div class="container-fluid p-0">
             <div class="row justify-content-center" style="min-height: 700px">
                 <div class="col-md-4 col-sm-10 m-5">
                     <div class="d-flex justify-content-left mb-3" style="font-family:normal normal 600 20px/26px Segoe UI;">

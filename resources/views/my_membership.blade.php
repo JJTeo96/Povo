@@ -55,9 +55,9 @@
         padding-left: 16px !important;
     }
 </style>
-<div class="col-12 p-5" style="max-width: 1920px; margin: 0 auto;">
-    <div class="auto-container">
-            <div class="row justify-content-center">
+<div class="container-fluid p-0">
+    <div class="pt-5 col-12" style="color: #0F2A51;" >
+        <div class="auto-container row" style="min-height: 800px">
               @include('layout.sidebar')
                 <div class="col-md-9 col-sm-12">
                     <div class="row">

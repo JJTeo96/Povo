@@ -19,7 +19,7 @@
                             <nav class="d-sm-none d-none d-md-block">
                                 <div class="nav nav-tabs nav-fill col-sm-9 col-md-7 col-lg-9" id="nav-tab" role="tablist">
                                     <a class="nav-item nav-link active" id="internet_tab" data-toggle="tab" href="#internet" role="tab" aria-controls="internet" aria-selected="true">
-                                        <img class="" src="img/addon/Wifi.svg">&nbsp;&nbsp;Internet
+                                        <img src="img/addon/Wifi.svg">&nbsp;&nbsp;Internet
                                     </a>
                                     <a class="nav-item nav-link" id="call_sms_tab" data-toggle="tab" href="#call_sms" role="tab" aria-controls="call_sms" aria-selected="false">
                                         <img src="img/addon/Call.svg">&nbsp;&nbsp;Calls+SMS

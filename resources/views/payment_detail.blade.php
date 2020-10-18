@@ -1,4 +1,4 @@
-@extends('layout.app')
+@extends('layout.app_payment')
 @section('title', ' Reload')
 @section('content')
 <style>

@@ -32,7 +32,7 @@
                 <div class="col-12 col-sm-9 col-md-6">We are here to enrich your life, energise your play & empower your work.
                 </div>
             </div> --}}
-            <div class="w-100 col-md-12" style="display: flex; align-items: center; min-height: 597px; background-position: center; background-attachment: scroll; background-size: cover; background-repeat: no-repeat; background-image: url({{ asset('img/Group-250.jpg')}});">
+            <div class="w-100 col-md-12" style="display: flex; align-items: center; min-height: 597px; background-position: center; background-attachment: scroll; background-size: cover; background-repeat: no-repeat; background-image: url({{ asset('img/banner-mobile-3.jpg')}});">
                 <div class="auto-container">
                     <div class="row d-flex justify-content-center">
                         {{-- <div class="d-sm-block d-md-none col-sm-2 col-2"></div> --}}

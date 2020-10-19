@@ -16,6 +16,7 @@
         <div class="auto-container row" style="min-height: 800px">
                 @include('layout.sidebar')
                 <div class="col-md-9">
+                    @include('layout.mobile_sidebar')
                     <div class="justify-content-left" style="font-size:30px;font-weight:700; margin-top: -8px;">
                         My
                         <span style="color: #ED1B2F;">Profile</span>

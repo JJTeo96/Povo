@@ -59,7 +59,8 @@
     <div class="pt-5 col-12" style="color: #0F2A51;" >
         <div class="auto-container row" style="min-height: 800px">
               @include('layout.sidebar')
-                <div class="col-md-9 col-sm-12">
+                <div class="col-md-9 col-12">
+                    @include('layout.mobile_sidebar')
                     <div class="row">
                         <div class="mb-4" style="color:#0F2A51;font-size:33px;">
                             <b>My <span style="color:#ED1B2F;">Membership</span></b>
@@ -184,7 +185,7 @@
                                     <div class="vl1"></div>
                                 </div>
                             </div>
-                            <div class="col-8 ml-2">
+                            <div class="col-9 ml-2">
                                 <div class="third-title font-weight-bolder mb-2">Bronze</div>
                                 <ul >
                                     <span class="semi-content" style="width:228px">
@@ -205,7 +206,7 @@
                                     <div class="vl2"></div>
                                 </div>
                             </div>
-                            <div class="col-8 ml-2">
+                            <div class="col-9 ml-2">
                                 <div class="third-title font-weight-bolder mb-2">Silver</div>
                                 <ul >
                                     <span class="semi-content" style="width:228px">
@@ -229,7 +230,7 @@
                                     <img src="{{asset('img/34899 [Converted]-04@2x.png')}}" weight="49px" height="48px">
                                 </div>
                             </div>
-                            <div class="col-8 ml-2">
+                            <div class="col-9 ml-2">
                                 <div class="third-title font-weight-bolder mb-2">Gold</div>
                                 <ul >
                                     <span class="semi-content" style="width:228px">
@@ -262,6 +263,7 @@
                 </div>
             </div>
         </div>
-</div>  
+</div>
+ 
         @endsection
         

@@ -177,12 +177,13 @@
                           <button type="button" class="btn back_button btn-lg btn-light">Buy now</button>
                         </a>
                       </div>
-                      
-                      <div class="row mt-4 mb-4 d-block d-sm-block d-md-none">
-                        <a href="{{ url('/payment') }}">
-                          <button type="button" class="btn back_button btn-lg btn-light w-100">Buy now</button>
-                        </a>
-                      </div> 
+                      <footer id="sticky-footer" class="py-4 bg-white text-white-50">
+                        <div class="row mt-4 mb-4 d-block d-sm-block d-md-none">
+                          <a href="{{ url('/payment') }}">
+                            <button type="button" class="btn back_button btn-lg btn-light w-100">Buy now</button>
+                          </a>
+                        </div>
+                      </footer> 
                 </div>
             </div>
         </div>

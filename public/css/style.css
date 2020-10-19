@@ -115,3 +115,6 @@ hr.color {
 dl, ol, ul{
     padding-left: 16px !important;
 }
+.dropdown-toggle::after {
+    display: none;
+}

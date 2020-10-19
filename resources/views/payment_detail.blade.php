@@ -135,12 +135,15 @@ section .section-title {
                                                     <div class="form-group third-title" style="padding-bottom:0px">
                                                         My Cards
                                                     </div>
-                                                    <div class="shadow-sm p-3 mb-5 bg-white rounded" style="border:1px solid #ED1B2F">
+                                                    <div class="shadow-sm mb-5 bg-white rounded" style="border:1px solid #ED1B2F">
                                                         <div class="row">
-                                                            <div class="col-10">
+                                                            <div class="col-2 pl-4 pt-1 pb-1">
+                                                                <img src="{{asset('img/Mastercard_2019_logo.svg')}}" style="border: #EDEDED 1px solid;" width="48px" height="48px">
+                                                            </div>
+                                                            <div class="col-8 pt-3">
                                                                 **** **** **** 3947
                                                             </div>
-                                                            <div class="col-2 pl-4">
+                                                            <div class="col-2 pl-4 pt-3">
                                                                 <label class="container_a">
                                                                     <input type="checkbox" name="radio" id="radio4">
                                                                     <span class="checkmark_a"></span>

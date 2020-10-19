@@ -75,7 +75,7 @@
                     <source srcset="{{asset('img/mainpage/banner3.png')}}" media="(min-width: 1400px)">
                     <source srcset="https://dummyimage.com/1400x500/#007aeb/4196e5" media="(min-width: 769px)">
                     <source srcset="https://dummyimage.com/800x500/007aeb/4196e5" media="(min-width: 577px)">
-                    <img srcset="https://dummyimage.com/600x500/007aeb/4196e5" alt="responsive image" class="d-block img-fluid">
+                    <img srcset="{{asset('img/mainpage/banner-mobile.jpg')}}" alt="responsive image" class="d-block img-fluid">
                 </picture>
 
                 {{-- <div class="carousel-caption">
@@ -93,7 +93,7 @@
                     <source srcset="{{asset('img/mainpage/banner4.png')}}" media="(min-width: 1400px)">
                     <source srcset="https://dummyimage.com/1400x500/007aeb/4196e5" media="(min-width: 769px)">
                     <source srcset="https://dummyimage.com/800x500/007aeb/4196e5" media="(min-width: 577px)">
-                    <img srcset="https://dummyimage.com/600x500/007aeb/4196e5" alt="responsive image" class="d-block img-fluid">
+                    <img srcset="{{asset('img/mainpage/banner-mobile.jpg')}}" alt="responsive image" class="d-block img-fluid">
                 </picture>
             </div>
 
@@ -103,7 +103,7 @@
                     <source srcset="{{asset('img/banner5.png')}}" media="(min-width: 1400px)">
                     <source srcset="https://dummyimage.com/1400x500/007aeb/4196e5" media="(min-width: 769px)">
                     <source srcset="https://dummyimage.com/800x500/007aeb/4196e5" media="(min-width: 577px)">
-                    <img srcset="https://dummyimage.com/600x500/007aeb/4196e5" alt="responsive image" class="d-block img-fluid">
+                    <img srcset="{{asset('img/mainpage/banner-mobile.jpg')}}" alt="responsive image" class="d-block img-fluid">
                 </picture>
             </div>
         </div>
@@ -122,7 +122,7 @@
     {{-- End Carousel --}}
     
     {{-- Mobile Plan --}}
-    <div class="col-12">
+    <div class="col-12" id="plans">
         <div class="auto-container" style="margin-top:75px">
             <h1 class="text-center" style="font-weight: 800"><span style="color:#0F2A51">MOBILE </span><span style="color: red; ">PLAN</span></h1>
             <div class="p-3" style="max-width: 636px;margin: auto">
@@ -288,7 +288,7 @@
 
     {{-- Image Bottom Mobile--}}
     <div class="col-12 p-0 d-block d-sm-block d-md-none " style="position: relative;">
-        <div class="w-100" style="display: flex; align-items: center; min-height: 597px; background-position: center; background-attachment: scroll; background-size: cover; background-repeat: no-repeat; background-image: url({{ asset('img/mainpage/Group-249.jpg')}});">
+        <div class="w-100" style="display: flex; align-items: center; min-height: 597px; background-position: center; background-attachment: scroll; background-size: cover; background-repeat: no-repeat; background-image: url({{ asset('img/mainpage/banner-mobile-2.jpg')}});">
             <div class="col-12  d-flex">
                 <div class="col-12" style="text-align: center">
                     <div class="col-sm-6 col-md-6 col-lg-12" style="color:white; font-size: 26px;text-shadow: 0px 3px 20px #00000094;text-aligin:right;font-weight:700;margin-top:400px">

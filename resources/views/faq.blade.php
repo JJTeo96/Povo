@@ -159,20 +159,25 @@ form .form-control:focus{
           
           <form action="#">
               <div class="row d-flex justify-content-center" >
-                  <div class="md-form col-sm-4 mt-4">
-                    <div class="mr-0 mr-sm-4 mr-md-2">
-                      <input style="background-color: transparent;" type="text" id="name" class="form-control faq-form font-weight-bold" placeholder="Name">
-                      <br>
-                      <input style="background-color: transparent;" type="text" id="email" class="form-control faq-form font-weight-bold" placeholder="Email">
-                      <br>
-                      <input style="background-color: transparent;" type="text" id="phone" class="form-control faq-form font-weight-bold" placeholder="Phone">
-                      <br>
+                  <div class="col-lg-6 col-sm-12 d-flex justify-content-end">
+                    <div class="md-form col-sm-6 ">
+                      <div class="mr-0 ">
+                        <input style="background-color: transparent;" type="text" id="name" class="form-control faq-form font-weight-bold" placeholder="Name">
+                        <br>
+                        <input style="background-color: transparent;" type="text" id="email" class="form-control faq-form font-weight-bold" placeholder="Email">
+                        <br>
+                        <input style="background-color: transparent;" type="text" id="phone" class="form-control faq-form font-weight-bold" placeholder="Phone">
+                        <br>
+                      </div>
                     </div>
                   </div>
-                  <div class="col-sm-4 mt-4">
+
+                  <div class="col-lg-6 col-sm-12 col-md-12">
+                    <div class="col-sm-6 ">
                       <input style="background-color: transparent;" type="text" id="title" class="form-control faq-form font-weight-bold" placeholder="Title">
                       <br>
                       <input style="background-color: transparent;" type="text" id="your_message" class="form-control faq-form font-weight-bold" placeholder="Your Message">
+                    </div>
                   </div>
               </div>
               <button class="btn col-sm-4 mt-5" style="background-color:red; color:white; font-size: 12px; max-width: 150px; padding:15px;" type="submit">SEND MESSAGE</button>

@@ -24,7 +24,7 @@
 
 <div class="col-12 d-sm-none d-none d-md-block" id="nav_web" style="">
     <nav class="navbar navbar-expand-md navbar-dark bg-white" id="navbar_web" style="box-shadow: 0px 2px 10px #00000029;">
-        <a class="navbar-brand p-2" href="#"><img src="{{asset('img/PAVO-01.png')}}" class="logo"/></a>
+        <a class="navbar-brand p-2" href="{{ url('/') }}"><img src="{{asset('img/PAVO-01.png')}}" class="logo"/></a>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbars" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
             <span style="color:#EA1C2D"><i class="fas fa-bars fa-lg"></i></span>
         </button>

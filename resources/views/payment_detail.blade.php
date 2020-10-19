@@ -107,13 +107,13 @@ section .section-title {
 </style>
 <div class="container-fluid p-0">
     <div class="pt-5 col-12" style="color: #0F2A51;">
-        <div class="auto-container" style="min-height: 800px">
+        <div class="auto-container" style="min-height: 900px">
             <div class="justify-content-center">
                 <div class="row">
                     <div class="col-12 mb-3 forth-title" style="color:#25283A;padding-left:18px;">
                         <b><svg width="1em" height="1em" viewBox="0 2 16 16" class="bi bi-chevron-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
-                        </svg> Back</b>
+                        </svg> <a href="{{url('/reload')}}" style="text-decoration: none;color:black">Back</a></b>
                     </div>
                 </div>
                 <div class="row">
@@ -143,7 +143,7 @@ section .section-title {
                                                             <div class="col-8 pt-3">
                                                                 **** **** **** 3947
                                                             </div>
-                                                            <div class="col-2 pl-4 pt-3">
+                                                            <div class="col-2 pl-3 pt-3">
                                                                 <label class="container_a">
                                                                     <input type="checkbox" name="radio" id="radio4">
                                                                     <span class="checkmark_a"></span>

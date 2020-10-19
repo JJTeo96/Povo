@@ -32,6 +32,7 @@ opacity: 1;
             <div class="auto-container row" style="min-height: 700px">
                 @include('layout.sidebar')
                 <div class="col-md-9">
+                  @include('layout.mobile_sidebar')
                     <div class="justify-content-left font-weight-bolder" style="color:#ED1B2F;font-size:30px; margin-top: -8px;">
                         Hello,
                         <span style="color: #0F2A51;">Tiana Rosser</span>

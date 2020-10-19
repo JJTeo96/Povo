@@ -58,8 +58,8 @@
                             <div role="tabpanel" class="tab-pane fade show active" id="internet">
                                     <div  style="color:#0F2A51; font-size: 16px; margin-top: 35px;">Choose Your Internet Plan</div>
                                     <div class="row mb-4" style="margin-top: 10px;">
-                                        <div class="col-sm-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
-                                            <div class="card border-light shadow" style="height: 186px;">
+                                        <div class="col-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
+                                            <div class="card border-light shadow" >
                                                 <div class="card-header header-card">
                                                     BigBonus - AutoRenew
                                                 </div>
@@ -75,8 +75,8 @@
                                                     </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
-                                            <div class="card border-light shadow" style="height: 186px;">
+                                        <div class="col-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
+                                            <div class="card border-light shadow" >
                                                 <div class="card-header header-card">
                                                     BigBonus - AutoRenew
                                                 </div>
@@ -92,7 +92,7 @@
                                                     </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
+                                        <div class="col-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
                                             <div class="card border-light shadow" style="height: 186px;">
                                                 <div class="card-header header-card">
                                                     BigBonus - AutoRenew
@@ -111,7 +111,7 @@
                                         </div>
                                     </div>
                                         <div class="row mb-4" style="margin-top: -25px;">
-                                            <div class="col-sm-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
+                                            <div class="col-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
                                                 <div class="card border-light shadow" style="height: 186px;">
                                                     <div class="card-header header-card">
                                                         BigBonus - AutoRenew
@@ -128,7 +128,7 @@
                                                         </div>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
+                                            <div class="col-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
                                                 <div class="card border-light shadow" style="height: 186px;">
                                                     <div class="card-header header-card">
                                                         BigBonus - AutoRenew
@@ -145,7 +145,7 @@
                                                         </div>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
+                                            <div class="col-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
                                                 <div class="card border-light shadow" style="height: 186px;">
                                                     <div class="card-header header-card">
                                                         BigBonus - AutoRenew

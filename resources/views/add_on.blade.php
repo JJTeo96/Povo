@@ -166,7 +166,7 @@
                             <div role="tabpanel" class="tab-pane fade" id="call_sms" style="margin-bottom: 199px;">
                                 <div  style="color:#0F2A51; font-size: 16px; margin-top: 35px;">Choose Your Calls & SMS Plan</div>
                                 <div class="row mb-4" style="margin-top: 10px;">
-                                    <div class="col-sm-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
+                                    <div class="col-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
                                       <div class="card border-light shadow" style=" height: 158px;">
                                         <div class="card-header header-card2"></div>
                                             <div class="card-body body-card">
@@ -181,7 +181,7 @@
                                             </div>
                                       </div>
                                     </div>
-                                    <div class="col-sm-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
+                                    <div class="col-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
                                     <div class="card border-light shadow" style=" height: 158px;">
                                         <div class="card-header header-card2"></div>
                                             <div class="card-body body-card">
@@ -196,7 +196,7 @@
                                             </div>
                                       </div>
                                     </div>
-                                    <div class="col-sm-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
+                                    <div class="col-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
                                       <div class="card border-light shadow" style=" height: 158px;">
                                         <div class="card-header header-card2"></div>
                                             <div class="card-body body-card">
@@ -227,8 +227,8 @@
                                         </div>
                                     </div>
                                 <div class="row mb-4" style="margin-top: 19px;">
-                                    <div class="col-sm-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
-                                      <div class="card border-light shadow" style=" height: 158px;">
+                                    <div class="col-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
+                                      <div class="card border-light shadow" >
                                         <div class="card-header header-card2"></div>
                                             <div class="card-body body-card">
                                                 Unlimited Social Messaging<br/><br/><br/>
@@ -242,8 +242,8 @@
                                             </div>
                                       </div>
                                     </div>
-                                    <div class="col-sm-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
-                                    <div class="card border-light shadow" style=" height: 158px;">
+                                    <div class="col-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
+                                    <div class="card border-light shadow" >
                                         <div class="card-header header-card2"></div>
                                             <div class="card-body body-card">
                                                 2GB Internet +30 min calls<br/><br/><br/>

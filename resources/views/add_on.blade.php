@@ -41,11 +41,11 @@
                                     <a class="nav-item nav-link active" id="internet_tab" data-toggle="tab" href="#internet" role="tab" aria-controls="internet" aria-selected="true">
                                         <img class="" src="img/addon/Wifi.svg">&nbsp;&nbsp;Internet&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                     </a>
-                                    <a class="nav-item nav-link" id="call_sms_tab" data-toggle="tab" href="#call_sms" role="tab" aria-controls="call_sms" aria-selected="false">
+                                    <a class="nav-item nav-link" id="call_sms_tab" style="border-right:0px!important;" data-toggle="tab" href="#call_sms" role="tab" aria-controls="call_sms" aria-selected="false">
                                         <img src="img/addon/Call.svg">&nbsp;&nbsp;Calls+SMS
                                     </a>
 
-                                    <a class="nav-item nav-link" style="width:107px;margin-top:5px" id="roaming_tab" data-toggle="tab" href="#roaming" role="tab" aria-controls="roaming" aria-selected="false">
+                                    <a class="nav-item nav-link" style="width:107px;margin-top:5px;" id="roaming_tab" data-toggle="tab" href="#roaming" role="tab" aria-controls="roaming" aria-selected="false">
                                         <img src="img/addon/Group-146.svg">&nbsp;&nbsp;Roaming
                                     </a>
                                     <a class="nav-item nav-link" id="idd_tab" data-toggle="tab" href="#idd" role="tab" aria-controls="idd" aria-selected="false">

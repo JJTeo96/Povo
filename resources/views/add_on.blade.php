@@ -59,6 +59,7 @@
                         <div class="tab-content tabs" style="max-width: 900px;">
                             <div role="tabpanel" class="tab-pane fade show active" id="internet">
                                     <div  style="color:#0F2A51; font-size: 16px; margin-top: 35px;">Choose Your Internet Plan</div>
+                                    <div class="col-lg-9 col-sm-12 p-0"> 
                                     <div class="row mb-4" style="margin-top: 10px;">
                                         <div class="col-6 col-md-6 col-lg-4" style="margin-top: 10px; margin-right: -15px">
                                             <div class="card border-light shadow" >
@@ -163,6 +164,7 @@
                                             </div>
                                         </div>
                                     </div>
+                                    </div>  
                                 </div>
 
                             <div role="tabpanel" class="tab-pane fade" id="call_sms" style="margin-bottom: 199px;">

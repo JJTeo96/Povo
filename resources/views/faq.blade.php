@@ -190,10 +190,10 @@ form .form-control:focus{
                 <div class="col-sm-4 d-flex justify-content-end" style="margin-bottom: 50px;">
                     <div class="text-center font-weight-bold m-4 px-4">
                         <img src="img/faq/Mask Group 3.svg">
-                        <p style="font-size: 20px; margin-top:20px;">
+                        <p style="font-size: 25px; margin-top:20px;">
                             No Contracts
                         </p>
-                        <p style="margin-top:20px;">
+                        <p style="margin-top:20px; font-size: 16px;">
                             If you don't love the service, cancel without any fees or penalties.
                         </p>
                     </div>
@@ -201,10 +201,10 @@ form .form-control:focus{
                 <div class="col-sm-4 d-flex justify-content-end" style="margin-bottom: 50px">
                     <div class="text-center font-weight-bold m-4 px-4">
                         <img src="img/faq/Mask Group 2.svg">
-                        <p style="font-size: 20px; margin-top:20px;">
+                        <p style="font-size: 25px; margin-top:20px;">
                             Support
                         </p>
-                        <p style="margin-top:20px;">
+                        <p style="margin-top:20px; font-size: 16px;">
                             Round-the-clock technicians ready to help online or by phone.
                         </p>
                     </div>
@@ -212,10 +212,10 @@ form .form-control:focus{
                 <div class="col-sm-4 d-flex justify-content-end" style="margin-bottom: 50px">
                     <div class="text-center font-weight-bold m-4 px-4">
                         <img src="img/faq/Mask Group 1.svg">
-                        <p style="font-size: 20px; margin-top:20px;">
+                        <p style="font-size: 25px; margin-top:20px;">
                             Live Chat
                         </p>
-                        <p style="margin-top:20px;">
+                        <p style="margin-top:20px; font-size: 16px;">
                             A 100% fiber-optic network backed by real-time fiber monitoring.
                         </p>
                     </div>

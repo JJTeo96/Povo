@@ -61,7 +61,7 @@
                         <div class="card-body text-danger text-center font-weight-bold" style="font-size: 30px;">
                             Innovation
                             <p class="vl p-1" style="margin-left: 75px; width: 40%;margin: 0 auto; border-bottom: 2px solid red;"></p>
-                                <div class="card-body text-center font-weight-bold p-2 mt-3" style="color: #0F2A51; font-size: 16px;">
+                                <div class="card-body text-center font-weight-bold p-2 mt-3" style="color: #0F2A51; font-size: 18px;">
                                     <p class="card-text">Innovation can enhance our offering to deliver greater value and improve the lives of our customers.</p>
                                 </div>
                         </div>
@@ -72,7 +72,7 @@
                         <div class="card-body text-danger text-center font-weight-bold" style="font-size: 30px">
                             Optimism
                             <p class="vl p-1" style="margin-left: 75px; width: 40%; margin: 0 auto; border-bottom: 2px solid red;"></p>                                          
-                                <div class="card-body text-center font-weight-bold p-2 mt-3"  style="color: #0F2A51; font-size: 16px">    
+                                <div class="card-body text-center font-weight-bold p-2 mt-3"  style="color: #0F2A51; font-size: 18px">    
                                     <p class="card-text">A little positivity can go a long way in achieving our goals. Optimism makes us hopeful for a better future and invigorates us to conceptualise and realise possibilities.</p>
                                 </div>
                         </div>
@@ -83,7 +83,7 @@
                         <div class="card-body text-danger text-center font-weight-bold" style="font-size: 30px">
                             Trust
                             <p class="vl p-1" style="margin-left: 75px; width: 40%; margin: 0 auto; border-bottom: 2px solid red;"></p>                         
-                                <div class="card-body text-center font-weight-bold p-2 mt-3"  style="color: #0F2A51; font-size: 16px">
+                                <div class="card-body text-center font-weight-bold p-2 mt-3"  style="color: #0F2A51; font-size: 18px">
                                     <p class="card-text">Earning the trust of our customers and colleagues is vital to our success. We earn this through our honesty, sincere care and genuine acts.</p>
                                 </div>
                         </div>

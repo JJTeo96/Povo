@@ -38,7 +38,7 @@ opacity: 1;
                         <span style="color: #0F2A51;">Tiana Rosser</span>
                     </div>
                     <div class="row">
-                        <div class="col-sm-12 col-md-6 col-lg-3 ">
+                        <div class="col-sm-12 col-md-12 col-lg-3 ">
                           <div class="m-0 m-sm-4 m-md-2 mb-4 mb-md-0">
                           <div class="card shadow h-100" style="">
                             <div class="card-body">
@@ -53,7 +53,7 @@ opacity: 1;
                           </div>
                         </div>
 
-                        <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="col-sm-12 col-md-12 col-lg-3">
                           <div class="m-0 m-sm-4 m-md-2 mb-4 mb-md-0">
                           <div class="card shadow" style="height:162px">
                             <div class="card-body">
@@ -66,7 +66,7 @@ opacity: 1;
                         </div>
 
                         
-                        <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
                           <div class="m-0 m-sm-4 m-md-2 mb-4 mb-md-0">
                             <div class="card shadow" style="height:162px">
                               <div class="card-body">
@@ -103,7 +103,7 @@ opacity: 1;
                         </div>
                       </div>
                       <div class="row">
-                        <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
                           <div class="m-0 m-sm-4 m-md-2 mb-4 mb-md-0">
                             <div class="card shadow" style=" height:310px">
                               <div class="card-body">

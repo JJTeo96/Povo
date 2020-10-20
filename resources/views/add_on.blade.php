@@ -38,18 +38,18 @@
 
                             <nav class="d-block d-sm-block d-md-none">
                                 <div class="nav nav-tabs nav-fill col-sm-9 col-md-7 col-lg-9" id="nav-tab" role="tablist">
-                                    <a class="nav-item nav-link active" id="internet_tab" data-toggle="tab" href="#internet" role="tab" aria-controls="internet" aria-selected="true">
-                                        <img class="" src="img/addon/Wifi.svg">&nbsp;&nbsp;Internet&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <a class="nav-item nav-link active" onclick="changeColorm('internet_tab_btnm')" style="max-width:155px;" id="internet_tab" data-toggle="tab" href="#internet" role="tab" aria-controls="internet" aria-selected="true">
+                                        <img src="img/addon/Wifi.svg" id="internet_tab_btnm" class="black">&nbsp;&nbsp;Internet
                                     </a>
-                                    <a class="nav-item nav-link" id="call_sms_tab" style="border-right:0px!important;" data-toggle="tab" href="#call_sms" role="tab" aria-controls="call_sms" aria-selected="false">
-                                        <img src="img/addon/Call.svg">&nbsp;&nbsp;Calls+SMS
+                                    <a class="nav-item nav-link" onclick="changeColorm('call_sms_tab_btnm')" style="max-width:155px; border-right: 0px !important;" id="call_sms_tab" data-toggle="tab" href="#call_sms" role="tab" aria-controls="call_sms" aria-selected="false">
+                                        <img src="img/addon/Call.svg" id="call_sms_tab_btnm">&nbsp;&nbsp;Calls+SMS
                                     </a>
 
-                                    <a class="nav-item nav-link" style="width:107px;margin-top:5px;" id="roaming_tab" data-toggle="tab" href="#roaming" role="tab" aria-controls="roaming" aria-selected="false">
-                                        <img src="img/addon/Group-146.svg">&nbsp;&nbsp;Roaming
+                                    <a class="nav-item nav-link" onclick="changeColorm('roaming_tab_btnm')" style="max-width:155px;" id="roaming_tab" data-toggle="tab" href="#roaming" role="tab" aria-controls="roaming" aria-selected="false">
+                                        <img src="img/addon/Group-146.svg" id="roaming_tab_btnm">&nbsp;&nbsp;Roaming
                                     </a>
-                                    <a class="nav-item nav-link" id="idd_tab" data-toggle="tab" href="#idd" role="tab" aria-controls="idd" aria-selected="false">
-                                        <img src="img/addon/IDD-01.svg">&nbsp;&nbsp;IDD
+                                    <a class="nav-item nav-link" onclick="changeColorm('idd_tab_btnm')" style="max-width:155px;" id="idd_tab" data-toggle="tab" href="#idd" role="tab" aria-controls="idd" aria-selected="false">
+                                        <img src="img/addon/IDD-01.svg" id="idd_tab_btnm">&nbsp;&nbsp;IDD
                                     </a>
                                     
                                 </div>
@@ -171,7 +171,7 @@
                                 <div  style="color:#0F2A51; font-size: 16px; margin-top: 35px;">Choose Your Calls & SMS Plan</div>
                                 <div class="row mb-4" style="margin-top: 10px;">
                                     <div class="col-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
-                                      <div class="card border-light shadow" style=" height: 158px;">
+                                      <div class="card border-light shadow">
                                         <div class="card-header header-card2"></div>
                                             <div class="card-body body-card">
                                                 1000min Calls<br/><br/><br/>
@@ -186,7 +186,7 @@
                                       </div>
                                     </div>
                                     <div class="col-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
-                                    <div class="card border-light shadow" style=" height: 158px;">
+                                    <div class="card border-light shadow">
                                         <div class="card-header header-card2"></div>
                                             <div class="card-body body-card">
                                                500min Calls<br/> (All Network)<br/><br/>
@@ -201,7 +201,7 @@
                                       </div>
                                     </div>
                                     <div class="col-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
-                                      <div class="card border-light shadow" style=" height: 158px;">
+                                      <div class="card border-light shadow">
                                         <div class="card-header header-card2"></div>
                                             <div class="card-body body-card">
                                                 1000min Calls <br/> (All Network+100SMS)<br/><br/>
@@ -250,7 +250,7 @@
                                     <div class="card border-light shadow" >
                                         <div class="card-header header-card2"></div>
                                             <div class="card-body body-card">
-                                                2GB Internet +30 min calls<br/><br/><br/>
+                                                2GB Internet +30min Calls<br/><br/><br/>
                                                 <p>
                                                     <span class="font-weight-bold" style="color: #ED1B2F;">RM25.00</span>
                                                     <span class="font-weight-bold" style="color: #0F2A51;"> / 3 Days</span>
@@ -266,7 +266,7 @@
                             <div role="tabpanel" class="tab-pane fade" id="idd" style="margin-bottom: 127px;">
                                 <div  style="color:#0F2A51; font-size: 16px; margin-top: 35px;">Choose Your IDD Plan</div>
                                 <div class="row mb-4" style="margin-top: 19px;">
-                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                    <div class="col-sm-12 col-md-8 col-lg-4">
                                       <div class="card border-light shadow" style=" height: 228px;">
                                             <div class="card-header header-card2"></div>
                                             <div class="card-body body-card pl-4" style="text-align: left">

@@ -87,6 +87,14 @@ input:-webkit-autofill:active  {
             wifi = document.getElementById(id);
             wifi.classList.add("black");
         }
+        function changeColorm(id) {
+            document.getElementById("internet_tab_btnm").classList.remove("black");
+            document.getElementById("call_sms_tab_btnm").classList.remove("black");
+            document.getElementById("roaming_tab_btnm").classList.remove("black");
+            document.getElementById("idd_tab_btnm").classList.remove("black");
+            wifi = document.getElementById(id);
+            wifi.classList.add("black");
+        }
     </script>
 </body>
 </html>

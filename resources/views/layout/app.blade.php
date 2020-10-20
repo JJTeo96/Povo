@@ -22,6 +22,23 @@
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
     @stack('styles')
+    <style>
+    html {
+        scroll-behavior: smooth;
+      }
+
+      input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    /* -webkit-box-shadow: 0 0 0 30px red inset !important;
+    background-color: transparent !important; */
+}
+
+.black{
+    filter: invert(100%) sepia(12%) saturate(4108%) hue-rotate(288deg) brightness(0%) contrast(54%);
+}
+      </style>
 </head>
 
 <body>
@@ -60,6 +77,15 @@
             header_m.classList.remove("fixed-top");
             div_m.style.marginBottom = '0px';
         }
+        }
+
+        function changeColor(id) {
+            document.getElementById("internet_tab_btn").classList.remove("black");
+            document.getElementById("call_sms_tab_btn").classList.remove("black");
+            document.getElementById("roaming_tab_btn").classList.remove("black");
+            document.getElementById("idd_tab_btn").classList.remove("black");
+            wifi = document.getElementById(id);
+            wifi.classList.add("black");
         }
     </script>
 </body>

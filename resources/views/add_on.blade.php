@@ -20,18 +20,18 @@
                         <section id="tabs">
                             <nav class="d-sm-none d-none d-md-block">
                                 <div class="nav nav-tabs nav-fill col-sm-9 col-md-7 col-lg-9" id="nav-tab" role="tablist">
-                                    <a class="nav-item nav-link active" id="internet_tab" data-toggle="tab" href="#internet" role="tab" aria-controls="internet" aria-selected="true">
-                                        <img src="img/addon/Wifi.svg">&nbsp;&nbsp;Internet
+                                    <a class="nav-item nav-link active" onclick="changeColor('internet_tab_btn')" id="internet_tab" data-toggle="tab" href="#internet" role="tab" aria-controls="internet" aria-selected="true">
+                                        <img src="img/addon/Wifi.svg" id="internet_tab_btn" class="black">&nbsp;&nbsp;Internet
                                     </a>
-                                    <a class="nav-item nav-link" id="call_sms_tab" data-toggle="tab" href="#call_sms" role="tab" aria-controls="call_sms" aria-selected="false">
-                                        <img src="img/addon/Call.svg">&nbsp;&nbsp;Calls+SMS
+                                    <a class="nav-item nav-link" onclick="changeColor('call_sms_tab_btn')" id="call_sms_tab" data-toggle="tab" href="#call_sms" role="tab" aria-controls="call_sms" aria-selected="false">
+                                        <img src="img/addon/Call.svg" id="call_sms_tab_btn">&nbsp;&nbsp;Calls+SMS
                                     </a>
 
-                                    <a class="nav-item nav-link" id="roaming_tab" data-toggle="tab" href="#roaming" role="tab" aria-controls="roaming" aria-selected="false">
-                                        <img src="img/addon/Group-146.svg">&nbsp;&nbsp;Roaming
+                                    <a class="nav-item nav-link" onclick="changeColor('roaming_tab_btn')" id="roaming_tab" data-toggle="tab" href="#roaming" role="tab" aria-controls="roaming" aria-selected="false">
+                                        <img src="img/addon/Group-146.svg" id="roaming_tab_btn">&nbsp;&nbsp;Roaming
                                     </a>
-                                    <a class="nav-item nav-link" id="idd_tab" data-toggle="tab" href="#idd" role="tab" aria-controls="idd" aria-selected="false">
-                                        <img src="img/addon/IDD-01.svg">&nbsp;&nbsp;IDD
+                                    <a class="nav-item nav-link" onclick="changeColor('idd_tab_btn')" id="idd_tab" data-toggle="tab" href="#idd" role="tab" aria-controls="idd" aria-selected="false">
+                                        <img src="img/addon/IDD-01.svg" id="idd_tab_btn">&nbsp;&nbsp;IDD
                                     </a>
                                 </div>
                             </nav>

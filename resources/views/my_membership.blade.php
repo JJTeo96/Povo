@@ -62,7 +62,7 @@
                 <div class="col-md-9 col-12">
                     @include('layout.mobile_sidebar')
                     <div class="row">
-                        <div class="mb-4" style="color:#0F2A51;font-size:33px;">
+                        <div class="mb-4" style="color:#0F2A51;font-size:30px;">
                             <b>My <span style="color:#ED1B2F;">Membership</span></b>
                         </div>
                     </div>

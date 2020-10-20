@@ -88,7 +88,7 @@ opacity: 1;
                                     <div class="row h-100 d-flex align-items-center mt-2 mt-md-0">
                                       <div class="col-6 col-md-12 text-center">
                                         <a href="{{ url('/reload') }}">
-                                          <button class="btn btn-radius" style="background-color:red; color:white; font-size: 12px; width: 136px; padding: 8px; " type="submit">Reload</button>
+                                          <button class="btn btn-radius" style="background-color:#ED1B2F; color:white; font-size: 12px; width: 136px; padding: 8px; " type="submit">Reload</button>
                                         </a>
                                       </div>
                                       <div class="col-6 col-md-12 text-center" style="font-size: 14px;">

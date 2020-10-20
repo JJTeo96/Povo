@@ -15,7 +15,7 @@
 }
 </style>
 <div class="col-md-3 col-sm-12 d-none d-md-block" style="color:#000000">
-    <div class="card" style="width: 240px;border-width:2px;">
+    <div class="card" style="max-width: 240px;border-width:2px;">
         <ul class="list-group list-group-flush">
           <li class="list-group-item ">
             <a class="icon-word {{ (request()->is('dashboard')) ? 'active_href' : '' }}" href="{{ url('/dashboard') }}">

@@ -179,7 +179,7 @@
                         <div class="row">
                             <div class="col-2">
                                 <div class="row mb-2">
-                                    <img src="{{asset('img/34899 [Converted]-02@2x.png')}}" weight="49px" height="48px">
+                                    <img src="{{asset('img/34899 [Converted]-02@2x.png')}}" style="width:80%;">
                                 </div>
                                 <div class="row">
                                     <div class="vl1"></div>
@@ -200,7 +200,7 @@
                             </div>
                             <div class="col-2">
                                 <div class="row mt-2">
-                                    <img src="{{asset('img/34899 [Converted]-03@2x.png')}}" weight="49px" height="48px">
+                                    <img src="{{asset('img/34899 [Converted]-03@2x.png')}}" style="width:80%;">
                                 </div>
                                 <div class="row mt-2">
                                     <div class="vl2"></div>
@@ -227,7 +227,7 @@
                             </div>
                             <div class="col-2">
                                 <div class="row mt-2">
-                                    <img src="{{asset('img/34899 [Converted]-04@2x.png')}}" weight="49px" height="48px">
+                                    <img src="{{asset('img/34899 [Converted]-04@2x.png')}}" style="width:80%;">
                                 </div>
                             </div>
                             <div class="col-9 ml-2">

@@ -95,7 +95,7 @@
   <div class="pt-5 col-12" style="color: #0F2A51;" >
       <div class="auto-container row" style="min-height: 800px">
               @include('layout.sidebar')
-                <div class="col-md-9 col-sm-12" style="color: #0F2A51;">
+                <div class="col-md-9 col-12" style="color: #0F2A51;">
                     <div class="col d-block d-sm-block d-md-none p-0 mb-3">
                       <a href="{{ url('/dashboard') }}" style="text-decoration: none;font-size:16px;color:#25283A;font-weight:600"><i class="fas fa-angle-left pr-1"></i> Back to Dashboard</a>
                     </div>
@@ -103,7 +103,7 @@
                         Reload
                     </div>
                     <div class="row">
-                        <div class="col-md-3 col-sm-12 pb-4">
+                        <div class="col-lg-3 col-12 pb-4">
                           <div class="card shadow-sm choosed border-danger" id="redbox1" onclick="red(1)">
                             <div class="card-body">
                               <span class="card-title"><b>RM10.00</b></span>
@@ -116,7 +116,7 @@
                             </div>
                           </div>
                         </div>
-                        <div class="col-md-3 col-sm-12 pb-4">
+                        <div class="col-lg-3 col-12 pb-4">
                             <div class="card shadow-sm choosed" id="redbox2" onclick="red(2)">
                               <div class="card-body">
                                 <span class="card-title"><b>RM15.00</b></span>
@@ -129,7 +129,7 @@
                               </div>
                             </div>
                           </div>
-                          <div class="col-md-3 col-sm-12 pb-4">
+                          <div class="col-lg-3 col-12 pb-4">
                             <div class="card shadow-sm choosed" id="redbox3" onclick="red(3)">
                               <div class="card-body">
                                 <span class="card-title"><b>RM30.00</b></span>
@@ -144,7 +144,7 @@
                           </div>
                       </div>
                       <div class="row mb-4">
-                        <div class="col-md-3 col-sm-12 pb-4">
+                        <div class="col-lg-3 col-12 pb-4">
                             <div class="card shadow-sm choosed" id="redbox4" onclick="red(4)">
                               <div class="card-body">
                                 <span class="card-title"><b>RM50.00</b></span>
@@ -157,7 +157,7 @@
                               </div>
                             </div>
                           </div>
-                          <div class="col-md-3 col-sm-12 pb-4">
+                          <div class="col-lg-3 col-12 pb-4">
                             <div class="card shadow-sm choosed" id="redbox5" onclick="red(5)">
                               <div class="card-body">
                                 <span class="card-title"><b>RM100.00</b></span>

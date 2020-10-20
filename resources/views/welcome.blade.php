@@ -122,7 +122,8 @@
     {{-- End Carousel --}}
     
     {{-- Mobile Plan --}}
-    <div class="col-12" id="plans">
+    <div id="plans" class="p-3"></div>
+    <div class="col-12" >
         <div class="auto-container" style="margin-top:75px">
             <h1 class="text-center" style="font-weight: 800"><span style="color:#0F2A51">MOBILE </span><span style="color: red; ">PLAN</span></h1>
             <div class="p-3" style="max-width: 636px;margin: auto">

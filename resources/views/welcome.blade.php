@@ -138,7 +138,7 @@
         <div class="auto-container mt-3">
             <div class="row">
                 
-                <div class="col-lg-4 col-12 d-flex justify-content-center mb-lg-1 mb-3 mb-md-3 mb-xs-3 ">
+                <div class="col-lg-4 col-12 d-flex justify-content-center mb-lg-1 mb-5 mb-md-3 mb-xs-3 ">
                     <div class="card shadow">
                         <div class="card img-fluid">
                             <div class="img-gradient"> 
@@ -159,7 +159,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-12 d-flex justify-content-center mb-lg-1 mb-3 mb-md-3 mb-xs-3">
+                <div class="col-lg-4 col-12 d-flex justify-content-center mb-lg-1 mb-5 mb-md-3 mb-xs-3">
                     <div class="card shadow" >
                         <div class="card img-fluid ">
                             <div class="img-gradient"> 
@@ -179,7 +179,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-12 d-flex justify-content-center mb-lg-1 mb-3 mb-md-3 mb-xs-3">
+                <div class="col-lg-4 col-12 d-flex justify-content-center mb-lg-1 mb-5 mb-md-3 mb-xs-3">
                     <div class="card shadow" >
                         <div class="card img-fluid">
                             <div class="img-gradient"> 
@@ -208,7 +208,7 @@
                 <div class="w-100" style="display: flex; align-items: center; min-height: 597px; background-position: center; background-attachment: scroll; background-size: cover; background-repeat: no-repeat; background-image: url({{ asset('img/mainpage/Group-249.jpg')}});">
                     <div class="col-10  d-flex justify-content-end">
                         <div class="col-6" style="text-align: end">
-                            <div class="col-sm-6 col-md-12 col-lg-12" style="color:white; font-size: 50px;text-shadow: 0px 3px 20px #00000094;text-aligin:right;font-weight:700">
+                            <div class="col-sm-6 col-md-12 col-lg-12" style="color:white; font-size: 3rem;text-shadow: 0px 3px 20px #00000094;text-aligin:right;font-weight:700">
                                 Pavo is not just about data, we're a new lease on life.
                             </div>
                         </div>
@@ -221,8 +221,8 @@
     <div class="col-12 p-0 d-block d-sm-block d-md-block d-lg-none " style="position: relative;">
         <div class="w-100" style="display: flex; align-items: center; min-height: 597px; background-position: center; background-attachment: scroll; background-size: cover; background-repeat: no-repeat; background-image: url({{ asset('img/mainpage/banner-mobile-2.jpg')}});">
             <div class="col-12  d-flex">
-                <div class="col-12" style="text-align: center">
-                    <div class="col-sm-6 col-md-12 col-lg-12" style="color:white; font-size: 26px;text-shadow: 0px 3px 20px #00000094;text-aligin:right;font-weight:700;margin-top:400px">
+                <div class="col-12" style="text-align: left">
+                    <div class="col-sm-6 col-md-12 col-lg-12" style="color:white; font-size: 2.2rem;text-shadow: 0px 3px 20px #00000094;text-aligin:right;font-weight:700;margin-top:400px">
                         Pavo is not just about data, we're a new lease on life.
                     </div>
                 </div>

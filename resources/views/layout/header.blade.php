@@ -22,7 +22,7 @@
     }
 </style>
 
-<div class="col-12 d-sm-none d-none d-md-block" id="nav_web" style="">
+<div class="col-12 d-sm-none d-md-none d-lg-block" id="nav_web" style="">
     <nav class="navbar navbar-expand-md navbar-dark bg-white" id="navbar_web" style="box-shadow: 0px 2px 10px #00000029;">
         <a class="navbar-brand p-2" href="{{ url('/') }}"><img src="{{asset('img/PAVO-01.png')}}" class="logo"/></a>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbars" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,7 +48,7 @@
 
                 {{-- <li class="nav-item dropdown mr-5">
                     <a class="nav-link dropdown-toggle font-weight-bolder" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:black">
-                        <i class="far fa-user mr-3"></i> &nbsp;<span style=" text-transform: uppercase">Tiana Rosser</span>
+                        <i class="far fa-user mr-3"></i> &nbsp;<span style=" text-transform: uppercase">Tiana Rosser &nbsp;&nbsp;<i class="fas fa-caret-down"></i></span>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="dropdown04" style="width: 200px;font-size:16px">
                         <a class="dropdown-item" href="#">Profile</a>
@@ -59,7 +59,7 @@
 
             <form class="form-inline my-2 my-md-0 ml-2">
                 <a href="{{ url('/login') }}" class="nav-link">
-                    <div class="btn btn-danger btn_login" style="width:201px">
+                    <div class="btn btn-danger btn_login" style="">
                         <div>LOG IN / REGISTER</div>
                     </div>
                 </a>
@@ -69,8 +69,8 @@
 </div> 
 
 {{-- Responsive --}}
-<div class="col-12 d-block d-sm-block d-md-none" id="nav_mobile" style="">
-    <nav class="navbar navbar-expand-md navbar-dark bg-white" id="navbar_mobile"  style="box-shadow: 0px 2px 10px #00000029;">
+<div class="col-12 d-none d-sm-block d-md-block d-lg-none" id="nav_mobile" style="">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-white" id="navbar_mobile"  style="box-shadow: 0px 2px 10px #00000029;">
         <a class="navbar-brand p-2" href="#"><img src="{{asset('img/PAVO-01.png')}}" class="logo_rps"/></a>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbars" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
             <span style="color:#EA1C2D"><i class="fas fa-bars fa-lg"></i></span>

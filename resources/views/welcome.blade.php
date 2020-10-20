@@ -75,7 +75,7 @@
                     <source srcset="{{asset('img/mainpage/banner3.png')}}" media="(min-width: 1400px)">
                     <source srcset="https://dummyimage.com/1400x500/#007aeb/4196e5" media="(min-width: 769px)">
                     <source srcset="https://dummyimage.com/800x500/007aeb/4196e5" media="(min-width: 577px)">
-                    <img srcset="{{asset('img/mainpage/banner-mobile.jpg')}}" alt="responsive image" class="d-block img-fluid">
+                    <img srcset="{{asset('img/mainpage/banner-mobile.jpg')}}" alt="responsive image"class="img-fluid" style="width:100%"width:100%">
                 </picture>
 
                 {{-- <div class="carousel-caption">
@@ -93,7 +93,7 @@
                     <source srcset="{{asset('img/mainpage/banner4.png')}}" media="(min-width: 1400px)">
                     <source srcset="https://dummyimage.com/1400x500/007aeb/4196e5" media="(min-width: 769px)">
                     <source srcset="https://dummyimage.com/800x500/007aeb/4196e5" media="(min-width: 577px)">
-                    <img srcset="{{asset('img/mainpage/banner-mobile.jpg')}}" alt="responsive image" class="d-block img-fluid">
+                    <img srcset="{{asset('img/mainpage/banner-mobile.jpg')}}" alt="responsive image"class="img-fluid" style="width:100%">
                 </picture>
             </div>
 
@@ -103,7 +103,7 @@
                     <source srcset="{{asset('img/banner5.png')}}" media="(min-width: 1400px)">
                     <source srcset="https://dummyimage.com/1400x500/007aeb/4196e5" media="(min-width: 769px)">
                     <source srcset="https://dummyimage.com/800x500/007aeb/4196e5" media="(min-width: 577px)">
-                    <img srcset="{{asset('img/mainpage/banner-mobile.jpg')}}" alt="responsive image" class="d-block img-fluid">
+                    <img srcset="{{asset('img/mainpage/banner-mobile.jpg')}}" alt="responsive image"class="img-fluid" style="width:100%">
                 </picture>
             </div>
         </div>
@@ -133,89 +133,19 @@
     </div>
     {{-- End Mobile Plan --}}
     
-    {{-- Card Web--}}
-    <div class="col d-sm-none d-none d-md-block">
+    {{-- Card--}}
+    <div class="col-12">
         <div class="auto-container mt-3">
             <div class="row">
                 
-                <div class="col-lg-4 d-flex">
+                <div class="col-lg-4 col-12 d-flex justify-content-center mb-lg-1 mb-3 mb-md-3 mb-xs-3 ">
                     <div class="card shadow">
                         <div class="card img-fluid">
                             <div class="img-gradient"> 
                                 <img class="card-img-top" src="{{asset('img/mainpage/2.png')}}" alt="Card image cap">
                             </div>
                             
-                            <div class="card-img-overlay d-flex flex-column justify-content-end" style="padding-left:30px">
-                                <h4 class="card-title" style="color:white;font-size:32px;text-aligin:left;padding: 0px 80px 0px 0px"><b>One Family Plan for Sharing</b></h4>
-                                <p class="card-text" style="color:white">FROM <span style="font-size: 22px"> RM90.00/month</span></p>
-                            </div>    
-                        </div>
-                        <div class="card-body">
-                            <h3 class="card-title" style="font-size:40px;color:#0F2A51;font-weight:800;padding: 20px 100px 20px 9px">Unlimited Share Plan</h3>
-                            <p class="card-text pl-2" style="color:#8E8888;padding-right:70px">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-                            <hr/>
-                            <a class="font-weight-bold" style="color:#0F2A51;padding-left:8px" href="#" >View Plan Details</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 d-flex">
-                    <div class="card shadow" >
-                        <div class="card img-fluid ">
-                            <div class="img-gradient"> 
-                                <img class="card-img-top" src="{{asset('img/mainpage/3.png')}}" alt="Card image cap">
-                            </div>
-                            <div class="card-img-overlay  d-flex flex-column justify-content-end">
-                                <h4 class="card-title" style="color:white;font-size:32px;text-aligin:left;padding: 0px 200px 0px 0px"><b>Just Right for you</b></h4>
-                                <p class="card-text" style="color:white">FROM<span style="font-size: 22px"> RM90.00/month</p>
-                            </div>    
-                        </div>
-                        <div class="card-body">
-                            <h3 class="card-title" style="font-size:40px;color:#0F2A51;font-weight:800;padding: 20px 100px 20px 9px">PAVO Lite Plan</h3>
-                            <p class="card-text pl-2" style="color:#8E8888;padding-right:70px">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-                            <hr/>
-                            <a class="font-weight-bold" style="color:#0F2A51;padding-left:8px" href="#" >View Plan Details</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 d-flex">
-                    <div class="card shadow" >
-                        <div class="card img-fluid">
-                            <div class="img-gradient"> 
-                                <img class="card-img-top" src="{{asset('img/mainpage/4.png')}}" alt="Card image cap">
-                            </div>
-                            <div class="card-img-overlay  d-flex flex-column justify-content-end">
-                                <h4 class="card-title" style="color:white;font-size:32px;text-aligin:left;padding: 0px 100px 0px 0px"><b>Always Connected</b></h4>
-                                <p class="card-text" style="color:white">FROM<span style="font-size: 22px">  RM90.00/month</p>
-                            </div>    
-                        </div>
-                        <div class="card-body">
-                            <h3 class="card-title" style="font-size:40px;color:#0F2A51;font-weight:800;padding: 20px 100px 20px 9px">PAVO Plus Plan</h3>
-                                <p class="card-text pl-2" style="color:#8E8888;padding-right:70px">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-                                <hr/>
-                                <a class="font-weight-bold" style="color:#0F2A51;padding-left:8px" href="#" >View Plan Details</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    {{-- End Card Web--}}
-
-    {{-- Card Mobile--}}
-    <div class="col-12 d-block d-sm-block d-md-none">
-        <div class="auto-container mt-3">
-            <div class="row">
-                
-                <div class="col-lg-4 d-flex mb-5 p-0">
-                    <div class="card shadow">
-                        <div class="card img-fluid">
-                            <div class="img-gradient"> 
-                                <img class="card-img-top" src="{{asset('img/mainpage/2.png')}}" alt="Card image cap">
-                            </div>
-                            
-                            <div class="card-img-overlay d-flex flex-column justify-content-end" style="padding-left:30px">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end" style="padding-left:20px">
                                 <h4 class="card-title" style="color:white;font-size:32px;text-aligin:left;padding: 0px 50px 0px 0px"><b>One Family Plan for Sharing</b></h4>
                                 <p class="card-text" style="color:white">FROM <span style="font-size: 22px"> RM90.00/month</span></p>
                             </div>    
@@ -229,14 +159,14 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 d-flex mb-5 p-0">
+                <div class="col-lg-4 col-12 d-flex justify-content-center mb-lg-1 mb-3 mb-md-3 mb-xs-3">
                     <div class="card shadow" >
                         <div class="card img-fluid ">
                             <div class="img-gradient"> 
                                 <img class="card-img-top" src="{{asset('img/mainpage/3.png')}}" alt="Card image cap">
                             </div>
                             <div class="card-img-overlay  d-flex flex-column justify-content-end">
-                                <h4 class="card-title" style="color:white;font-size:32px;text-aligin:left;padding: 0px 150px 0px 0px"><b>Just Right for you</b></h4>
+                                <h4 class="card-title" style="color:white;font-size:32px;text-aligin:left;padding: 0px 100px 0px 0px"><b>Just Right for you</b></h4>
                                 <p class="card-text" style="color:white">FROM<span style="font-size: 22px"> RM90.00/month</p>
                             </div>    
                         </div>
@@ -249,14 +179,14 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 d-flex p-0">
+                <div class="col-lg-4 col-12 d-flex justify-content-center mb-lg-1 mb-3 mb-md-3 mb-xs-3">
                     <div class="card shadow" >
                         <div class="card img-fluid">
                             <div class="img-gradient"> 
                                 <img class="card-img-top" src="{{asset('img/mainpage/4.png')}}" alt="Card image cap">
                             </div>
                             <div class="card-img-overlay  d-flex flex-column justify-content-end">
-                                <h4 class="card-title" style="color:white;font-size:32px;text-aligin:left;padding: 0px 100px 0px 0px"><b>Always Connected</b></h4>
+                                <h4 class="card-title" style="color:white;font-size:32px;text-aligin:left;padding: 0px 50px 0px 0px"><b>Always Connected</b></h4>
                                 <p class="card-text" style="color:white">FROM<span style="font-size: 22px">  RM90.00/month</p>
                             </div>    
                         </div>
@@ -271,14 +201,14 @@
             </div>
         </div>
     </div>
-    {{-- End Card Mobile --}}
-        
+    {{-- End Card--}}
+
     {{-- Image Bottom Web--}}
-            <div class="col-12 p-0 pt-5 d-sm-none d-none d-md-block " style="position: relative;">
+            <div class="col-12 p-0 pt-5 d-sm-none d-none d-md-none d-lg-block " style="position: relative;">
                 <div class="w-100" style="display: flex; align-items: center; min-height: 597px; background-position: center; background-attachment: scroll; background-size: cover; background-repeat: no-repeat; background-image: url({{ asset('img/mainpage/Group-249.jpg')}});">
                     <div class="col-10  d-flex justify-content-end">
-                        <div class="col-4" style="text-align: end">
-                            <div class="col-sm-6 col-md-6 col-lg-12" style="color:white; font-size: 50px;text-shadow: 0px 3px 20px #00000094;text-aligin:right;font-weight:700">
+                        <div class="col-6" style="text-align: end">
+                            <div class="col-sm-6 col-md-12 col-lg-12" style="color:white; font-size: 50px;text-shadow: 0px 3px 20px #00000094;text-aligin:right;font-weight:700">
                                 Pavo is not just about data, we're a new lease on life.
                             </div>
                         </div>
@@ -288,11 +218,11 @@
     {{-- End Image Bottom Web--}}
 
     {{-- Image Bottom Mobile--}}
-    <div class="col-12 p-0 d-block d-sm-block d-md-none " style="position: relative;">
+    <div class="col-12 p-0 d-block d-sm-block d-md-block d-lg-none " style="position: relative;">
         <div class="w-100" style="display: flex; align-items: center; min-height: 597px; background-position: center; background-attachment: scroll; background-size: cover; background-repeat: no-repeat; background-image: url({{ asset('img/mainpage/banner-mobile-2.jpg')}});">
             <div class="col-12  d-flex">
                 <div class="col-12" style="text-align: center">
-                    <div class="col-sm-6 col-md-6 col-lg-12" style="color:white; font-size: 26px;text-shadow: 0px 3px 20px #00000094;text-aligin:right;font-weight:700;margin-top:400px">
+                    <div class="col-sm-6 col-md-12 col-lg-12" style="color:white; font-size: 26px;text-shadow: 0px 3px 20px #00000094;text-aligin:right;font-weight:700;margin-top:400px">
                         Pavo is not just about data, we're a new lease on life.
                     </div>
                 </div>

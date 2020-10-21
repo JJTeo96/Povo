@@ -29,6 +29,8 @@
     }
     a.btn_font{
         text-decoration: none;
+        color:red;
+        
     }
     input{
         background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
@@ -70,7 +72,7 @@
                                     <a href="{{ url('/trc') }}" class="btn_font"><div class="btn btn-danger  btn-block">Login </div></a>
                                 </div>
                                 <div class="col-lg-6 col-sm-12 col-md-6">
-                                    <a href="{{ url('/register') }}" class="btn_font"><div class="btn register_btn  btn-block">Register</div></a> 
+                                    <a href="{{ url('/register') }}" class="btn_font" style=""><div class="btn register_btn  btn-block" style="color:red">Register</div></a> 
                                 </div>
                             </div>
                         </div> <!-- form-group// -->                                                           

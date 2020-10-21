@@ -24,16 +24,16 @@
             <h5 class="footer" style="margin-bottom: 33px">
                 <b>SIDE MAP</b>
             </h5>
-            <a href="#" style="margin-bottom: 10px" class="footer_link">Home</a><br/>
-            <a href="#" style="margin-bottom: 10px" class="footer_link">Plans</a><br/>
-            <a href="#"style="margin-bottom: 10px" class="footer_link">About</a><br/>
+            <a href="{{url('/')}}" style="margin-bottom: 10px" class="footer_link">Home</a><br/>
+            <a href="{{ route('welcome','#plans') }}" style="margin-bottom: 10px" class="footer_link">Plans</a><br/>
+            <a href="{{url('/about')}}"style="margin-bottom: 10px" class="footer_link">About</a><br/>
         </div>
 
         <div class="col-2 text-left text-white p-3">
             <h5 style="margin-bottom: 33px">
                 <b>SUPPORT</b>
             </h5>
-            <a href="#" style="margin-bottom: 10px" class="footer_link">FAQS</a><br/>
+            <a href="{{url('/faq')}}" style="margin-bottom: 10px" class="footer_link">FAQS</a><br/>
             <a href="#" style="margin-bottom: 10px" class="footer_link">Terms & Conditions</a><br/>
             <a href="#" style="margin-bottom: 10px" class="footer_link">Privacy Policy</a><br/>
         </div>

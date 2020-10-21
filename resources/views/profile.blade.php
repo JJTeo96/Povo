@@ -27,7 +27,7 @@
                             <div class="nav nav-tabs nav-fill col-sm-12 col-md-9 col-lg-7 p-0" id="nav-tab" role="tablist">
                                 <a class="nav-item nav-link active" style="text-align:center" id="personal_info_tab" data-toggle="tab" href="#personal_info" role="tab" aria-controls="personal_info" aria-selected="true">Personal Info</a>
                                 <a class="nav-item nav-link" style="text-align:center" id="password_tab" data-toggle="tab" href="#password" role="tab" aria-controls="password" aria-selected="false">Password</a>
-                                <a class="nav-item nav-link" style="text-align:center" id="payment_method_tab" data-toggle="tab" href="#payment_method" role="tab" aria-controls="payment_method" aria-selected="false">Payment Method</a>
+                                <a class="nav-item nav-link" style="text-align:center" id="payment_method_tab" data-toggle="tab" href="#payment_method" role="tab" aria-controls="payment_method" aria-selected="false">Payment Methods</a>
                             </div>
                         </nav>
                         </section>
@@ -39,32 +39,32 @@
                                         <form action="#">
                                             <div class="row d-flex justify-content-left">
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
-                                                    <div style="margin-top: 20px;">
+                                                    <div style="margin-top: 20px; color: grey;">
                                                         Full Name
-                                                        <input type="text" id="fullname" class="form-control faq-form" value="Tiana Rosser" disabled>
+                                                        <input type="text" id="fullname" class="form-control faq-form" style="color: #000000" value="Tiana Rosser" disabled>
                                                     </div>
-                                                    <div style="margin-top: 20px;">
+                                                    <div style="margin-top: 20px; color: grey;">
                                                         ID Type
-                                                        <input type="text" id="id_type" class="form-control faq-form" value="My Kad" disabled>
+                                                        <input type="text" id="id_type" class="form-control faq-form" style="color: #000000" value="My Kad" disabled>
                                                     </div>
-                                                    <div style="margin-top: 20px;">
+                                                    <div style="margin-top: 20px; color: grey;">
                                                         ID Number
-                                                        <input type="text" id="id_number" class="form-control faq-form" value="9201030181" disabled>
+                                                        <input type="text" id="id_number" class="form-control faq-form" style="color: #000000" value="9201030181" disabled>
                                                     </div>
                                                     <br/>
                                                 </div>
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
-                                                    <div style="margin-top: 20px;">
+                                                    <div style="margin-top: 20px; color: grey;">
                                                         Email
-                                                        <input type="text" id="fullname" class="form-control faq-form" value="tianarosser@gmail.com" disabled>
+                                                        <input type="text" id="fullname" class="form-control faq-form" style="color: #000000" value="tianarosser@gmail.com" disabled>
                                                     </div>
-                                                    <div style="margin-top: 20px;">
+                                                    <div style="margin-top: 20px; color: grey;">
                                                         Date Of Birth
-                                                        <input type="text" id="id_type" class="form-control faq-form" value="03 Jan 1992" disabled>
+                                                        <input type="text" id="id_type" class="form-control faq-form" style="color: #000000" value="03 Jan 1992" disabled>
                                                     </div>
-                                                    <div style="margin-top: 20px;">
+                                                    <div style="margin-top: 20px; color: grey;">
                                                         Gender
-                                                        <input type="text" id="id_number" class="form-control faq-form" value="Placeholders" disabled>
+                                                        <input type="text" id="id_number" class="form-control faq-form" style="color: #000000" value="Placeholders" disabled>
                                                     </div>
                                                     <br/>
                                                 </div>
@@ -79,21 +79,21 @@
                                         <form action="#">
                                             <div class="row d-flex justify-content-left" >
                                                 <div class="col-sm-12 col-md-12 col-lg-12" >
-                                                    <div style="margin-top: 20px;">
+                                                    <div style="margin-top: 20px; color: grey;">
                                                         Old Password *
-                                                        <input type="text" id="old_password" class="form-control faq-form">
+                                                        <input type="text" id="old_password" class="form-control faq-form" style="color: #000000">
                                                     </div>
-                                                    <div style="margin-top: 20px;">
+                                                    <div style="margin-top: 20px; color: grey;">
                                                         <div style="width: 200px">
                                                             New Password *
                                                         </div>
-                                                        <input type="text" id="new_password" class="form-control faq-form">
+                                                        <input type="text" id="new_password" class="form-control faq-form" style="color: #000000">
                                                     </div>
-                                                    <div style="margin-top: 20px;">
+                                                    <div style="margin-top: 20px; color: grey;">
                                                         <div style="width: 200px">
                                                             New Password Again *
                                                         </div>
-                                                        <input type="text" id="password_again" class="form-control faq-form">
+                                                        <input type="text" id="password_again" class="form-control faq-form" style="color: #000000">
                                                     </div>
                                                     <br/>
                                                 </div>
@@ -106,7 +106,7 @@
                                     <div  style="margin-top: 20px;">
                                         <form action="#">
                                             <div class="row d-flex justify-content-left" >
-                                                <div class="col-12 col-sm-12 col-md-12 col-lg-12" style="#">
+                                                <div class="col-12 col-sm-12 col-md-12 col-lg-12" style="color: grey;">
                                                     <div>
                                                         Add your credit / debit card details and save your payment information to your account for future purchases. You can also select a card as a preferred payment or replace your existing card.
                                                     </div>

@@ -14,7 +14,7 @@
                 <p style="font-size:30px;font-weight:500;color:#151522"><b>Thank you</b></p>
             </div>
             <div class="row justify-content-center">
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6" style="color: #0F2A51;">
                     <p class="text-wrap text-center font-weight-bold">Your request is being processed now. You will receive a confirmation SMS on your purchase is successful.</p>
                 </div>
             </div>

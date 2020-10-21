@@ -9,10 +9,10 @@
                             <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
                         </svg> <a href="{{url('/payment')}}" style="text-decoration: none;color:black">Back</a></b>
                     </div>
-                    <div class="d-flex justify-content-left mb-2" style="font-family: normal normal 600 20px/17px SF UI Display;">
+                    <div class="d-flex justify-content-left mb-2" style="font-size: 20px; color: #0F2A51;">
                         <b>Purchase Confirmation</b>
                     </div>
-                    <div class="shadow-sm p-3 mb-4 bg-white rounded" style="font:normal normal normal 16px/21px Segoe UI;"> 
+                    <div class="shadow-sm p-3 mb-4 bg-white rounded" style="font-size: 16px; color: #000000;"> 
                         <div class="row">
                             <div class="col-6">
                                 Paying For
@@ -47,7 +47,10 @@
                             </div>
                         </div>    
                     </div>
-                    Current Account Balance: <b>RM51.57</b>
+                    <div style="font-size: 14px; color: #000000;">
+                        Current Account Balance: <b>RM51.57</b>
+                    </div>
+                    
                     <hr>               
                     <div class="justify-content-left">
                         <a class="#" href="{{ url('/thankyou') }}">

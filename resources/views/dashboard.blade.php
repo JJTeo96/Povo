@@ -42,13 +42,13 @@ opacity: 1;
                 @include('layout.sidebar')
                 <div class="col-md-12 col-lg-9">
                   @include('layout.mobile_sidebar')
-                    <div class="justify-content-left font-weight-bolder" style="color:#ED1B2F;font-size:30px; margin-top: -8px;">
+                    <div class="justify-content-left" style="color:#ED1B2F;font-size:30px; margin-top: -8px; font-weight: 800;">
                         Hello,
                         <span style="color: #0F2A51;">Tiana Rosser</span>
                     </div>
                     <div class="row">
                         <div class="col-sm-12 col-md-12 col-lg-3 ">
-                          <div class="m-0 m-sm-4 m-md-2 mb-4 mb-md-0" style="height:90%">
+                          <div class="m-0 m-sm-4 m-md-2 mb-4 mb-md-0" style="height:85%">
                           <div class="card shadow h-100" style="">
                             <div class="card-body">
                                 <span style="font-size: 14px;">Account number:</span>
@@ -63,7 +63,7 @@ opacity: 1;
                         </div>
 
                         <div class="col-sm-12 col-md-12 col-lg-3">
-                          <div class="m-0 m-sm-4 m-md-2 mb-4 mb-md-0" style="height:90%">
+                          <div class="m-0 m-sm-4 m-md-2 mb-4 mb-md-0" style="height:85%">
                           <div class="card shadow h-100 " style="">
                             <div class="card-body">
                                 <span style="font-size: 14px;">Mobile number:</span>
@@ -76,7 +76,7 @@ opacity: 1;
 
                         {{-- web --}}
                         <div class="col-sm-12 col-md-12 col-lg-6 d-none d-md-block">
-                          <div class="m-0 m-sm-4 m-md-2 mb-4 mb-md-0" style="height:90%">
+                          <div class="m-0 m-sm-4 m-md-2 mb-4 mb-md-0" style="height:85%">
                             <div class="card shadow h-100" style="">
                               <div class="card-body">
                                 <div class="row">
@@ -87,9 +87,9 @@ opacity: 1;
                                     <div class="col-sm-12 col-md-12 font-weight-bold text-danger" style="font-size: 23px;">
                                       MYR 51.57
                                     </div>
-                                    <div class="col-sm-12 col-md-12 d-flex align-self-end" style="font-size: 14px; margin-top: 40px;">
+                                    <div class="col-sm-12 col-md-12" style="font-size: 14px; margin-top: 40px;">
                                       Due Date:
-                                      <span class="font-weight-bold" style="color: #0F2A51;"> 04/09/2020</span>
+                                      <span class="font-weight-bold" style="color: #0F2A51;">04/09/2020</span>
                                     </div>
                                   </div>
 

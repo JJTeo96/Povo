@@ -172,7 +172,7 @@ form .form-control:focus{
           <form action="#">
               <div class="row d-flex justify-content-center" >
                   <div class="col-lg-6 col-sm-12 col-md-12 d-flex justify-content-end">
-                    <div class="md-form col-sm-6 ">
+                    <div class="md-form col-sm-12 col-md-12 col-lg-6">
                       <div class="mr-0 ">
                         <input style="background-color: transparent;" type="text" id="name" class="form-control faq-form font-weight-bold" placeholder="Name">
                         <br>
@@ -185,7 +185,7 @@ form .form-control:focus{
                   </div>
 
                   <div class="col-lg-6 col-sm-12 col-md-12">
-                    <div class="col-sm-6 ">
+                    <div class="col-sm-12 col-md-12 col-lg-6">
                       <input style="background-color: transparent;" type="text" id="title" class="form-control faq-form font-weight-bold" placeholder="Title">
                       <br>
                       <input style="background-color: transparent;" type="text" id="your_message" class="form-control faq-form font-weight-bold" placeholder="Your Message">

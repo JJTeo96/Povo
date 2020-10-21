@@ -125,7 +125,7 @@ opacity: 1;
                                       MYR 51.57
                                     </div>
                                     <div class="col-sm-12 col-md-12 d-flex align-self-end" style="font-size: 14px;">
-                                      Dude Date:
+                                      Due Date: &nbsp;
                                       <span class="font-weight-bold" style="color: #0F2A51;"> 04/09/2020</span>
                                     </div>
                                   </div>

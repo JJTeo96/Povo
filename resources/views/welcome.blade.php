@@ -122,10 +122,10 @@
     {{-- End Carousel --}}
     
     {{-- Mobile Plan --}}
-    <div id="plans" class="p-3"></div>
-    <div class="col-12" >
+    <div id="plans" class="p-3 mb-5"></div>
+    <div class="col-12">
         <div class="auto-container">
-            <h1 class="text-center" style="font-weight: 800"><span style="color:#0F2A51">MOBILE </span><span style="color: red; ">PLAN</span></h1>
+            <h1 class="text-center" style="font-weight: 800"><span style="color:#6b788b">MOBILE </span><span style="color: red; ">PLAN</span></h1>
             <div class="p-3" style="max-width: 636px;margin: auto">
                 <h6 class="text-center font-weight-bold" style="font-size:18px;color:#0F2A51">PAVOCOMMS your mobile experiences. Save more as you add more lines for your family, tablets and wearables.</h6>
             </div>
@@ -209,7 +209,7 @@
                     <div class="col-10  d-flex justify-content-end">
                         <div class="col-4 " style="text-align: end">
                             <div class="col-sm-6 col-md-12 col-lg-12" style="color:white; font-size: 3rem;text-shadow: 0px 3px 20px #00000094;text-aligin:right;font-weight:700">
-                                Pavo is not just about data, we're a new lease on life.
+                                Pavocomms is not just about data, we're a new lease on life.
                             </div>
                         </div>
                     </div>

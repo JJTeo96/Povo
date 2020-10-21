@@ -125,7 +125,7 @@
     <div id="plans" class="p-3 mb-5"></div>
     <div class="col-12">
         <div class="auto-container">
-            <h1 class="text-center" style="font-weight: 800"><span style="color:#6b788b">MOBILE </span><span style="color: red; ">PLAN</span></h1>
+            <h1 class="text-center" style="font-weight: 800"><span style="color:#0F2A51">MOBILE </span><span style="color: red; ">PLAN</span></h1>
             <div class="p-3" style="max-width: 636px;margin: auto">
                 <h6 class="text-center font-weight-bold" style="font-size:18px;color:#0F2A51">PAVOCOMMS your mobile experiences. Save more as you add more lines for your family, tablets and wearables.</h6>
             </div>

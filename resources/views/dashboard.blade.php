@@ -42,7 +42,7 @@ opacity: 1;
                 @include('layout.sidebar')
                 <div class="col-md-12 col-lg-9">
                   @include('layout.mobile_sidebar')
-                    <div class="justify-content-left" style="color:#ED1B2F;font-size:30px; margin-top: -8px; font-weight: 800;">
+                    <div class="justify-content-left" style="color:#ED1B2F;font-size:30px; margin-top: -8px; font-weight: 700;">
                         Hello,
                         <span style="color: #0F2A51;">Tiana Rosser</span>
                     </div>

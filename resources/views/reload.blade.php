@@ -105,7 +105,7 @@
                     <div class="col d-block d-sm-block d-md-none p-0 mb-3">
                       <a href="{{ url('/dashboard') }}" style="text-decoration: none;font-size:16px;color:#25283A;font-weight:600"><i class="fas fa-angle-left pr-1"></i> Back to Dashboard</a>
                     </div>
-                    <div class="justify-content-left mb-3" style="color:#ED1B2F;font-size:30px; font-weight: 800;">
+                    <div class="justify-content-left mb-3" style="color:#ED1B2F;font-size:30px; font-weight: 700;">
                         Reload
                     </div>
                     <div class="row">

@@ -55,7 +55,7 @@
                                 <div class="col-lg-6 col-sm-12 col-md-12 pb-3">
                                     <a href="#" class="btn_font" id="requestBtn"><div class="btn btn-danger  btn-block">Request TAC </div></a>
                                     <div id="submitForm" style="display:none;">
-                                        <a href="#" id="submitBtn" class="btn_font"><div class="btn btn-danger  btn-block">Submit </div></a>
+                                        <a href="{{ url('/dashboard') }}" id="submitBtn" class="btn_font"><div class="btn btn-danger  btn-block">Submit </div></a>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-sm-12 col-md-12">

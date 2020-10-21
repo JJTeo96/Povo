@@ -253,8 +253,8 @@ section .section-title {
                     </div>
                 </div>
                 <div class="form-group mt-2 d-block d-md-none d-flex align-items-center justify-content-center">
-                    <a class="#" href="{{ url('/pc') }}" style="width: 100%;">
-                        <button type="button" class="btn pay_button btn-light" style="width: 100%;">Pay</button>
+                    <a class="#" href="{{ url('/pc') }}" style="width:100%">
+                        <button type="button" class="btn pay_button btn-light w-100">Pay</button>
                     </a>
                 </div>
             </div>

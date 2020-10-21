@@ -188,8 +188,8 @@
         </div>
         <div id="sticky-footer" class="bg-white text-white-50 stick_bottom d-block d-sm-block p-3 d-md-none d-flex align-items-center justify-content-center w-100">
                         
-          <a href="{{ url('/payment') }}" style="width: 100%;">
-            <button type="button" class="btn back_button btn-lg btn-light" style="width: 100%;">Buy now</button>
+          <a href="{{ url('/payment') }}" class="w-100">
+            <button type="button" class="btn back_button btn-lg btn-light w-100">Buy now</button>
           </a>
         
       </div> 

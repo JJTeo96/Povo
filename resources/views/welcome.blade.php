@@ -222,7 +222,7 @@
         <div class="w-100" style="display: flex; align-items: center; min-height: 597px; background-position: center; background-attachment: scroll; background-size: cover; background-repeat: no-repeat; background-image: url({{ asset('img/mainpage/banner-mobile-2.jpg')}});">
             <div class="col-12  d-flex">
                 <div class="col-12" style="text-align: left">
-                    <div class="col-sm-12 col-md-12 col-lg-12" style="color:white; font-size: 2.2rem;text-shadow: 0px 3px 20px #00000094;text-aligin:right;font-weight:700;margin-top:400px;padding: 0px 50px 0px 10px">
+                    <div class="col-sm-12 col-md-12 col-lg-12" style="color:white; font-size: 2.2rem;text-shadow: 0px 3px 20px #00000094;text-aligin:right;font-weight:700;margin-top:400px;">
                         Pavocomms is not just about data, we're a new lease on life.
                     </div>
                 </div>

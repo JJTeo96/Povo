@@ -71,7 +71,7 @@
 {{-- Responsive --}}
 <div class="col-12  d-sm-block d-md-block d-lg-none" id="nav_mobile" style="">
     <nav class="navbar navbar-expand-lg navbar-dark bg-white" id="navbar_mobile"  style="box-shadow: 0px 2px 10px #00000029;">
-        <a class="navbar-brand p-2" href="#"><img src="{{asset('img/PAVO-01.png')}}" class="logo_rps"/></a>
+        <a class="navbar-brand p-2" href="{{ url('/') }}"><img src="{{asset('img/PAVO-01.png')}}" class="logo_rps"/></a>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbars" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
             <span style="color:#EA1C2D"><i class="fas fa-bars fa-lg"></i></span>
         </button>

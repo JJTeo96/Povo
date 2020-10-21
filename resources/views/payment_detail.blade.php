@@ -143,7 +143,7 @@ section .section-title {
                                                             <div class="col-8 pt-3">
                                                                 **** **** **** 3947
                                                             </div>
-                                                            <div class="col-2 pl-3 pt-3">
+                                                            <div class="col-2 pr-3 pt-3">
                                                                 <label class="container_a">
                                                                     <input type="checkbox" name="radio" id="radio4">
                                                                     <span class="checkmark_a"></span>

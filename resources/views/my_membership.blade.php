@@ -39,7 +39,7 @@
     .divider {
         flex-grow: 1;
         border-bottom: 1px solid #EDEDED;
-        width: 230.82px;
+        max-width: 230.82px;
     }
     .vl1 {
         border-left: 1px solid #EDEDED;
@@ -97,7 +97,7 @@
                     <div class="row mb-4">
                         <span class="semi-title">Member Benefits</span>
                     </div>
-                    <div class="d-none d-md-block">  
+                    <div class="d-none d-lg-block">  
                     <div class="row mb-2 divided">
                             <div class="col-md-1 col-sm-10" ><img src="{{asset('img/34899 [Converted]-02@2x.png')}}" weight="49px" height="48px"></div>
                             <div class="col-md-3 divider"></div>
@@ -168,7 +168,7 @@
                         </div>  
                     </div>
                     </div>
-                    <div class="d-block d-md-none">  
+                    <div class="d-block d-lg-none">  
                         {{-- <div class="row mb-2 divided">
                                 <div class="col-md-1 col-sm-10" ><img src="{{asset('img/34899 [Converted]-02@2x.png')}}" weight="49px" height="48px"></div>
                                 <div class="col-md-3 divider"></div>

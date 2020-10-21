@@ -9,15 +9,27 @@
     .dropdown-toggle::after {
         display: none;
     }
+    .rotate{
+    -moz-transition: all 2s linear;
+    -webkit-transition: all 2s linear;
+    transition: all 0.2s linear;
+    }
+
+    .rotate.down{
+        -ms-transform: rotate(-180deg);
+        -moz-transform: rotate(-180deg);
+        -webkit-transform: rotate(-180deg);
+        transform: rotate(-180deg);
+    }
 </style>
-<div class="row d-block d-md-none mb-4">
+<div class="row d-block d-lg-none mb-4">
     <div class="dropdown" style="width:100%;">
         <button type="button" id="dropdown_button" style="width:100%;border:0px;" class="text-left pr-4 pl-4 pt-3 pb-2 btn btn-outline-danger shadow-sm dropdown-toggle" data-toggle="dropdown">
              <svg width="16px" height="16px" viewBox="0 2 16 16" class="bi bi-house-door" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" d="M7.646 1.146a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5H9.5a.5.5 0 0 1-.5-.5v-4H7v4a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6zM2.5 7.707V14H6v-4a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v4h3.5V7.707L8 2.207l-5.5 5.5z"/>
               <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
               </svg>&nbsp; Dashboard
-            <svg width="1em" height="1em" viewBox="0 0 16 10" class="bi bi-chevron-down float-right" fill="currentColor">
+            <svg width="1em" height="1em" viewBox="0 0 16 10" class="bi bi-chevron-down float-right rotate" fill="currentColor">
                 <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
               </svg>
         </button>
@@ -49,3 +61,8 @@
         </div>
       </div>
 </div>
+<script>
+  $(".btn").click(function(){
+    $(".rotate").toggleClass("down"); 
+  });
+</script>

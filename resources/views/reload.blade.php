@@ -89,6 +89,12 @@
 	border-radius: 50% !important;
 	background: #ED1B2F !important;
 }
+.stick_bottom{
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0.01rem;
+  align-self: flex-end;
+}
 
 </style>
 <div class="container-fluid p-0">
@@ -177,17 +183,16 @@
                           <button type="button" class="btn back_button btn-lg btn-light">Buy now</button>
                         </a>
                       </div>
-                      <footer id="sticky-footer" class="bg-white text-white-50 fixed-bottom d-block d-sm-block p-3 d-md-none d-flex align-items-center justify-content-center">
-                        
-                          <a href="{{ url('/payment') }}">
-                            <button type="button" class="btn back_button btn-lg btn-light" style="width:334px;">Buy now</button>
-                          </a>
-                        
-                      </footer> 
                 </div>
             </div>
         </div>
-</div>
+        <div id="sticky-footer" class="bg-white text-white-50 stick_bottom d-block d-sm-block p-3 d-md-none d-flex align-items-center justify-content-center w-100">
+                        
+          <a href="{{ url('/payment') }}">
+            <button type="button" class="btn back_button btn-lg btn-light" style="width:334px;">Buy now</button>
+          </a>
+        
+      </div> 
 </div>
         <script>
           $(".choosed").on('click', function(e){

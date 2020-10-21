@@ -56,7 +56,7 @@
                         </div> 
 
                         <div class="form-group"> 
-                            <div class="checkbox">
+                            <div class="checkbox" style="letter-spacing: 0px;">
                             <label> <input type="checkbox"> Remember me </label>
                             <a class="float-right" href="#" style="color: #4B5669">Forgot Password?</a>
                             </div> <!-- checkbox .// -->

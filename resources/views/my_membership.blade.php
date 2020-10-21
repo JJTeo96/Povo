@@ -59,7 +59,7 @@
     <div class="pt-5 col-12" style="color: #0F2A51;" >
         <div class="auto-container row" style="min-height: 800px">
               @include('layout.sidebar')
-                <div class="col-md-9 col-12">
+                <div class="col-md-12 col-lg-9">
                     @include('layout.mobile_sidebar')
                     <div class="row">
                         <div class="mb-4" style="color:#0F2A51;font-size:30px;">

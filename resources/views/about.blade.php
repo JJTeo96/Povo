@@ -47,7 +47,7 @@
         </div>
         {{-- End Img Top Mobile --}}
         <div class="col-12 p-5">
-            <h1 class="text-center" style="font-weight: 700">
+            <h1 class="text-center" style="font-weight: 800">
                 <span style="color: #0F2A51;">Our</span>
                 <span style="color: red; ">Values</span>
             </h1>
@@ -58,10 +58,10 @@
             <div class="row no-gutters" style="max-width: 1000px; margin: 0 auto; ">
                 <div class="col-12 col-sm-12 col-lg-4 d-flex justify-content-end" style="margin-bottom: 50px;">
                     <div class="card border-danger m-0 m-sm-4 m-md-2" >
-                        <div class="card-body text-danger text-center font-weight-bold" style="font-size: 30px;">
-                            Innovation
+                        <div class="card-body text-danger text-center">
+                            <h2 class="font-weight-bold">Innovation</h2>
                             <p class="vl p-1" style="margin-left: 75px; width: 40%;margin: 0 auto; border-bottom: 2px solid red;"></p>
-                                <div class="card-body text-center font-weight-bold p-2 mt-3" style="color: #0F2A51; font-size: 18px;">
+                                <div class="card-body text-center p-2 mt-3" style="color: #0F2A51; font-size: 18px;">
                                     <p class="card-text">Innovation can enhance our offering to deliver greater value and improve the lives of our customers.</p>
                                 </div>
                         </div>
@@ -69,10 +69,10 @@
                 </div>
                 <div class="col-12 col-sm-12 col-lg-4 d-flex justify-content-center" style="margin-bottom: 50px">
                     <div class="card border-danger m-0 m-sm-4 m-md-2" >
-                        <div class="card-body text-danger text-center font-weight-bold" style="font-size: 30px">
-                            Optimism
+                        <div class="card-body text-danger text-center">
+                            <h2 class="font-weight-bold">Optimism</h2>
                             <p class="vl p-1" style="margin-left: 75px; width: 40%; margin: 0 auto; border-bottom: 2px solid red;"></p>                                          
-                                <div class="card-body text-center font-weight-bold p-2 mt-3"  style="color: #0F2A51; font-size: 18px">    
+                                <div class="card-body text-center p-2 mt-3"  style="color: #0F2A51; font-size: 18px">    
                                     <p class="card-text">A little positivity can go a long way in achieving our goals. Optimism makes us hopeful for a better future and invigorates us to conceptualise and realise possibilities.</p>
                                 </div>
                         </div>
@@ -80,10 +80,10 @@
                 </div>
                 <div class="col-12 col-sm-12 col-lg-4 d-flex justify-content-start" style="margin-bottom: 50px">
                     <div class="card border-danger m-0 m-sm-4 m-md-2" >
-                        <div class="card-body text-danger text-center font-weight-bold" style="font-size: 30px">
-                            Trust
+                        <div class="card-body text-danger text-center">
+                            <h2 class="font-weight-bold">Trust</h2>
                             <p class="vl p-1" style="margin-left: 75px; width: 40%; margin: 0 auto; border-bottom: 2px solid red;"></p>                         
-                                <div class="card-body text-center font-weight-bold p-2 mt-3"  style="color: #0F2A51; font-size: 18px">
+                                <div class="card-body text-center p-2 mt-3"  style="color: #0F2A51; font-size: 18px">
                                     <p class="card-text">Earning the trust of our customers and colleagues is vital to our success. We earn this through our honesty, sincere care and genuine acts.</p>
                                 </div>
                         </div>

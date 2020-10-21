@@ -45,7 +45,7 @@ form .form-control:focus{
 	margin-top: 10px;
 }
 .accordion .card-header .btn {
-	color: #2f2f31;
+	color: #0F2A51;
 	font-size: 1.04rem;
 	text-align: left;
 	position: relative;
@@ -102,7 +102,7 @@ form .form-control:focus{
 </style>
 
 <div class="col-12 p-5">
-    <h1 class="text-center font-weight-bold" style="margin-bottom: -50px;">
+    <h1 class="text-center" style="font-weight: 800; margin-bottom: -50px;">
         <span style="color: #0F2A51;">PAVOCOMMS</span>
         <span style="color: red; ">FAQ'S</span>
     </h1>
@@ -117,7 +117,10 @@ form .form-control:focus{
           <div class="card shadow pb-2 mb-2" >
             <div class="card-header" id="headingOne">
               <h2 class="clearfix mb-0">
-                <a class="btn btn-link rotateBtn1 text-danger" id="down" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><i class="fa fa-chevron-circle-down rotate1"></i>  How do I see my Pavocomms billing history, weekly or monthly invoice?</a>									
+                <a class="btn btn-link rotateBtn1 text-danger font-weight-bold" id="down" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <i class="fa fa-chevron-circle-down rotate1"></i>
+                  How do I see my Pavocomms billing history, weekly or monthly invoice?
+                </a>									
               </h2>
             </div>
             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
@@ -127,7 +130,10 @@ form .form-control:focus{
           <div class="card shadow pb-2 mb-2">
             <div class="card-header" id="headingTwo">
               <h2 class="mb-0">
-                <a class="btn btn-link rotateBtn2 collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><i class="fa fa-chevron-circle-down rotate2"></i> Can I pay for Pavocomms with cash?</a>
+                <a class="btn btn-link rotateBtn2 collapsed font-weight-bold" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <i class="fa fa-chevron-circle-down rotate2"></i> 
+                  Can I pay for Pavocomms with cash?
+                </a>
               </h2>
             </div>
             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
@@ -137,7 +143,10 @@ form .form-control:focus{
           <div class="card shadow pb-2 mb-2">
             <div class="card-header" id="headingThree">
               <h2 class="mb-0">
-                <a class="btn btn-link rotateBtn3 collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><i class="fa fa-chevron-circle-down rotate3"></i> Why isn't my payment method accepted?</a>                     
+                <a class="btn btn-link rotateBtn3 collapsed font-weight-bold" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <i class="fa fa-chevron-circle-down rotate3"></i>
+                  Why isn't my payment method accepted?
+                </a>                     
               </h2>
             </div>
             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
@@ -147,7 +156,10 @@ form .form-control:focus{
           <div class="card shadow pb-2 mb-5 ">
             <div class="card-header" id="headingFour">
               <h2 class="mb-0">
-                <a class="btn btn-link rotateBtn4 collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><i class="fa fa-chevron-circle-down rotate4"></i> How do I cancel Pavocomms Subscription?</a>                               
+                <a class="btn btn-link rotateBtn4 collapsed font-weight-bold" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  <i class="fa fa-chevron-circle-down rotate4"></i> 
+                  How do I cancel Pavocomms Subscription?
+                </a>                               
               </h2>
             </div>
             <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
@@ -163,7 +175,7 @@ form .form-control:focus{
     <div class="col-12 p-5 text-center row-bg" style="background-image: linear-gradient(rgb(4, 26, 57, 0.95), rgb(4, 26, 57, 0.95)), url({{ asset('img/faq/contact-bg.png')}})">
       <div class="container">  
         <div class="d-flex justify-content-center mt-4">
-              <h1 style="color: white;">Have a Question?</h1>
+              <h1 style="color: white; font-weight: 750;">Have a Question?</h1>
           </div>
           <p class="d-flex justify-content-center mt-4">
           Ask here if need any special Queries, Custom Plans
@@ -202,7 +214,7 @@ form .form-control:focus{
                 <div class="col-sm-4 d-flex justify-content-end" style="margin-bottom: 50px;">
                     <div class="text-center font-weight-bold m-4 px-4">
                         <img src="img/faq/Mask Group 3.svg">
-                        <p style="font-size: 25px; margin-top:20px;">
+                        <p style="font-size: 25px; margin-top:20px; font-weight: 800;">
                             No Contracts
                         </p>
                         <p style="margin-top:20px; font-size: 16px;">
@@ -213,7 +225,7 @@ form .form-control:focus{
                 <div class="col-sm-4 d-flex justify-content-end" style="margin-bottom: 50px">
                     <div class="text-center font-weight-bold m-4 px-4">
                         <img src="img/faq/Mask Group 2.svg">
-                        <p style="font-size: 25px; margin-top:20px;">
+                        <p style="font-size: 25px; margin-top:20px; font-weight: 800;">
                             Support
                         </p>
                         <p style="margin-top:20px; font-size: 16px;">
@@ -224,7 +236,7 @@ form .form-control:focus{
                 <div class="col-sm-4 d-flex justify-content-end" style="margin-bottom: 50px">
                     <div class="text-center font-weight-bold m-4 px-4">
                         <img src="img/faq/Mask Group 1.svg">
-                        <p style="font-size: 25px; margin-top:20px;">
+                        <p style="font-size: 25px; margin-top:20px; font-weight: 800;">
                             Live Chat
                         </p>
                         <p style="margin-top:20px; font-size: 16px;">

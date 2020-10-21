@@ -14,7 +14,7 @@
                 <div class="auto-container">
                     <div class="row">
                         {{-- <div class="d-sm-block d-md-none col-sm-2 col-2"></div> --}}
-                        <div class="col-sm-6" style="color:white; font-size: 50px;text-shadow: 0px 3px 20px #00000094;font-weight:700">
+                        <div class="col-sm-6 col-md-8 col-lg-5" style="color:white; font-size: 50px;text-shadow: 0px 3px 20px #00000094;font-weight:700">
                             We are here to enrich your life, energise your play & empower your work.
                         </div>
                     </div>
@@ -37,7 +37,7 @@
                     <div class="row d-flex justify-content-center">
                         {{-- <div class="d-sm-block d-md-none col-sm-2 col-2"></div> --}}
                         <div class="col-10">
-                            <div class="col-sm-6" style="color:white; font-size: 26px;text-shadow: 0px 3px 20px #00000094;font-weight:700;margin-top:350px">
+                            <div class="col-sm-6 " style="color:white; font-size: 2rem;text-shadow: 0px 3px 20px #00000094;font-weight:700;margin-top:350px">
                                 We are here to enrich your life, energise your play & empower your work.
                             </div>
                         </div>

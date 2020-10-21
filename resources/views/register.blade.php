@@ -43,6 +43,11 @@
                             <input name="" class="form-control" placeholder="Mobile number" type="text">
                         </div>
 
+                        <div class="form-group" id="trc_input" style="display:none;">
+                            <input name="" class="form-control" placeholder="TAC" type="text">
+                            <p style="letter-spacing:0px" class="mt-3">TAC Sending to your phone...</p>
+                        </div>
+
                         <div class="form-group">
                             {{-- <button type="submit" class="btn btn-primary btn-block"> Login  </button>
                             <button class="btn btn-primary btn-block"> Login  </button> --}}
@@ -50,8 +55,7 @@
                                 <div class="col-lg-6 col-sm-12 col-md-12 pb-3">
                                     <a href="#" class="btn_font" id="requestBtn"><div class="btn btn-danger  btn-block">Request TAC </div></a>
                                     <div id="submitForm" style="display:none;">
-                                        <p>TAC Sending to your phone...</p>
-                                        <a href="#" id="submitBtn" class="btn_font"><div class="btn btn-success  btn-block">Submit </div></a>
+                                        <a href="#" id="submitBtn" class="btn_font"><div class="btn btn-danger  btn-block">Submit </div></a>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-sm-12 col-md-12">
@@ -73,11 +77,13 @@
         $(document).ready(function() {
             $("#requestBtn").click(function () {
             $("#submitForm").show()
+            $("#trc_input").show()
             $("#requestBtn").hide()
             });
             $("#submitBtn").click(function () {
             $("#requestBtn").show()
             $("#submitForm").hide()
+            $("#trc_input").hide()
             });
             });
     </script>

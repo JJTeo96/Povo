@@ -55,7 +55,7 @@
 {{-- Footer Mobile--}}
 <div class="col-12 p-5 text-center d-block d-sm-block d-md-block d-lg-none" style="background: linear-gradient(rgb(4, 26, 57, 0.95), rgb(4, 26, 57, 0.95)), url({{ asset('img/dxiMe7.png')}});">
     <div class="row no-gutters d-flex justify-content-center" style="max-width: 1920px;margin:0 auto">
-        <div class="col-sm-12 col-md-12 text-left text-white p-3 border-bottom" style="margin-right:3%">
+        <div class="col-sm-12 col-md-12 text-left text-white p-3 border-bottom">
             <img src="{{asset('img/pavo-03.png')}}" height="26px" width="86px" style="margin-bottom: 8px"/>
             <br/>
             <br/>

@@ -26,12 +26,21 @@ opacity: 1;
     border-radius: 18px;
     opacity: 1;
 }
+.progress {
+    display: flex;
+    height: 0.5rem;
+    overflow: hidden;
+    line-height: 0;
+    font-size: .75rem;
+    background-color: #eaecf4;
+    border-radius: .35rem;
+}
 </style>
       <div class="container-fluid p-0">
         <div class="pt-5 col-12" style="color: #0F2A51;" >
             <div class="auto-container row" style="min-height: 700px">
                 @include('layout.sidebar')
-                <div class="col-md-9">
+                <div class="col-md-12 col-lg-9">
                   @include('layout.mobile_sidebar')
                     <div class="justify-content-left font-weight-bolder" style="color:#ED1B2F;font-size:30px; margin-top: -8px;">
                         Hello,
@@ -39,7 +48,7 @@ opacity: 1;
                     </div>
                     <div class="row">
                         <div class="col-sm-12 col-md-12 col-lg-3 ">
-                          <div class="m-0 m-sm-4 m-md-2 mb-4 mb-md-0">
+                          <div class="m-0 m-sm-4 m-md-2 mb-4 mb-md-0" style="height:90%">
                           <div class="card shadow h-100" style="">
                             <div class="card-body">
                                 <span style="font-size: 14px;">Account number:</span>
@@ -54,8 +63,8 @@ opacity: 1;
                         </div>
 
                         <div class="col-sm-12 col-md-12 col-lg-3">
-                          <div class="m-0 m-sm-4 m-md-2 mb-4 mb-md-0">
-                          <div class="card shadow" style="height:162px">
+                          <div class="m-0 m-sm-4 m-md-2 mb-4 mb-md-0" style="height:90%">
+                          <div class="card shadow h-100 " style="">
                             <div class="card-body">
                                 <span style="font-size: 14px;">Mobile number:</span>
                                 <p class="font-weight-bold" style="font-size: 23px">0123456789</p> 
@@ -65,8 +74,45 @@ opacity: 1;
                           </div>
                         </div>
 
-                        
-                        <div class="col-sm-12 col-md-12 col-lg-6">
+                        {{-- web --}}
+                        <div class="col-sm-12 col-md-12 col-lg-6 d-none d-md-block">
+                          <div class="m-0 m-sm-4 m-md-2 mb-4 mb-md-0" style="height:90%">
+                            <div class="card shadow h-100" style="">
+                              <div class="card-body">
+                                <div class="row">
+                                  <div class="col-sm-12 col-md-6 col-lg-6">
+                                    <div class="col-sm-12 col-md-12" style="font-size: 14px;">
+                                      Current Balance
+                                    </div>
+                                    <div class="col-sm-12 col-md-12 font-weight-bold text-danger" style="font-size: 23px;">
+                                      MYR 51.57
+                                    </div>
+                                    <div class="col-sm-12 col-md-12 d-flex align-self-end" style="font-size: 14px; margin-top: 40px;">
+                                      Due Date:
+                                      <span class="font-weight-bold" style="color: #0F2A51;"> 04/09/2020</span>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-sm-12 col-md-6 col-lg-6">
+                                    <div class="row h-100 d-flex align-items-center mt-2 mt-md-0">
+                                      <div class="col-6 col-md-12 text-center" style="margin-bottom: 50px;">
+                                        <a href="{{ url('/reload') }}">
+                                          <button class="btn btn-radius" style="background-color:#ED1B2F; color:white; font-size: 12px; width: 136px; padding: 8px; " type="submit">Reload</button>
+                                        </a>
+                                      </div>
+                                      <div class="col-6 col-md-12 text-center" style="font-size: 14px;">
+                                            <a href="#" class="font-weight-bold" style="color: #00AEEF; font-size:14px;">View Reload History</a>
+                                      </div>
+                                    </div>
+                                  </div> 
+                              </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        {{-- end web --}}
+                        {{-- mobile --}}
+                        <div class="col-sm-12 col-md-12 col-lg-6 d-block d-md-none">
                           <div class="m-0 m-sm-4 m-md-2 mb-4 mb-md-0">
                             <div class="card shadow" style="height:162px">
                               <div class="card-body">
@@ -78,7 +124,7 @@ opacity: 1;
                                     <div class="col-sm-12 col-md-12 font-weight-bold text-danger" style="font-size: 23px;">
                                       MYR 51.57
                                     </div>
-                                    <div class="col-sm-12 col-md-12" style="font-size: 14px;">
+                                    <div class="col-sm-12 col-md-12 d-flex align-self-end" style="font-size: 14px;">
                                       Dude Date:
                                       <span class="font-weight-bold" style="color: #0F2A51;"> 04/09/2020</span>
                                     </div>
@@ -101,6 +147,7 @@ opacity: 1;
                             </div>
                           </div>
                         </div>
+                    {{-- end mobile --}}
                       </div>
                       <div class="row">
                         <div class="col-sm-12 col-md-12 col-lg-6">
@@ -118,15 +165,15 @@ opacity: 1;
                                 <div class="card-hint">
                                     <div  class="col-sm-12 col-md-12 col-lg-8" style="">
                                     <div style="margin-top: 20px;">Data Usage: 17.5GB/ 20GB</div>
-                                    <div class="progress">
+                                    <div class="progress mt-2">
                                         <div class="progress-bar bg-danger" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                     <div style="margin-top: 20px;">Talk Time: 300min</div>
-                                    <div class="progress">
-                                        <div class="progress-bar progress-barbar" role="progressbar" style="width: 100%;background-color:#F75431 !important" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress mt-2">
+                                        <div class="progress-bar progress-barbar" role="progressbar" style="width: 100%; background-color:#F75431 !important" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                     <div style="margin-top: 20px;">SMS Left: 300</div>
-                                    <div class="progress">
+                                    <div class="progress mt-2">
                                         <div class="progress-bar bg-warning" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                     </div>

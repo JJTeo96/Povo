@@ -42,7 +42,7 @@
 <div class="container-fluid p-0">
 <div class="col-12 col-sm-12 col-md-12 col-lg-12">
     <div class="row row-bg d-flex justify-content-end" style="min-height: 700px">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-6 p-0  d-flex align-items-center justify-content-center">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-8 p-0  d-flex align-items-center justify-content-center">
             <div class="card shadow welcome">
                 <article class="card-body" style="margin-left: 20px;margin-right:21px">
                     <h4 class="card-title" style="margin-bottom:35px;margin-top:50px;font-size:32px"><b>Welcome</b></h4>

@@ -18,7 +18,50 @@
                     </div>
                     <div class="tab" role="tabpanel" style="margin-top: 15px;">
                         <section id="tabs">
-                            <nav class="d-sm-none d-none d-md-block">
+                            {{-- <nav class="d-sm-none d-none d-md-block">
+                                <div class="nav nav-tabs nav-fill col-sm-9 col-md-7 col-lg-9" id="nav-tab" role="tablist">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <a class="nav-item nav-link active" onclick="changeColor('internet_tab_btn')" id="internet_tab" data-toggle="tab" href="#internet" role="tab" aria-controls="internet" aria-selected="true">
+                                                <img src="img/addon/Wifi.svg" id="internet_tab_btn" class="black">&nbsp;&nbsp;Internet
+                                            </a>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="nav-item nav-link" onclick="changeColor('call_sms_tab_btn')" id="call_sms_tab" data-toggle="tab" href="#call_sms" role="tab" aria-controls="call_sms" aria-selected="false">
+                                                <img src="img/addon/Call.svg" id="call_sms_tab_btn">&nbsp;&nbsp;Calls+SMS
+                                            </a>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="nav-item nav-link" onclick="changeColor('roaming_tab_btn')" id="roaming_tab" data-toggle="tab" href="#roaming" role="tab" aria-controls="roaming" aria-selected="false">
+                                                <img src="img/addon/Group-146.svg" id="roaming_tab_btn">&nbsp;&nbsp;Roaming
+                                            </a>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="nav-item nav-link" onclick="changeColor('idd_tab_btn')" id="idd_tab" data-toggle="tab" href="#idd" role="tab" aria-controls="idd" aria-selected="false">
+                                                <img src="img/addon/IDD-01.svg" id="idd_tab_btn">&nbsp;&nbsp;IDD
+                                            </a>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </nav> --}}
+
+                            <nav>
+                                <div class="nav nav-tabs row nav-fill " id="nav-tab" role="tablist">
+                                    <a class="col-6 col-lg-3 nav-item nav-link active" onclick="changeColor('internet_tab_btn')" id="internet_tab" data-toggle="tab" href="#internet" role="tab" aria-controls="nav-home" aria-selected="true">
+                                        <img src="img/addon/Wifi.svg" id="internet_tab_btn" class="black">&nbsp;&nbsp;Internet
+                                    </a>
+                                    <a class="col-6 col-lg-3 nav-item nav-link" onclick="changeColor('call_sms_tab_btn')" id="call_sms_tab" data-toggle="tab" href="#call_sms" role="tab" aria-controls="nav-profile" aria-selected="false">
+                                        <img src="img/addon/Call.svg" id="call_sms_tab_btn">&nbsp;&nbsp;Calls+SMS
+                                    </a>
+                                    <a class="col-6 col-lg-3 nav-item nav-link" onclick="changeColor('roaming_tab_btn')" id="roaming_tab" data-toggle="tab" href="#roaming" role="tab"  aria-controls="nav-contact" aria-selected="false">
+                                        <img src="img/addon/Group-146.svg" id="roaming_tab_btn">&nbsp;&nbsp;Roaming
+                                    </a>
+                                    <a class="col-6 col-lg-3 nav-item nav-link" onclick="changeColor('idd_tab_btn')" id="idd_tab" data-toggle="tab" href="#idd" role="tab" aria-controls="idd" aria-selected="false">
+                                        <img src="img/addon/IDD-01.svg" id="idd_tab_btn">&nbsp;&nbsp;IDD
+                                    </a>
+                                </div>
+                            </nav>
+                            {{-- <nav class="d-sm-none d-none d-md-block">
                                 <div class="nav nav-tabs nav-fill col-sm-9 col-md-7 col-lg-9" id="nav-tab" role="tablist">
                                     <a class="nav-item nav-link active" onclick="changeColor('internet_tab_btn')" id="internet_tab" data-toggle="tab" href="#internet" role="tab" aria-controls="internet" aria-selected="true">
                                         <img src="img/addon/Wifi.svg" id="internet_tab_btn" class="black">&nbsp;&nbsp;Internet
@@ -34,9 +77,9 @@
                                         <img src="img/addon/IDD-01.svg" id="idd_tab_btn">&nbsp;&nbsp;IDD
                                     </a>
                                 </div>
-                            </nav>
+                            </nav> --}}
 
-                            <nav class="d-block d-sm-block d-md-none">
+                            {{-- <nav class="d-block d-sm-block d-md-none">
                                 <div class="nav nav-tabs nav-fill col-sm-9 col-md-7 col-lg-9" id="nav-tab" role="tablist">
                                     <a class="nav-item nav-link active" onclick="changeColorm('internet_tab_btnm')" style="max-width:155px;" id="internet_tab" data-toggle="tab" href="#internet" role="tab" aria-controls="internet" aria-selected="true">
                                         <img src="img/addon/Wifi.svg" id="internet_tab_btnm" class="black">&nbsp;&nbsp;Internet
@@ -53,7 +96,7 @@
                                     </a>
                                     
                                 </div>
-                            </nav>
+                            </nav> --}}
                         </section>
                         <!-- Tab panes -->
                         <div class="tab-content tabs" style="max-width: 900px;">

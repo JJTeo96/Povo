@@ -87,6 +87,18 @@ form .form-control:focus{
 .accordion .highlight i {
 	transform: rotate(180deg);
 }
+.rotate1 .rotate2 .rotate3 .rotate4{
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.rotate1.down,.rotate2.down,.rotate3.down,.rotate4.down{
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
 </style>
 
 <div class="col-12 p-5">
@@ -105,7 +117,7 @@ form .form-control:focus{
           <div class="card shadow pb-2 mb-2" >
             <div class="card-header" id="headingOne">
               <h2 class="clearfix mb-0">
-                <a class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><i class="fa fa-chevron-circle-down"></i>  How do I see my Pavocomms billing history, weekly or monthly invoice?</a>									
+                <a class="btn btn-link rotateBtn1 text-danger" id="down" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><i class="fa fa-chevron-circle-down rotate1"></i>  How do I see my Pavocomms billing history, weekly or monthly invoice?</a>									
               </h2>
             </div>
             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
@@ -115,7 +127,7 @@ form .form-control:focus{
           <div class="card shadow pb-2 mb-2">
             <div class="card-header" id="headingTwo">
               <h2 class="mb-0">
-                <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><i class="fa fa-chevron-circle-down"></i> Can I pay for Pavocomms with cash?</a>
+                <a class="btn btn-link rotateBtn2 collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><i class="fa fa-chevron-circle-down rotate2"></i> Can I pay for Pavocomms with cash?</a>
               </h2>
             </div>
             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
@@ -125,7 +137,7 @@ form .form-control:focus{
           <div class="card shadow pb-2 mb-2">
             <div class="card-header" id="headingThree">
               <h2 class="mb-0">
-                <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><i class="fa fa-chevron-circle-down"></i> Why isn't my payment method accepted?</a>                     
+                <a class="btn btn-link rotateBtn3 collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><i class="fa fa-chevron-circle-down rotate3"></i> Why isn't my payment method accepted?</a>                     
               </h2>
             </div>
             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
@@ -135,7 +147,7 @@ form .form-control:focus{
           <div class="card shadow pb-2 mb-5 ">
             <div class="card-header" id="headingFour">
               <h2 class="mb-0">
-                <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><i class="fa fa-chevron-circle-down"></i> How do I cancel Pavocomms Subscription?</a>                               
+                <a class="btn btn-link rotateBtn4 collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><i class="fa fa-chevron-circle-down rotate4"></i> How do I cancel Pavocomms Subscription?</a>                               
               </h2>
             </div>
             <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
@@ -159,7 +171,7 @@ form .form-control:focus{
           
           <form action="#">
               <div class="row d-flex justify-content-center" >
-                  <div class="col-lg-6 col-sm-12 d-flex justify-content-end">
+                  <div class="col-lg-6 col-sm-12 col-md-12 d-flex justify-content-end">
                     <div class="md-form col-sm-6 ">
                       <div class="mr-0 ">
                         <input style="background-color: transparent;" type="text" id="name" class="form-control faq-form font-weight-bold" placeholder="Name">
@@ -226,31 +238,47 @@ form .form-control:focus{
 
         @endsection
 
-{{-- @push('scripts')
-    <script>
-       $( ".firstBtn" ).on( "click", function() {
-            $(".redBtn").hide('<img src="https://img.icons8.com/small/25/000000/ED1B2F/circled-chevron-up.png"/>&nbsp;');
-            $(".blueBtn").show('<img src="https://img.icons8.com/small/25/000000/circled-chevron-down.png"/>&nbsp;');
-        });
-       $( ".firstBtn" ).on( "click", function() {
-            $(".blueBtn").hide('<img src="https://img.icons8.com/small/25/000000/circled-chevron-down.png"/>&nbsp;');
-            $(".redBtn").show('<img src="https://img.icons8.com/small/25/000000/ED1B2F/circled-chevron-up.png"/>&nbsp;');
-
-        });
-    </script>
-@endpush --}}
-
+@push('scripts')
 <script>
-  $(document).ready(function(){
-    // Add minus icon for collapse element which is open by default
-    $(".collapse.show").each(function(){
-      $(this).prev(".card-header").addClass("highlight");
+  $(function() {
+    $(".rotateBtn1").on('click', function() {   
+       $(".rotate1").toggleClass("down");
+       $(".btn-link").removeClass('text-danger');
+       $(".rotate2").removeClass('down');
+       $(".rotate3").removeClass('down');
+       $(".rotate4").removeClass('down');
+       $(this).addClass('text-danger');
     });
-    
-    // Highlight open collapsed element 
-    $(".card-header .btn").click(function(){
-      $(".card-header").not($(this).parents()).removeClass("highlight");
-      $(this).parents(".card-header").toggleClass("highlight");
+});
+$(function() {
+    $(".rotateBtn2").on('click', function() {   
+       $(".rotate2").toggleClass("down");
+       $(".btn-link").removeClass('text-danger');
+       $(".rotate1").removeClass('down');
+       $(".rotate3").removeClass('down');
+       $(".rotate4").removeClass('down');
+       $(this).addClass('text-danger');
     });
-  });
+});
+$(function() {
+    $(".rotateBtn3").on('click', function() {   
+       $(".rotate3").toggleClass("down");
+       $(".btn-link").removeClass('text-danger');
+       $(".rotate2").removeClass('down');
+       $(".rotate1").removeClass('down');
+       $(".rotate4").removeClass('down');
+       $(this).addClass('text-danger');
+    });
+});
+$(function() {
+    $(".rotateBtn4").on('click', function() {   
+       $(".rotate4").toggleClass("down");
+       $(".btn-link").removeClass('text-danger');
+       $(".rotate2").removeClass('down');
+       $(".rotate3").removeClass('down');
+       $(".rotate1").removeClass('down');
+       $(this).addClass('text-danger');
+    });
+});
 </script>
+@endpush

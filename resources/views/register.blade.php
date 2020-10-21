@@ -81,9 +81,9 @@
             $("#requestBtn").hide()
             });
             $("#submitBtn").click(function () {
-            $("#requestBtn").show()
-            $("#submitForm").hide()
-            $("#trc_input").hide()
+            // $("#requestBtn").show()
+            // $("#submitForm").hide()
+            // $("#trc_input").hide()
             });
             });
     </script>

@@ -72,6 +72,7 @@
                                         </form>
                                     </div>
                                 <button class="btn btn-radius mt-4 editBtn" style="background-color:#0F2A51; color:white; font-size: 12px; width: 136px; padding: 8px; margin-top: -30px;" type="button">Edit Details</button>
+                                <button class="btn btn-radius2 mt-4 submitBtn" style="background-color:#0F2A51; color:white; font-size: 12px; width: 136px; padding: 8px; margin-top: -30px; display:none;" type="button">Submit</button>
                                 <button class="btn btn-radius2 mt-4 cancelBtn" style="background-color:red; color:white; font-size: 12px; width: 136px; padding: 8px; margin-top: -30px; display:none;" type="button">Cancel</button>
                                 </div>
                                 <div role="tabpanel" class="tab-pane fade" id="password">
@@ -131,10 +132,18 @@
             $('.faq-form').prop("disabled", false);
             $(".editBtn").hide();
             $(".cancelBtn").show();
+            $(".submitBtn").show();
         });
        $( ".cancelBtn" ).on( "click", function() {
             $('.faq-form').prop("disabled", true);
             $(".cancelBtn").hide();
+            $(".submitBtn").hide();
+            $(".editBtn").show();
+        });
+        $( ".submitBtn" ).on( "click", function() {
+            $('.faq-form').prop("disabled", true);
+            $(".cancelBtn").hide();
+            $(".submitBtn").hide();
             $(".editBtn").show();
         });
     </script>

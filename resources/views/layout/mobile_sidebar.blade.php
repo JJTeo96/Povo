@@ -16,10 +16,10 @@
     }
 
     .rotate.down{
-        -ms-transform: rotate(-180deg);
-        -moz-transform: rotate(-180deg);
-        -webkit-transform: rotate(-180deg);
-        transform: rotate(-180deg);
+        -ms-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
     }
 </style>
 <div class="row d-block d-lg-none mb-4">

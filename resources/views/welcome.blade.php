@@ -124,7 +124,7 @@
     {{-- Mobile Plan --}}
     <div id="plans" class="p-3"></div>
     <div class="col-12" >
-        <div class="auto-container" style="margin-top:75px">
+        <div class="auto-container">
             <h1 class="text-center" style="font-weight: 800"><span style="color:#0F2A51">MOBILE </span><span style="color: red; ">PLAN</span></h1>
             <div class="p-3" style="max-width: 636px;margin: auto">
                 <h6 class="text-center font-weight-bold" style="font-size:18px;color:#0F2A51">PAVOCOMMS your mobile experiences. Save more as you add more lines for your family, tablets and wearables.</h6>
@@ -146,7 +146,7 @@
                             </div>
                             
                             <div class="card-img-overlay d-flex flex-column justify-content-end" style="padding-left:20px">
-                                <h4 class="card-title" style="color:white;font-size:32px;text-aligin:left;padding: 0px 50px 0px 0px"><b>One Family Plan for Sharing</b></h4>
+                                <h4 class="card-title" style="color:white;font-size:2.1rem;text-aligin:left;padding: 0px 50px 0px 0px"><b>One Family Plan for Sharing</b></h4>
                                 <p class="card-text" style="color:white">FROM <span style="font-size: 22px"> RM90.00/month</span></p>
                             </div>    
                         </div>
@@ -166,12 +166,12 @@
                                 <img class="card-img-top" src="{{asset('img/mainpage/3.png')}}" alt="Card image cap">
                             </div>
                             <div class="card-img-overlay  d-flex flex-column justify-content-end">
-                                <h4 class="card-title" style="color:white;font-size:32px;text-aligin:left;padding: 0px 100px 0px 0px"><b>Just Right for you</b></h4>
+                                <h4 class="card-title" style="color:white;font-size:2.1rem;text-aligin:left;padding: 0px 100px 0px 0px"><b>Just Right for you</b></h4>
                                 <p class="card-text" style="color:white">FROM<span style="font-size: 22px"> RM90.00/month</p>
                             </div>    
                         </div>
                         <div class="card-body">
-                            <h3 class="card-title" style="font-size:40px;color:#0F2A51;font-weight:800;padding: 20px 50px 20px 9px">PAVO Lite Plan</h3>
+                            <h3 class="card-title" style="font-size:40px;color:#0F2A51;font-weight:800;padding: 20px 70px 20px 9px">PAVO Lite Plan</h3>
                             <p class="card-text pl-2" style="color:#8E8888;padding-right:70px">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
                             <hr/>
                             <a class="font-weight-bold" style="color:#0F2A51;padding-left:8px" href="#" >View Plan Details</a>
@@ -186,7 +186,7 @@
                                 <img class="card-img-top" src="{{asset('img/mainpage/4.png')}}" alt="Card image cap">
                             </div>
                             <div class="card-img-overlay  d-flex flex-column justify-content-end">
-                                <h4 class="card-title" style="color:white;font-size:32px;text-aligin:left;padding: 0px 50px 0px 0px"><b>Always Connected</b></h4>
+                                <h4 class="card-title" style="color:white;font-size:2.1rem;text-aligin:left;padding: 0px 70px 0px 0px"><b>Always Connected</b></h4>
                                 <p class="card-text" style="color:white">FROM<span style="font-size: 22px">  RM90.00/month</p>
                             </div>    
                         </div>
@@ -207,7 +207,7 @@
             <div class="col-12 p-0 pt-5 d-sm-none d-none d-md-none d-lg-block " style="position: relative;">
                 <div class="w-100" style="display: flex; align-items: center; min-height: 597px; background-position: center; background-attachment: scroll; background-size: cover; background-repeat: no-repeat; background-image: url({{ asset('img/mainpage/Group-249.jpg')}});">
                     <div class="col-10  d-flex justify-content-end">
-                        <div class="col-6" style="text-align: end">
+                        <div class="col-4 " style="text-align: end">
                             <div class="col-sm-6 col-md-12 col-lg-12" style="color:white; font-size: 3rem;text-shadow: 0px 3px 20px #00000094;text-aligin:right;font-weight:700">
                                 Pavo is not just about data, we're a new lease on life.
                             </div>
@@ -222,8 +222,8 @@
         <div class="w-100" style="display: flex; align-items: center; min-height: 597px; background-position: center; background-attachment: scroll; background-size: cover; background-repeat: no-repeat; background-image: url({{ asset('img/mainpage/banner-mobile-2.jpg')}});">
             <div class="col-12  d-flex">
                 <div class="col-12" style="text-align: left">
-                    <div class="col-sm-6 col-md-12 col-lg-12" style="color:white; font-size: 2.2rem;text-shadow: 0px 3px 20px #00000094;text-aligin:right;font-weight:700;margin-top:400px">
-                        Pavo is not just about data, we're a new lease on life.
+                    <div class="col-sm-12 col-md-12 col-lg-12" style="color:white; font-size: 2.2rem;text-shadow: 0px 3px 20px #00000094;text-aligin:right;font-weight:700;margin-top:400px;padding: 0px 50px 0px 10px">
+                        Pavocomms is not just about data, we're a new lease on life.
                     </div>
                 </div>
             </div>

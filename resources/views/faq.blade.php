@@ -186,11 +186,11 @@ form .form-control:focus{
                   <div class="col-lg-6 col-sm-12 col-md-12 d-flex justify-content-end">
                     <div class="md-form col-sm-12 col-md-12 col-lg-6">
                       <div class="mr-0 ">
-                        <input style="background-color: transparent;" type="text" id="name" class="form-control faq-form font-weight-bold" placeholder="Name">
+                        <input style="background-color: transparent;" type="text" id="name" class="form-control faq-form font-weight-bold" placeholder="Name" autocomplete="off" >
                         <br>
-                        <input style="background-color: transparent;" type="text" id="email" class="form-control faq-form font-weight-bold" placeholder="Email">
+                        <input style="background-color: transparent;" type="text" id="email" class="form-control faq-form font-weight-bold" placeholder="Email" autocomplete="off">
                         <br>
-                        <input style="background-color: transparent;" type="text" id="phone" class="form-control faq-form font-weight-bold" placeholder="Phone">
+                        <input style="background-color: transparent;" type="text" id="phone" class="form-control faq-form font-weight-bold" placeholder="Phone" autocomplete="off">
                         <br>
                       </div>
                     </div>
@@ -198,9 +198,9 @@ form .form-control:focus{
 
                   <div class="col-lg-6 col-sm-12 col-md-12">
                     <div class="col-sm-12 col-md-12 col-lg-6">
-                      <input style="background-color: transparent;" type="text" id="title" class="form-control faq-form font-weight-bold" placeholder="Title">
+                      <input style="background-color: transparent;" type="text" id="title" class="form-control faq-form font-weight-bold" placeholder="Title" autocomplete="off">
                       <br>
-                      <input style="background-color: transparent;" type="text" id="your_message" class="form-control faq-form font-weight-bold" placeholder="Your Message">
+                      <input style="background-color: transparent;" type="text" id="your_message" class="form-control faq-form font-weight-bold" placeholder="Your Message" autocomplete="off">
                     </div>
                   </div>
               </div>

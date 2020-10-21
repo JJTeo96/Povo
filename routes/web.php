@@ -29,15 +29,15 @@ Route::get('/reload', function () {
     return view('reload');
 });
 
-Route::view('/member', 'my_membership');
+Route::view('/member', 'my_membership')->name('member');
 
 Route::view('/payment', 'payment_detail');
 
-Route::view('/dashboard', 'dashboard');
+Route::view('/dashboard', 'dashboard')->name('dashboard');
 Route::view('/about', 'about');
 Route::view('/faq', 'faq');
-Route::view('/profile', 'profile');
-Route::view('/addon', 'add_on');
+Route::view('/profile', 'profile')->name('profile');
+Route::view('/addon', 'add_on')->name('addon');
 
 Route::view('/login', 'login');
 Route::view('/trc', 'trc');

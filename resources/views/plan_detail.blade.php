@@ -15,7 +15,7 @@
 
     .upgrade_btn {
         background-color: white;
-        color: red;
+        color: red !important;
         border: 1px solid red; 
         border-radius: 18px;
         /* width: 112px; */
@@ -92,7 +92,7 @@
                                 </div>
                                 <div class="col-4 col-md-4 col-sm-4 d-flex align-items-center">
                                     <div class="vl" ></div>
-                                    <div style='margin:0 auto;'><a href="{{ url('/payment') }}" class="btn upgrade_btn " >Upgrade</a></div>
+                                    <div style='margin:0 auto;color:red'><a href="{{ url('/payment') }}" class="btn upgrade_btn" >Upgrade</a></div>
                                 </div>
                             </div>
                         </div>

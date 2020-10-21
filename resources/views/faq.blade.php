@@ -180,7 +180,7 @@ form .form-control:focus{
           <p class="d-flex justify-content-center mt-4">
           Ask here if need any special Queries, Custom Plans
           </p>
-          
+          {{-- web --}}
           <form action="#">
               <div class="row d-flex justify-content-center" >
                   <div class="col-lg-6 col-sm-12 col-md-12 d-flex justify-content-end">
@@ -206,6 +206,7 @@ form .form-control:focus{
               </div>
               <button class="btn col-sm-4 mt-5" style="background-color:red; color:white; font-size: 12px; max-width: 150px; padding:15px;" type="submit">SEND MESSAGE</button>
           </form>
+          {{-- end web --}}
     </div>
   </div>
     <div class="container">
@@ -252,6 +253,12 @@ form .form-control:focus{
 
 @push('scripts')
 <script>
+$(document).ready(function(){
+    
+  $(".rotate1").toggleClass("down");
+
+
+});
   $(function() {
     $(".rotateBtn1").on('click', function() {   
        $(".rotate1").toggleClass("down");

@@ -48,7 +48,7 @@
                                                 <div class="card-header header-card">
                                                     BigBonus - AutoRenew
                                                 </div>
-                                                    <div class="card-body body-card">
+                                                    <div class="card-body body-card mb-2">
                                                         4GB + FREE 30GB + <br/>Unlimited Calls<br/><br/>
                                                         <p>
                                                             <span class="font-weight-bold" style="color: #ED1B2F;">RM28.00</span>
@@ -56,7 +56,7 @@
                                                         </p>
                                                         <a class="#" href="{{ url('/payment') }}">
                                                             <button class="btn btn-radius btn-outline font-weight-bold" style="background-color:white; color:Red; font-size: 12px; width: 112px; padding: 8px; margin-top: -10px;" type="submit">Buy Now</button>
-                                                        </a>
+                                                        </a><br/>
                                                     </div>
                                             </div>
                                         </div>
@@ -65,7 +65,7 @@
                                                 <div class="card-header header-card">
                                                     BigBonus - AutoRenew
                                                 </div>
-                                                    <div class="card-body body-card">
+                                                    <div class="card-body body-card mb-2">
                                                         7GB + FREE 30GB<br/><br/><br/>
                                                         <p>
                                                             <span class="font-weight-bold" style="color: #ED1B2F;">RM30.00</span>
@@ -78,11 +78,11 @@
                                             </div>
                                         </div>
                                         <div class="col-6 col-md-6 col-lg-4" style="margin-top: 10px; margin-right: -15px">
-                                            <div class="card border-light shadow" style="height: 186px;">
+                                            <div class="card border-light shadow">
                                                 <div class="card-header header-card">
                                                     BigBonus - AutoRenew
                                                 </div>
-                                                    <div class="card-body body-card">
+                                                    <div class="card-body body-card mb-2">
                                                         8GB + FREE 30GB<br/><br/><br/>
                                                         <p>
                                                             <span class="font-weight-bold" style="color: #ED1B2F;">RM35.00</span>
@@ -95,11 +95,11 @@
                                             </div>
                                         </div>
                                         <div class="col-6 col-md-6 col-lg-4" style="margin-top: 10px; margin-right: -15px">
-                                            <div class="card border-light shadow" style="height: 186px;">
+                                            <div class="card border-light shadow">
                                                 <div class="card-header header-card">
                                                     BigBonus - AutoRenew
                                                 </div>
-                                                    <div class="card-body body-card">
+                                                    <div class="card-body body-card mb-2">
                                                         9GB + FREE 30GB + <br/>Unlimited Calls<br/><br/>
                                                         <p>
                                                             <span class="font-weight-bold" style="color: #ED1B2F;">RM40.00</span>
@@ -112,11 +112,11 @@
                                             </div>
                                         </div>
                                         <div class="col-6 col-md-6 col-lg-4" style="margin-top: 10px; margin-right: -15px">
-                                            <div class="card border-light shadow" style="height: 186px;">
+                                            <div class="card border-light shadow">
                                                 <div class="card-header header-card">
                                                     BigBonus - AutoRenew
                                                 </div>
-                                                    <div class="card-body body-card">
+                                                    <div class="card-body body-card mb-2">
                                                         12GB + FREE 30GB +<br/>Unlimited Calls<br/><br/>
                                                         <p>
                                                             <span class="font-weight-bold" style="color: #ED1B2F;">RM50.00</span>
@@ -129,11 +129,11 @@
                                             </div>
                                         </div>
                                         <div class="col-6 col-md-6 col-lg-4" style="margin-top: 10px; margin-right: -15px">
-                                            <div class="card border-light shadow" style="height: 186px;">
+                                            <div class="card border-light shadow">
                                                 <div class="card-header header-card">
                                                     BigBonus - AutoRenew
                                                 </div>
-                                                    <div class="card-body body-card">
+                                                    <div class="card-body body-card mb-2">
                                                         30GB + FREE 30GB<br/><br/><br/>
                                                         <p>
                                                             <span class="font-weight-bold" style="color: #ED1B2F;">RM89.00</span>
@@ -155,7 +155,7 @@
                                     <div class="col-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
                                       <div class="card border-light shadow">
                                         <div class="card-header header-card2"></div>
-                                            <div class="card-body body-card">
+                                            <div class="card-body body-card mb-2">
                                                 1000min Calls<br/><br/><br/>
                                                 <p>
                                                     <span class="font-weight-bold" style="color: #ED1B2F;">RM3.00</span>
@@ -170,7 +170,7 @@
                                     <div class="col-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
                                     <div class="card border-light shadow">
                                         <div class="card-header header-card2"></div>
-                                            <div class="card-body body-card">
+                                            <div class="card-body body-card mb-2">
                                                500min Calls<br/> (All Network)<br/><br/>
                                                <p>
                                                     <span class="font-weight-bold" style="color: #ED1B2F;">RM8.00</span>
@@ -185,7 +185,7 @@
                                     <div class="col-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
                                       <div class="card border-light shadow">
                                         <div class="card-header header-card2"></div>
-                                            <div class="card-body body-card">
+                                            <div class="card-body body-card mb-2">
                                                 1000min Calls <br/> (All Network+100SMS)<br/><br/>
                                                 <p>
                                                     <span class="font-weight-bold" style="color: #ED1B2F;">RM10.00</span>
@@ -216,7 +216,7 @@
                                     <div class="col-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
                                       <div class="card border-light shadow" >
                                         <div class="card-header header-card2"></div>
-                                            <div class="card-body body-card">
+                                            <div class="card-body body-card mb-2">
                                                 Unlimited Social Messaging<br/><br/><br/>
                                                 <p>
                                                     <span class="font-weight-bold" style="color: #ED1B2F;">RM10.00</span>
@@ -231,7 +231,7 @@
                                     <div class="col-6 col-md-6 col-lg-3" style="margin-top: 10px; margin-right: -15px">
                                     <div class="card border-light shadow" >
                                         <div class="card-header header-card2"></div>
-                                            <div class="card-body body-card">
+                                            <div class="card-body body-card mb-2">
                                                 2GB Internet +30min Calls<br/><br/><br/>
                                                 <p>
                                                     <span class="font-weight-bold" style="color: #ED1B2F;">RM25.00</span>

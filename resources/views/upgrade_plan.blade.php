@@ -23,7 +23,7 @@
                         <div class="card " style="width: 325px;border:none">
                             <img class="card-img-top" src="{{asset('img/upgrade_plan/hotlink-prepaid.png')}}" alt="Card image cap">
         
-                            <div class="card-footer text-muted" style="height: 35px;text-align:center;background-color:#0F2A51;border-radius: 0px 0px 10px 10px">
+                            <div class="card-footer text-muted" style="height: 35px;text-align:center;background-color:#0F2A51;border-radius: 0px 0px 10px 10px;border:0px">
                                 <div class="auto_container text-white" style="margin-top:-5px;font-size:12px">
                                     View Plan
                                 </div>   
@@ -37,7 +37,7 @@
                             <div class="card" style="width: 325px;border:none">
                                 <img class="card-img-top" src="{{asset('img/upgrade_plan/Group 149.png')}}" alt="Card image cap">
             
-                                <div class="card-footer text-muted" style="height: 35px;text-align:center;background-color:#0F2A51;border-radius: 0px 0px 10px 10px">
+                                <div class="card-footer text-muted" style="height: 35px;text-align:center;background-color:#0F2A51;border-radius: 0px 0px 10px 10px;border:0px">
                                     <div class="auto_container text-white" style="margin-top:-5px;font-size:12px">
                                         View Plan
                                     </div>   

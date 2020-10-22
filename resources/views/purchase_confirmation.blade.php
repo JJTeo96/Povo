@@ -54,7 +54,7 @@
                     <hr>               
                     <div class="justify-content-left">
                         <a class="#" href="{{ url('/thankyou') }}">
-                            <button type="button" class="btn back_button btn-lg btn-light">Buy now for RM50.00</button>
+                            <button type="button" class="btn back_button btn-lg " style="color:white">Buy now for RM50.00</button>
                         </a>
                     </div>
                 </div>

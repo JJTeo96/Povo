@@ -20,7 +20,7 @@
             </div>
             <div class="row justify-content-center mt-3">
                 <a class="#" href="{{ url('/dashboard') }}">
-                    <button type="button" class="btn back_button btn-lg btn-light">Back to Dashboard</button>
+                    <button type="button" class="btn back_button btn-lg" style="color: white">Back to Dashboard</button>
                 </a>
             </div>
         </div>

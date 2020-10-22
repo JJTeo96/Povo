@@ -180,7 +180,7 @@
                       <hr>
                       <div class="row mt-4 d-sm-none d-none d-md-block">
                         <a href="{{ url('/payment') }}">
-                          <button type="button" class="btn back_button btn-lg btn-light">Buy now</button>
+                          <button type="button" class="btn back_button btn-lg" style="color:white">Buy now</button>
                         </a>
                       </div>
                 </div>
@@ -189,7 +189,7 @@
         <div id="sticky-footer" class="bg-white text-white-50 stick_bottom d-block d-sm-block p-3 d-md-none d-flex align-items-center justify-content-center w-100">
                         
           <a href="{{ url('/payment') }}" class="w-100">
-            <button type="button" class="btn back_button btn-lg btn-light w-100">Buy now</button>
+            <button type="button" class="btn back_button btn-lg w-100" style="color:white">Buy now</button>
           </a>
         
       </div> 

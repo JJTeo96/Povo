@@ -4,11 +4,9 @@
         <div class="container-fluid p-0">
             <div class="row justify-content-center no-gutters" style="min-height: 800px">
                 <div class="col-md-4 col-sm-10 m-5">
-                    <div class="d-flex justify-content-left mb-3" style="font-family:normal normal 600 20px/26px Segoe UI;">
-                        <b><svg width="1em" height="1em" viewBox="0 2 16 16" class="bi bi-chevron-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
-                        </svg> <a href="{{url('/payment')}}" style="text-decoration: none;color:black">Back</a></b>
-                    </div>
+                    <div class="col d-block d-sm-block d-md-none p-0 mb-3">
+                        <a href="{{ url('/payment') }}" style="text-decoration: none;font-size:16px;color:#25283A;font-weight:600"><i class="fas fa-angle-left pr-1"></i> Back to Dashboard</a>
+                      </div>
                     <div class="d-flex justify-content-left mb-2" style="font-size: 20px; color: #0F2A51;">
                         <b>Purchase Confirmation</b>
                     </div>

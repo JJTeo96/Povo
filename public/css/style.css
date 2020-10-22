@@ -58,7 +58,7 @@
 }
 .pay_button{
     background-color: #ED1B2F;
-    color:white;
+    color:white !important;
     border-radius: 35px;
     width:203px;
     padding:88 10 88 10;

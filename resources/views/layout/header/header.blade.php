@@ -55,6 +55,8 @@
                         <a class="dropdown-item" href="{{ url('/') }}">Sign Out</a>
                     </div>
                 </li> --}}
+
+
             </ul>
 
             <form class="form-inline my-2 my-md-0 ml-2">
@@ -90,7 +92,7 @@
                 <li class="nav-item border-bottom d-flex justify-content-center">
                     <a class="nav-link font-weight-bolder" style="color:black;" href="{{ url('/faq') }}">FAQS</a>
                 </li>
-                {{-- <li class="nav-item border-bottom d-flex justify-content-center">
+                <li class="nav-item border-bottom d-flex justify-content-center">
                     <a class="nav-link font-weight-bolder" style="color:black;" href="{{ url('/profile') }}"><i class="far fa-user mr-1"></i>TIANA ROSSER</a>
                 </li>
                 <li class="nav-item border-bottom d-flex justify-content-center">
@@ -98,15 +100,15 @@
                 </li>
                 <li class="nav-item d-flex justify-content-center">
                     <a class="nav-link font-weight-bolder" style="color:black;" href="{{ url('/') }}">SIGN OUT</a>
-                </li> --}}
+                </li>
 
-                <li class="nav-item d-flex justify-content-center">
+                {{-- <li class="nav-item d-flex justify-content-center">
                     <a href="{{ url('/login') }}" class="nav-link">
                         <div class="btn btn-danger btn_login" style="width:201px;text-align:center;background-color:#ED1B2F">
                             <div>LOG IN / REGISTER</div>
                         </div>
                     </a>    
-                </li>
+                </li> --}}
 
             </ul>
         </div>

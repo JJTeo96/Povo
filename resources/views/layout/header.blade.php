@@ -46,7 +46,7 @@
                     <a class="nav-link font-weight-bolder" style="margin-right: 86px;color:black" href="{{ url('/faq') }}">FAQS</a>
                 </li>
 
-                <li class="nav-item dropdown mr-5">
+                {{-- <li class="nav-item dropdown mr-5">
                     <a class="nav-link dropdown-toggle font-weight-bolder" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:black">
                         <i class="far fa-user mr-3"></i> &nbsp;<span style=" text-transform: uppercase">Tiana Rosser &nbsp;&nbsp;<i class="fas fa-caret-down"></i></span>
                     </a>
@@ -54,7 +54,7 @@
                         <a class="dropdown-item" href="{{ url('/profile') }}">Profile</a>
                         <a class="dropdown-item" href="{{ url('/') }}">Sign Out</a>
                     </div>
-                </li>
+                </li> --}}
             </ul>
 
             <form class="form-inline my-2 my-md-0 ml-2">

@@ -69,7 +69,7 @@
                             <button class="btn btn-primary btn-block"> Login  </button> --}}
                             <div class="row" style="letter-spacing: 0px;">
                                 <div class="col-lg-6 col-sm-12 col-md-6 pb-3">
-                                    <a href="{{ url('/trc') }}" class="btn_font"><div class="btn btn-danger  btn-block">Login </div></a>
+                                    <a href="{{ url('/trc') }}" class="btn_font"><div class="btn btn-danger  btn-block" style="background-color:#ED1B2F">Login </div></a>
                                 </div>
                                 <div class="col-lg-6 col-sm-12 col-md-6">
                                     <a href="{{ url('/register') }}" class="btn_font" style=""><div class="btn register_btn  btn-block" style="color:red">Register</div></a> 

@@ -38,8 +38,8 @@
                 <a href="{{ url('/upgrade_plan') }}" style="text-decoration: none;font-size:20px;color:#25283A"><i class="fas fa-angle-left"></i> &nbsp; Back</a>
             </div>
 
-            <div class="col d-block d-sm-block d-md-none p-0">
-                <a href="{{ url('/upgrade_plan') }}" style="text-decoration: none;font-size:20px;color:#25283A"><i class="fas fa-angle-left pr-1"></i> Back to Plan</a>
+            <div class="col p-0 d-block d-sm-block d-md-block d-lg-none">
+                <a href="{{url('/upgrade_plan')}}" style="text-decoration: none"><p style="color:#0F2A51;font-weight:700"><i class="fas fa-angle-left pr-1"></i>Back to Plan</p></a>
             </div>
 
             <div class="col mt-3 p-0">

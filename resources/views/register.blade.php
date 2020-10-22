@@ -53,9 +53,9 @@
                             <button class="btn btn-primary btn-block"> Login  </button> --}}
                             <div class="row" style="letter-spacing: 0px;font-size:14px;margin-top:34px">
                                 <div class="col-lg-6 col-sm-12 col-md-12 pb-3">
-                                    <a href="#" class="btn_font" id="requestBtn"><div class="btn btn-danger  btn-block">Request TAC </div></a>
+                                    <a href="#" class="btn_font" id="requestBtn"><div class="btn btn-danger  btn-block" style="background-color:#ED1B2F">Request TAC </div></a>
                                     <div id="submitForm" style="display:none;">
-                                        <a href="{{ url('/dashboard') }}" id="submitBtn" class="btn_font"><div class="btn btn-danger  btn-block">Submit </div></a>
+                                        <a href="{{ url('/dashboard') }}" id="submitBtn" class="btn_font"><div class="btn btn-danger  btn-block" style="background-color:#ED1B2F">Submit </div></a>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-sm-12 col-md-12">

@@ -59,7 +59,7 @@
 
             <form class="form-inline my-2 my-md-0 ml-2">
                 <a href="{{ url('/login') }}" class="nav-link">
-                    <div class="btn btn-danger btn_login" style="">
+                    <div class="btn btn-danger btn_login" style="background-color:#ED1B2F">
                         <div>LOG IN / REGISTER</div>
                     </div>
                 </a>
@@ -102,7 +102,7 @@
 
                 <li class="nav-item d-flex justify-content-center">
                     <a href="{{ url('/login') }}" class="nav-link">
-                        <div class="btn btn-danger btn_login" style="width:201px;text-align:center">
+                        <div class="btn btn-danger btn_login" style="width:201px;text-align:center;background-color:#ED1B2F">
                             <div>LOG IN / REGISTER</div>
                         </div>
                     </a>    

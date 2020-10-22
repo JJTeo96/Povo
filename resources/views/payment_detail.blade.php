@@ -109,13 +109,11 @@ section .section-title {
     <div class="pt-5 col-12" style="color: #0F2A51;">
         <div class="auto-container" style="min-height: 900px">
             <div class="justify-content-center">
-                <div class="row">
-                    <div class="col-12 mb-3 forth-title" style="color:#25283A;padding-left:18px;">
-                        <b><svg width="1em" height="1em" viewBox="0 2 16 16" class="bi bi-chevron-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
-                        </svg> <a href="{{url('/reload')}}" style="text-decoration: none;color:black">Back</a></b>
+               
+                    <div class="col p-0 ml-2 d-block d-sm-block d-md-block d-lg-none">
+                        <a href="{{url('/dashboard')}}" style="text-decoration: none"><p style="color:#0F2A51;font-weight:700"><i class="fas fa-angle-left pr-1"></i>Back</p></a>
                     </div>
-                </div>
+                
                 <div class="row">
                     <div class="col-md-5 col-sm-10">
                         <section id="tabs">

@@ -55,7 +55,7 @@
                             <button class="btn btn-primary btn-block"> Login  </button> --}}
                             <div class="row" style="letter-spacing: 0px;">
                                 <div class="col-lg-6 col-sm-12 col-md-6 ">
-                                    <a href="{{ url('/dashboard') }}" class="btn_font"><div class="btn btn-danger  btn-block">Proceed </div></a>
+                                    <a href="{{ url('/dashboard') }}" class="btn_font"><div class="btn btn-danger  btn-block " style="background-color:#ED1B2F">Proceed </div></a>
                                 </div>
 
                             </div>

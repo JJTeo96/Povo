@@ -21,7 +21,7 @@
                 <div class="auto-container">
                     <div class="row d-flex justify-content-center">
                         <div class="col-10">
-                            <div class="col-sm-6 p-0" style="color:white; font-size: 2rem;text-shadow: 0px 3px 20px #00000094;font-weight:700;margin-top:350px">
+                            <div class="col-sm-6 p-0" style="color:white; font-size: 2rem;text-shadow: 0px 3px 20px #00000094;font-weight:700;margin-top:150px">
                                 We are here to enrich your life, energise your play & empower your work.
                             </div>
                         </div>

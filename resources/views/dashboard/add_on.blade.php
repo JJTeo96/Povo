@@ -1,7 +1,14 @@
 @extends('layout.app')
 @section('title', 'Buy Add-Ons')
 @section('content')
-
+<style>
+    @media only screen and (max-width: 321px) {
+    .fontsz {
+        font-size:12px !important;
+       
+    }
+    }
+</style>
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 <link href="{{ asset('css/addon.css') }}" rel="stylesheet">
@@ -21,16 +28,16 @@
 
                             <nav>
                                 <div class="nav nav-tabs row nav-fill" id="nav-tab" role="tablist">
-                                    <a class="col-6 col-lg-auto nav-item nav-link active mb-2 mb-lg-0 text-center" onclick="changeColor('internet_tab_btn')" id="internet_tab" data-toggle="tab" href="#internet" role="tab" aria-controls="nav-home" aria-selected="true">
+                                    <a class="col-6 col-lg-auto nav-item nav-link active mb-2 mb-lg-0 text-center fontsz" onclick="changeColor('internet_tab_btn')" id="internet_tab" data-toggle="tab" href="#internet" role="tab" aria-controls="nav-home" aria-selected="true">
                                         <img src="img/addon/Wifi.svg" id="internet_tab_btn" class="black">&nbsp;&nbsp;Internet
                                     </a>
-                                    <a class="col-6 col-lg-auto nav-item nav-link mb-2 mb-lg-0 text-center" onclick="changeColor('call_sms_tab_btn')" id="call_sms_tab" data-toggle="tab" href="#call_sms" role="tab" aria-controls="nav-profile" aria-selected="false">
-                                        <img src="img/addon/Call.svg" id="call_sms_tab_btn">&nbsp;&nbsp;Calls+SMS
+                                    <a class="col-6 col-lg-auto nav-item nav-link mb-2 mb-lg-0 text-center fontsz" onclick="changeColor('call_sms_tab_btn')" id="call_sms_tab" data-toggle="tab" href="#call_sms" role="tab" aria-controls="nav-profile" aria-selected="false">
+                                        <img src="img/addon/Call.svg" id="call_sms_tab_btn">&nbsp;&nbsp;<span style="fontsz">Calls+SMS</span>
                                     </a>
-                                    <a class="col-6 col-lg-auto nav-item nav-link text-center" onclick="changeColor('roaming_tab_btn')" id="roaming_tab" data-toggle="tab" href="#roaming" role="tab"  aria-controls="nav-contact" aria-selected="false">
+                                    <a class="col-6 col-lg-auto nav-item nav-link text-center fontsz" onclick="changeColor('roaming_tab_btn')" id="roaming_tab" data-toggle="tab" href="#roaming" role="tab"  aria-controls="nav-contact" aria-selected="false">
                                         <img src="img/addon/Group-146.svg" id="roaming_tab_btn">&nbsp;&nbsp;Roaming
                                     </a>
-                                    <a class="col-6 col-lg-auto nav-item nav-link text-center" onclick="changeColor('idd_tab_btn')" id="idd_tab" data-toggle="tab" href="#idd" role="tab" aria-controls="idd" aria-selected="false">
+                                    <a class="col-6 col-lg-auto nav-item nav-link text-center fontsz" onclick="changeColor('idd_tab_btn')" id="idd_tab" data-toggle="tab" href="#idd" role="tab" aria-controls="idd" aria-selected="false">
                                         <img src="img/addon/IDD-01.svg" id="idd_tab_btn">&nbsp;&nbsp;IDD
                                     </a>
                                 </div>

@@ -38,6 +38,12 @@ input:-webkit-autofill:active  {
 .black{
     filter: invert(100%) sepia(12%) saturate(4108%) hue-rotate(288deg) brightness(0%) contrast(54%);
 }
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
       </style>
 </head>
 
@@ -49,6 +55,7 @@ input:-webkit-autofill:active  {
             @include('layout.footer.footer')
         </div>
     </div>
+    <a id="back-to-top" href="#" class="btn btn-light btn-md  back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
     @stack('scripts')
     
     <script>
@@ -95,6 +102,23 @@ input:-webkit-autofill:active  {
             wifi = document.getElementById(id);
             wifi.classList.add("black");
         }
+
+        $(document).ready(function(){
+        $(window).scroll(function () {
+                if ($(this).scrollTop() > 50) {
+                    $('#back-to-top').fadeIn();
+                } else {
+                    $('#back-to-top').fadeOut();
+                }
+            });
+            // scroll body to 0px on click
+            $('#back-to-top').click(function () {
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 10);
+                return false;
+            });
+        });
     </script>
 </body>
 </html>

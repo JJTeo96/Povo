@@ -100,7 +100,7 @@
             <!-- /.carousel-item -->
             <div class="carousel-item">
                 <picture>
-                    <source srcset="{{asset('img/banner5.png')}}" media="(min-width: 1400px)">
+                    <source srcset="{{asset('img/about/banner5.png')}}" media="(min-width: 1400px)">
                     <source srcset="https://dummyimage.com/1400x500/007aeb/4196e5" media="(min-width: 769px)">
                     <source srcset="https://dummyimage.com/800x500/007aeb/4196e5" media="(min-width: 577px)">
                     <img srcset="{{asset('img/mainpage/banner-mobile.jpg')}}" alt="responsive image"class="img-fluid" style="width:100%">

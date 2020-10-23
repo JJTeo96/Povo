@@ -40,6 +40,13 @@
         border-radius: 6px;
         opacity: 1;
     }
+
+    @media only screen and (max-width: 321px) {
+    .fontsz {
+        font-size:0.9rem !important;
+       
+    }
+    }
 </style>
 <div class="container-fluid p-0">
 <div class="col-12 col-sm-12 col-md-12 col-lg-12">
@@ -59,8 +66,8 @@
 
                         <div class="form-group"> 
                             <div class="checkbox" style="letter-spacing: 0px;">
-                            <label> <input type="checkbox"> Remember me </label>
-                            <a class="float-right" href="#" style="color: #4B5669">Forgot Password?</a>
+                            <label> <input type="checkbox"> <span class="fontsz">Remember me</span> </label>
+                            <a class="float-right" href="#" style="color: #4B5669"><span class="fontsz">Forgot Password?</span></a>
                             </div> <!-- checkbox .// -->
                         </div>
 

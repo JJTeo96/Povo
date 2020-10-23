@@ -71,7 +71,7 @@
                                             </div>
                                         </form>
                                     </div>
-                                <button class="btn btn-radius mt-4 editBtn" style="background-color:#0F2A51; color:white; font-size: 12px; width: 136px; padding: 8px; margin-top: -30px;" type="button">Edit Details</button>
+                                <button class="btn btn-radius mt-4 editBtn mb-3" style="background-color:#0F2A51; color:white; font-size: 12px; width: 136px; padding: 8px; margin-top: -30px;" type="button">Edit Details</button>
                                 <button class="btn btn-radius2 mt-4 submitBtn" style="border-color: #0F2A51;background-color:#0F2A51; color:white; font-size: 12px; width: 136px; padding: 8px; margin-top: -30px; display:none;" type="button">Submit</button>
                                 <button class="btn btn-radius2 mt-4 cancelBtn" style="background-color:red; color:white; font-size: 12px; width: 136px; padding: 8px; margin-top: -30px; display:none;" type="button">Cancel</button>
                                 </div>

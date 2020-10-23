@@ -35,6 +35,11 @@ opacity: 1;
     background-color: #eaecf4;
     border-radius: .35rem;
 }
+@media only screen and (max-width: 342px) {
+    .btnwidth{
+        width:100% !important;
+    }
+    }
 </style>
       <div class="container-fluid p-0">
         <div class="pt-5 col-12" style="color: #0F2A51;" >
@@ -158,7 +163,7 @@ opacity: 1;
                                   <p class="font-weight-bold" style="font-size: 16px">Best Prepaid v1
                                     <span class="float-right ">
                                       <a class="#" href="{{ url('/upgrade_plan') }}">
-                                        <button class="btn btn-radius btn-outline" style="background-color:white; color:Red; font-size: 12px; width: 136px; padding: 8px; margin-top: -30px;" type="submit">Upgrade plan</button>
+                                        <button class="btn btn-radius btn-outline btnwidth" style="background-color:white; color:Red; font-size: 12px; width: 136px; padding: 8px; margin-top: -30px;" type="submit">Upgrade plan</button>
                                       </a>
                                     </span>
                                     </p>

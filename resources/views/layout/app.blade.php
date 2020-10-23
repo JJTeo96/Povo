@@ -45,9 +45,37 @@ input:-webkit-autofill:active  {
     display: none;
 }
 
+.btn_top {
+    background-color:#ED1B2F;
+    border: none;
+    color: white;
+    padding: 25px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    }
+
+    .btn_top:hover {
+    background-color: #b71323;
+    color: white;
+    }
+
 @media (max-width: 900px) {
     .btn_top {
-        width:10% !important;
+    background-color: #ED1B2F;
+    border: none;
+    color: white;
+    padding: 11px 18px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    }
+
+    .btn_top:hover {
+    background-color: #b71323;
+    color: white;
     }
 }
       </style>
@@ -61,7 +89,7 @@ input:-webkit-autofill:active  {
             @include('layout.footer.footer')
         </div>
     </div>
-    <a id="back-to-top" href="#" class="btn btn-light btn-lg-block btn-md-md back-to-top btn_top shadow" style="width:100px" role="button"><i class="fas fa-chevron-up"></i></a>
+    <a id="back-to-top" href="#" class="btn btn-md back-to-top btn_top shadow" role="button"><i class="fas fa-chevron-up fa-lg"></i></a>
     @stack('scripts')
     
     <script>

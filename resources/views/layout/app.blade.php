@@ -44,6 +44,12 @@ input:-webkit-autofill:active  {
     right: 25px;
     display: none;
 }
+
+@media (max-width: 900px) {
+    .btn_top {
+        width:10% !important;
+    }
+}
       </style>
 </head>
 
@@ -55,7 +61,7 @@ input:-webkit-autofill:active  {
             @include('layout.footer.footer')
         </div>
     </div>
-    <a id="back-to-top" href="#" class="btn btn-light btn-md  back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
+    <a id="back-to-top" href="#" class="btn btn-light btn-lg-block btn-md-md back-to-top btn_top shadow" style="width:100px" role="button"><i class="fas fa-chevron-up"></i></a>
     @stack('scripts')
     
     <script>

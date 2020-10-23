@@ -31,7 +31,7 @@
     <nav class="navbar navbar-expand-md navbar-dark bg-white" id="navbar_web" style="box-shadow: 0px 2px 10px #00000029;">
         <div class="container">
             <ul class="nav navbar-nav mx-auto">
-            <li class="nav-item p-2"><a class="" href="{{ url('/') }}"><img src="{{asset('img/PAVO-01.png')}}" class="logo"/></a></li>
+            <li class="nav-item p-2"><a class="" href="{{ url('/') }}"><img src="{{asset('img/logo/PAVO-01.png')}}" class="logo"/></a></li>
             </ul>
            
         </div>    

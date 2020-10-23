@@ -6,7 +6,7 @@
             <div class="row justify-content-center">
               <div class="shadow success_circle rounded-circle d-flex align-items-center justify-content-center ">
                 <div >
-                    <img width="41" height="35" src="{{asset('img/tick.svg')}}" alt="Tick">
+                    <img width="41" height="35" src="{{asset('img/payment/tick.svg')}}" alt="Tick">
                 </div>
               </div>
             </div>

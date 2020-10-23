@@ -100,7 +100,7 @@
 <div class="container-fluid p-0">
   <div class="pt-5 col-12" style="color: #0F2A51;" >
       <div class="auto-container row" style="min-height: 800px">
-              @include('layout.sidebar')
+              @include('layout.sidebar.sidebar')
                 <div class="col-md-9 col-12" style="color: #0F2A51;">
                     <div class="col d-block d-sm-block d-md-none p-0 mb-3">
                       <a href="{{ url('/dashboard') }}" style="text-decoration: none;font-size:16px;color:#25283A;font-weight:600"><i class="fas fa-angle-left pr-1"></i> Back to Dashboard</a>

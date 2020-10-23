@@ -27,9 +27,9 @@
 <body>
     <div class="container-fluid p-0" style="padding: 0">
         <div class="row no-gutters">
-            @include('layout.header_payment')
+            @include('layout.header.header_payment')
             @yield('content')
-            @include('layout.footer_payment')
+            @include('layout.footer.footer_payment')
         </div>
     </div>
     @stack('scripts')

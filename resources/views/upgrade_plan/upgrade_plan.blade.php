@@ -6,7 +6,7 @@
     <div class="pt-5 col-12" >
         <div class="auto-container row">
             {{-- Col-3 --}}
-            @include('layout.sidebar')
+            @include('layout.sidebar.sidebar')
             {{-- End Col-3 --}}
 
             <div class="col-12 col-md-12 col-lg-8 " style="min-height: 650px">

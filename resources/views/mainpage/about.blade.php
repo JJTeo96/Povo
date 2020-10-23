@@ -3,7 +3,7 @@
 @section('content')
         {{-- Img Top Web --}}
         <div class="col-12 d-sm-none d-none d-md-block" style="position: relative;">
-            <div class="w-100 col-md-12" style="display: flex; align-items: center; min-height: 597px; background-position: center; background-attachment: scroll; background-size: cover; background-repeat: no-repeat; background-image: url({{ asset('img/Group-250.jpg')}});">
+            <div class="w-100 col-md-12" style="display: flex; align-items: center; min-height: 597px; background-position: center; background-attachment: scroll; background-size: cover; background-repeat: no-repeat; background-image: url({{ asset('img/about/Group-250.jpg')}});">
                 <div class="auto-container">
                     <div class="row">
                         <div class="col-sm-6 col-md-8 col-lg-5" style="color:white; font-size: 50px;text-shadow: 0px 3px 20px #00000094;font-weight:700">
@@ -17,7 +17,7 @@
 
         {{-- Img Top Mobile --}}
         <div class="col-12 d-block d-sm-block d-md-none" style="position: relative;">
-            <div class="w-100 col-md-12" style="display: flex; align-items: center; min-height: 597px; background-position: center; background-attachment: scroll; background-size: cover; background-repeat: no-repeat; background-image: url({{ asset('img/banner-mobile-3.jpg')}});">
+            <div class="w-100 col-md-12" style="display: flex; align-items: center; min-height: 597px; background-position: center; background-attachment: scroll; background-size: cover; background-repeat: no-repeat; background-image: url({{ asset('img/about/banner-mobile-3.jpg')}});">
                 <div class="auto-container">
                     <div class="row d-flex justify-content-center">
                         <div class="col-10">

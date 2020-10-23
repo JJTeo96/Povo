@@ -44,9 +44,9 @@ input:-webkit-autofill:active  {
 <body>
     <div class="container-fluid p-0" style="padding: 0">
         <div class="row no-gutters">
-            @include('layout.header')
+            @include('layout..header.header')
                 @yield('content')
-            @include('layout.footer')
+            @include('layout.footer.footer')
         </div>
     </div>
     @stack('scripts')

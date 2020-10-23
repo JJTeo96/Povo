@@ -29,7 +29,7 @@
 <div class="container-fluid p-0">
     <div class="auto-container row pt-5" style="min-height: 900px">
         {{-- Col-3 --}}
-        @include('layout.sidebar')
+        @include('layout.sidebar.sidebar')
         {{-- End Col-3 --}}
 
         {{-- Content --}}
@@ -47,12 +47,12 @@
             </div>
 
             <div class="col mt-2 d-sm-none d-none d-md-block p-0" >
-                <div class="w-100" style="display: flex;min-height:268px;background-position:left;background-attachment:scroll;background-repeat:no-repeat;background-image: url({{ asset('img/Image.png')}});">
+                <div class="w-100" style="display: flex;min-height:268px;background-position:left;background-attachment:scroll;background-repeat:no-repeat;background-image: url({{ asset('img/upgrade_plan/Image.png')}});">
                 </div>
             </div>
 
             <div class="col mt-2 d-block d-sm-block d-md-none p-0">
-                <div class="w-100" style="display: flex;min-height:200px;background-position:left;background-attachment:scroll;background-repeat:no-repeat;background-image: url({{ asset('img/Image_responsive.png')}});">
+                <div class="w-100" style="display: flex;min-height:200px;background-position:left;background-attachment:scroll;background-repeat:no-repeat;background-image: url({{ asset('img/upgrade_plan/Image_responsive.png')}});">
                 </div>
             </div>
 

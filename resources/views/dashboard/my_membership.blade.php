@@ -58,9 +58,9 @@
 <div class="container-fluid p-0">
     <div class="pt-5 col-12" style="color: #0F2A51;" >
         <div class="auto-container row" style="min-height: 800px">
-              @include('layout.sidebar')
+              @include('layout.sidebar.sidebar')
                 <div class="col-md-12 col-lg-9">
-                    @include('layout.mobile_sidebar')
+                    @include('layout.sidebar.mobile_sidebar')
                     <div class="row">
                         <div class="mb-4" style="color:#0F2A51;font-size:30px;">
                             <b>My <span style="color:#ED1B2F;">Membership</span></b>
@@ -70,7 +70,7 @@
                         <div class="col-md-6 col-sm-12 shadow-sm mb-4 bg-white rounded" style="font:normal normal normal 16px/21px Segoe UI;max-width:329px;">
                             <div class="row mt-2">
                                 <div class="col-2"> 
-                                    <img width="34px" height="33px" src="{{asset('img/34899 [Converted]-02.png')}}" alt="Tick">
+                                    <img width="34px" height="33px" src="{{asset('img/membership/34899 [Converted]-02.png')}}" alt="Tick">
                                 </div>
                                 <div class="col-10">
                                     <div class="row semi-title ml-1">
@@ -99,11 +99,11 @@
                     </div>
                     <div class="d-none d-lg-block">  
                     <div class="row mb-2 divided">
-                            <div class="col-md-1 col-sm-10" ><img src="{{asset('img/34899 [Converted]-02@2x.png')}}" weight="49px" height="48px"></div>
+                            <div class="col-md-1 col-sm-10" ><img src="{{asset('img/membership/34899 [Converted]-02@2x.png')}}" weight="49px" height="48px"></div>
                             <div class="col-md-3 divider"></div>
-                            <div class="col-md-1 col-sm-10"><img src="{{asset('img/34899 [Converted]-03@2x.png')}}" weight="49px" height="48px"></div>
+                            <div class="col-md-1 col-sm-10"><img src="{{asset('img/membership/34899 [Converted]-03@2x.png')}}" weight="49px" height="48px"></div>
                             <div class="col-md-3 divider"></div>
-                            <div class="col-md-3 col-sm-10"><img src="{{asset('img/34899 [Converted]-04@2x.png')}}" weight="49px" height="48px"></div>
+                            <div class="col-md-3 col-sm-10"><img src="{{asset('img/membership/34899 [Converted]-04@2x.png')}}" weight="49px" height="48px"></div>
                     </div>
                     <div class="row mb-1">
                         <div class="col-12 col-md-4">
@@ -179,7 +179,7 @@
                         <div class="row">
                             <div class="col-2">
                                 <div class="row mb-2">
-                                    <img src="{{asset('img/34899 [Converted]-02@2x.png')}}" style="width:80%;">
+                                    <img src="{{asset('img/membership/34899 [Converted]-02@2x.png')}}" style="width:80%;">
                                 </div>
                                 <div class="row">
                                     <div class="vl1"></div>
@@ -200,7 +200,7 @@
                             </div>
                             <div class="col-2">
                                 <div class="row mt-2">
-                                    <img src="{{asset('img/34899 [Converted]-03@2x.png')}}" style="width:80%;">
+                                    <img src="{{asset('img/membership/34899 [Converted]-03@2x.png')}}" style="width:80%;">
                                 </div>
                                 <div class="row mt-2">
                                     <div class="vl2"></div>
@@ -227,7 +227,7 @@
                             </div>
                             <div class="col-2">
                                 <div class="row mt-2">
-                                    <img src="{{asset('img/34899 [Converted]-04@2x.png')}}" style="width:80%;">
+                                    <img src="{{asset('img/membership/34899 [Converted]-04@2x.png')}}" style="width:80%;">
                                 </div>
                             </div>
                             <div class="col-9 ml-2">

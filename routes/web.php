@@ -14,36 +14,36 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('mainpage.welcome');
 })->name('welcome');
 
 Route::get('/thankyou', function () {
-    return view('thankyou');
+    return view('payment.thankyou');
 });
 
 Route::get('/pc', function () {
-    return view('purchase_confirmation');
+    return view('payment.purchase_confirmation');
 });
 
 Route::get('/reload', function () {
-    return view('reload');
+    return view('dashboard.reload');
 });
 
-Route::view('/member', 'my_membership')->name('member');
+Route::view('/member', 'dashboard.my_membership')->name('member');
 
-Route::view('/payment', 'payment_detail');
+Route::view('/payment', 'payment.payment_detail');
 
-Route::view('/dashboard', 'dashboard')->name('dashboard');
-Route::view('/about', 'about');
-Route::view('/faq', 'faq');
-Route::view('/profile', 'profile')->name('profile');
-Route::view('/addon', 'add_on')->name('addon');
+Route::view('/dashboard', 'dashboard.dashboard')->name('dashboard');
+Route::view('/about', 'mainpage.about');
+Route::view('/faq', 'mainpage.faq');
+Route::view('/profile', 'dashboard.profile')->name('profile');
+Route::view('/addon', 'dashboard.add_on')->name('addon');
 
-Route::view('/login', 'login');
-Route::view('/trc', 'trc');
-Route::view('/register', 'register');
-Route::view('/upgrade_plan', 'upgrade_plan');
-Route::view('/plan_detail', 'plan_detail');
+Route::view('/login', 'sign_in_out.login');
+Route::view('/trc', 'sign_in_out.trc');
+Route::view('/register', 'sign_in_out.register');
+Route::view('/upgrade_plan', 'upgrade_plan.upgrade_plan');
+Route::view('/plan_detail', 'upgrade_plan.plan_detail');
 
 
 
